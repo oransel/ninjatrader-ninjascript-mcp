@@ -1,0 +1,5333 @@
+{
+  "best-practices": [
+    {
+      "title": "NinjaScript Best Practices",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ninjascript_best_practices",
+      "file": "index.md"
+    }
+  ],
+  "education": [
+    {
+      "title": "Educational Resources",
+      "url": "https://developer.ninjatrader.com/docs/desktop/educational_resources",
+      "file": "index.md"
+    }
+  ],
+  "docs": [
+    {
+      "title": "Account",
+      "url": "https://developer.ninjatrader.com/docs/desktop/account",
+      "file": "account.md"
+    },
+    {
+      "title": "Account Class",
+      "url": "https://developer.ninjatrader.com/docs/desktop/account_class",
+      "file": "account_class.md"
+    },
+    {
+      "title": "AccountItem",
+      "url": "https://developer.ninjatrader.com/docs/desktop/accountitem",
+      "file": "accountitem.md"
+    },
+    {
+      "title": "AccountItemUpdate",
+      "url": "https://developer.ninjatrader.com/docs/desktop/accountitemupdate",
+      "file": "accountitemupdate.md"
+    },
+    {
+      "title": "CancelAllOrders()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/accounts_cancelallorders",
+      "file": "accounts_cancelallorders.md"
+    },
+    {
+      "title": "AccountSelector",
+      "url": "https://developer.ninjatrader.com/docs/desktop/accountselector",
+      "file": "accountselector.md"
+    },
+    {
+      "title": "AccountStatusUpdate",
+      "url": "https://developer.ninjatrader.com/docs/desktop/accountstatusupdate",
+      "file": "accountstatusupdate.md"
+    },
+    {
+      "title": "Accumulation/Distribution (ADL)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/accumulation_distribution_adl",
+      "file": "accumulation_distribution_adl.md"
+    },
+    {
+      "title": "ActualSessionBegin",
+      "url": "https://developer.ninjatrader.com/docs/desktop/actualsessionbegin",
+      "file": "actualsessionbegin.md"
+    },
+    {
+      "title": "ActualSessionEnd",
+      "url": "https://developer.ninjatrader.com/docs/desktop/actualsessionend",
+      "file": "actualsessionend.md"
+    },
+    {
+      "title": "ActualTradingDayEndLocal",
+      "url": "https://developer.ninjatrader.com/docs/desktop/actualtradingdayendlocal",
+      "file": "actualtradingdayendlocal.md"
+    },
+    {
+      "title": "ActualTradingDayExchange",
+      "url": "https://developer.ninjatrader.com/docs/desktop/actualtradingdayexchange",
+      "file": "actualtradingdayexchange.md"
+    },
+    {
+      "title": "Adaptive Price Zone (APZ)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/adaptive_price_zone_apz",
+      "file": "adaptive_price_zone_apz.md"
+    },
+    {
+      "title": "Add On",
+      "url": "https://developer.ninjatrader.com/docs/desktop/add_on",
+      "file": "add_on.md"
+    },
+    {
+      "title": "AddBar()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addbar",
+      "file": "addbar.md"
+    },
+    {
+      "title": "AddChartIndicator()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addchartindicator",
+      "file": "addchartindicator.md"
+    },
+    {
+      "title": "AddDataSeries()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/adddataseries",
+      "file": "adddataseries.md"
+    },
+    {
+      "title": "AddHeikenAshi()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addheikenashi",
+      "file": "addheikenashi.md"
+    },
+    {
+      "title": "Adding Indicators to Strategies",
+      "url": "https://developer.ninjatrader.com/docs/desktop/adding_indicators_to_strategies",
+      "file": "adding_indicators_to_strategies.md"
+    },
+    {
+      "title": "AddKagi()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addkagi",
+      "file": "addkagi.md"
+    },
+    {
+      "title": "AddLine()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addline",
+      "file": "addline.md"
+    },
+    {
+      "title": "AddLineBreak()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addlinebreak",
+      "file": "addlinebreak.md"
+    },
+    {
+      "title": "AddOn Development Overview",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addon_development_overview",
+      "file": "addon_development_overview.md"
+    },
+    {
+      "title": "AddPastedOffset()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addpastedoffset",
+      "file": "addpastedoffset.md"
+    },
+    {
+      "title": "AddPerformanceMetric()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addperformancemetric",
+      "file": "addperformancemetric.md"
+    },
+    {
+      "title": "AddPlot()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addplot",
+      "file": "addplot.md"
+    },
+    {
+      "title": "AddPointAndFigure()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addpointandfigure",
+      "file": "addpointandfigure.md"
+    },
+    {
+      "title": "AddRenko()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addrenko",
+      "file": "addrenko.md"
+    },
+    {
+      "title": "AddVolumetric()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/addvolumetric",
+      "file": "addvolumetric.md"
+    },
+    {
+      "title": "Advanced - Custom Drawing",
+      "url": "https://developer.ninjatrader.com/docs/desktop/advanced_custom_drawing",
+      "file": "advanced_custom_drawing.md"
+    },
+    {
+      "title": "Advanced - Custom Plot Colors via Thresholds",
+      "url": "https://developer.ninjatrader.com/docs/desktop/advanced_custom_plot_colors",
+      "file": "advanced_custom_plot_colors.md"
+    },
+    {
+      "title": "Advanced Order Handling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/advanced_order_handling",
+      "file": "advanced_order_handling.md"
+    },
+    {
+      "title": "Alert()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/alert",
+      "file": "alert.md"
+    },
+    {
+      "title": "Alert and Debug Concepts",
+      "url": "https://developer.ninjatrader.com/docs/desktop/alert_and_debug_concepts",
+      "file": "alert_and_debug_concepts.md"
+    },
+    {
+      "title": "Alert, Debug, Share",
+      "url": "https://developer.ninjatrader.com/docs/desktop/alert_debug_share",
+      "file": "alert_debug_share.md"
+    },
+    {
+      "title": "AlertCallback()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/alertcallback",
+      "file": "alertcallback.md"
+    },
+    {
+      "title": "AllowRemovalOfDrawObjects",
+      "url": "https://developer.ninjatrader.com/docs/desktop/allowremovalofdrawobjects",
+      "file": "allowremovalofdrawobjects.md"
+    },
+    {
+      "title": "AllTrades",
+      "url": "https://developer.ninjatrader.com/docs/desktop/alltrades",
+      "file": "alltrades.md"
+    },
+    {
+      "title": "Analytical",
+      "url": "https://developer.ninjatrader.com/docs/desktop/analytical",
+      "file": "analytical.md"
+    },
+    {
+      "title": "Anchors",
+      "url": "https://developer.ninjatrader.com/docs/desktop/anchors",
+      "file": "anchors.md"
+    },
+    {
+      "title": "AndrewsPitchfork",
+      "url": "https://developer.ninjatrader.com/docs/desktop/andrewspitchfork",
+      "file": "andrewspitchfork.md"
+    },
+    {
+      "title": "ApplyDefaultBasePeriodValue()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/applydefaultbaseperiodvalue",
+      "file": "applydefaultbaseperiodvalue.md"
+    },
+    {
+      "title": "ApplyDefaultValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/applydefaultvalue",
+      "file": "applydefaultvalue.md"
+    },
+    {
+      "title": "ApplyTo()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/applyto",
+      "file": "applyto.md"
+    },
+    {
+      "title": "Arc",
+      "url": "https://developer.ninjatrader.com/docs/desktop/arc",
+      "file": "arc.md"
+    },
+    {
+      "title": "AreLinesConfigurable",
+      "url": "https://developer.ninjatrader.com/docs/desktop/arelinesconfigurable",
+      "file": "arelinesconfigurable.md"
+    },
+    {
+      "title": "ArePlotsConfigurable",
+      "url": "https://developer.ninjatrader.com/docs/desktop/areplotsconfigurable",
+      "file": "areplotsconfigurable.md"
+    },
+    {
+      "title": "Aroon",
+      "url": "https://developer.ninjatrader.com/docs/desktop/aroon",
+      "file": "aroon.md"
+    },
+    {
+      "title": "Aroon Oscillator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/aroon_oscillator",
+      "file": "aroon_oscillator.md"
+    },
+    {
+      "title": "ArrowDown",
+      "url": "https://developer.ninjatrader.com/docs/desktop/arrowdown",
+      "file": "arrowdown.md"
+    },
+    {
+      "title": "ArrowLine",
+      "url": "https://developer.ninjatrader.com/docs/desktop/arrowline",
+      "file": "arrowline.md"
+    },
+    {
+      "title": "ArrowUp",
+      "url": "https://developer.ninjatrader.com/docs/desktop/arrowup",
+      "file": "arrowup.md"
+    },
+    {
+      "title": "ATM Strategy Methods",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atm_strategy_methods",
+      "file": "atm_strategy_methods.md"
+    },
+    {
+      "title": "AtmStrategy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atmstrategy",
+      "file": "atmstrategy.md"
+    },
+    {
+      "title": "AtmStrategyCancelEntryOrder()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atmstrategycancelentryorder",
+      "file": "atmstrategycancelentryorder.md"
+    },
+    {
+      "title": "AtmStrategyChangeEntryOrder()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atmstrategychangeentryorder",
+      "file": "atmstrategychangeentryorder.md"
+    },
+    {
+      "title": "AtmStrategyChangeStopTarget()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atmstrategychangestoptarget",
+      "file": "atmstrategychangestoptarget.md"
+    },
+    {
+      "title": "AtmStrategyClose()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atmstrategyclose",
+      "file": "atmstrategyclose.md"
+    },
+    {
+      "title": "AtmStrategyCreate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atmstrategycreate",
+      "file": "atmstrategycreate.md"
+    },
+    {
+      "title": "AtmStrategySelector",
+      "url": "https://developer.ninjatrader.com/docs/desktop/atmstrategyselector",
+      "file": "atmstrategyselector.md"
+    },
+    {
+      "title": "AttachedTo",
+      "url": "https://developer.ninjatrader.com/docs/desktop/attachedto",
+      "file": "attachedto.md"
+    },
+    {
+      "title": "Attributes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/attributes",
+      "file": "attributes.md"
+    },
+    {
+      "title": "Average Directional Index (ADX)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/average_directional_index_adx",
+      "file": "average_directional_index_adx.md"
+    },
+    {
+      "title": "Average Directional Movement Rating (ADXR)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/average_directional_movement_rating_adxr",
+      "file": "average_directional_movement_rating_adxr.md"
+    },
+    {
+      "title": "Average True Range (ATR)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/average_true_range_atr",
+      "file": "average_true_range_atr.md"
+    },
+    {
+      "title": "AxisXHeight",
+      "url": "https://developer.ninjatrader.com/docs/desktop/axisxheight",
+      "file": "axisxheight.md"
+    },
+    {
+      "title": "AxisYLeftWidth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/axisyleftwidth",
+      "file": "axisyleftwidth.md"
+    },
+    {
+      "title": "AxisYRightWidth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/axisyrightwidth",
+      "file": "axisyrightwidth.md"
+    },
+    {
+      "title": "BackBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/backbrush",
+      "file": "backbrush.md"
+    },
+    {
+      "title": "BackBrushAll",
+      "url": "https://developer.ninjatrader.com/docs/desktop/backbrushall",
+      "file": "backbrushall.md"
+    },
+    {
+      "title": "BackBrushes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/backbrushes",
+      "file": "backbrushes.md"
+    },
+    {
+      "title": "BackBrushesAll",
+      "url": "https://developer.ninjatrader.com/docs/desktop/backbrushesall",
+      "file": "backbrushesall.md"
+    },
+    {
+      "title": "Backtesting NinjaScript Strategies with an intrabar granularity",
+      "url": "https://developer.ninjatrader.com/docs/desktop/backtesting_ninjascript_strategies_with_an_intrabar_granularity",
+      "file": "backtesting_ninjascript_strategies_with_an_intrabar_granularity.md"
+    },
+    {
+      "title": "Balance of Power (BOP)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/balance_of_power_bop",
+      "file": "balance_of_power_bop.md"
+    },
+    {
+      "title": "BarBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barbrush",
+      "file": "barbrush.md"
+    },
+    {
+      "title": "BarBrushes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barbrushes",
+      "file": "barbrushes.md"
+    },
+    {
+      "title": "SlotIndex",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barindex",
+      "file": "barindex.md"
+    },
+    {
+      "title": "BarMarginLeft",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barmarginleft",
+      "file": "barmarginleft.md"
+    },
+    {
+      "title": "Bars",
+      "url": "https://developer.ninjatrader.com/docs/desktop/bars",
+      "file": "bars.md"
+    },
+    {
+      "title": "Bars Type",
+      "url": "https://developer.ninjatrader.com/docs/desktop/bars_type",
+      "file": "bars_type.md"
+    },
+    {
+      "title": "BarsArray",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barsarray",
+      "file": "barsarray.md"
+    },
+    {
+      "title": "BarsInProgress",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barsinprogress",
+      "file": "barsinprogress.md"
+    },
+    {
+      "title": "BarSpacingType",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barspacingtype",
+      "file": "barspacingtype.md"
+    },
+    {
+      "title": "BarsPeriod",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barsperiod",
+      "file": "barsperiod.md"
+    },
+    {
+      "title": "BarsPeriods",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barsperiods",
+      "file": "barsperiods.md"
+    },
+    {
+      "title": "BarsRequest",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barsrequest",
+      "file": "barsrequest.md"
+    },
+    {
+      "title": "BarsRequiredToPlot",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barsrequiredtoplot",
+      "file": "barsrequiredtoplot.md"
+    },
+    {
+      "title": "BarsRequiredToTrade",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barsrequiredtotrade",
+      "file": "barsrequiredtotrade.md"
+    },
+    {
+      "title": "BarsSinceEntryExecution()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barssinceentryexecution",
+      "file": "barssinceentryexecution.md"
+    },
+    {
+      "title": "BarsSinceExitExecution()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barssinceexitexecution",
+      "file": "barssinceexitexecution.md"
+    },
+    {
+      "title": "BarsSinceNewTradingDay",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barssincenewtradingday",
+      "file": "barssincenewtradingday.md"
+    },
+    {
+      "title": "SessionIterator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barstype_sessioniterator",
+      "file": "barstype_sessioniterator.md"
+    },
+    {
+      "title": "BarWidth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barwidth",
+      "file": "barwidth.md"
+    },
+    {
+      "title": "BarWidthArray",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barwidtharray",
+      "file": "barwidtharray.md"
+    },
+    {
+      "title": "BarWidthUI",
+      "url": "https://developer.ninjatrader.com/docs/desktop/barwidthui",
+      "file": "barwidthui.md"
+    },
+    {
+      "title": "Basic Programming Concepts",
+      "url": "https://developer.ninjatrader.com/docs/desktop/basic_programming_concepts",
+      "file": "basic_programming_concepts.md"
+    },
+    {
+      "title": "Beginner - Indicator on Indicator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/beginner_indicator_on_indicator",
+      "file": "beginner_indicator_on_indicator.md"
+    },
+    {
+      "title": "Beginner - Simple MA Cross Over",
+      "url": "https://developer.ninjatrader.com/docs/desktop/beginner_simple_ma_cross_over",
+      "file": "beginner_simple_ma_cross_over.md"
+    },
+    {
+      "title": "Beginner - Using price variables",
+      "url": "https://developer.ninjatrader.com/docs/desktop/beginner_using_price_variables",
+      "file": "beginner_using_price_variables.md"
+    },
+    {
+      "title": "Best Practices for Distribution",
+      "url": "https://developer.ninjatrader.com/docs/desktop/best_practices",
+      "file": "best_practices.md"
+    },
+    {
+      "title": "Block Volume",
+      "url": "https://developer.ninjatrader.com/docs/desktop/block_volume",
+      "file": "block_volume.md"
+    },
+    {
+      "title": "Bollinger Bands",
+      "url": "https://developer.ninjatrader.com/docs/desktop/bollinger_bands",
+      "file": "bollinger_bands.md"
+    },
+    {
+      "title": "BrowsableAttribute",
+      "url": "https://developer.ninjatrader.com/docs/desktop/browsableattribute",
+      "file": "browsableattribute.md"
+    },
+    {
+      "title": "Brushes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/brushes",
+      "file": "brushes.md"
+    },
+    {
+      "title": "BuiltFrom",
+      "url": "https://developer.ninjatrader.com/docs/desktop/builtfrom",
+      "file": "builtfrom.md"
+    },
+    {
+      "title": "BuySell Pressure",
+      "url": "https://developer.ninjatrader.com/docs/desktop/buysell_pressure",
+      "file": "buysell_pressure.md"
+    },
+    {
+      "title": "BuySell Volume",
+      "url": "https://developer.ninjatrader.com/docs/desktop/buysell_volume",
+      "file": "buysell_volume.md"
+    },
+    {
+      "title": "C# Method (Functions) Reference",
+      "url": "https://developer.ninjatrader.com/docs/desktop/c_method_functions_reference",
+      "file": "c_method_functions_reference.md"
+    },
+    {
+      "title": "Calculate",
+      "url": "https://developer.ninjatrader.com/docs/desktop/calculate",
+      "file": "calculate.md"
+    },
+    {
+      "title": "CalculateTradingDay()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/calculatetradingday",
+      "file": "calculatetradingday.md"
+    },
+    {
+      "title": "Calculating the highest high or lowest low for a specified time range",
+      "url": "https://developer.ninjatrader.com/docs/desktop/calculating_the_highest_high_or_lowest_low_for_a_specified_time_range",
+      "file": "calculating_the_highest_high_or_lowest_low_for_a_specified_time_range.md"
+    },
+    {
+      "title": "Camarilla Pivots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/camarilla_pivots",
+      "file": "camarilla_pivots.md"
+    },
+    {
+      "title": "Cancel()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cancel",
+      "file": "cancel.md"
+    },
+    {
+      "title": "CancelAllOrders()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cancelallorders",
+      "file": "cancelallorders.md"
+    },
+    {
+      "title": "CancelOrder()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cancelorder",
+      "file": "cancelorder.md"
+    },
+    {
+      "title": "CandleOutlineBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/candleoutlinebrush",
+      "file": "candleoutlinebrush.md"
+    },
+    {
+      "title": "CandleOutlineBrushes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/candleoutlinebrushes",
+      "file": "candleoutlinebrushes.md"
+    },
+    {
+      "title": "CandleStickPattern",
+      "url": "https://developer.ninjatrader.com/docs/desktop/candlestickpattern",
+      "file": "candlestickpattern.md"
+    },
+    {
+      "title": "CanvasLeft",
+      "url": "https://developer.ninjatrader.com/docs/desktop/canvasleft",
+      "file": "canvasleft.md"
+    },
+    {
+      "title": "CanvasRight",
+      "url": "https://developer.ninjatrader.com/docs/desktop/canvasright",
+      "file": "canvasright.md"
+    },
+    {
+      "title": "CanvasZoomState",
+      "url": "https://developer.ninjatrader.com/docs/desktop/canvaszoomstate",
+      "file": "canvaszoomstate.md"
+    },
+    {
+      "title": "CategoryOrderAttribute",
+      "url": "https://developer.ninjatrader.com/docs/desktop/categoryorderattribute",
+      "file": "categoryorderattribute.md"
+    },
+    {
+      "title": "Chaikin Money Flow",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chaikin_money_flow",
+      "file": "chaikin_money_flow.md"
+    },
+    {
+      "title": "Chaikin Oscillator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chaikin_oscillator",
+      "file": "chaikin_oscillator.md"
+    },
+    {
+      "title": "Chaikin Volatility",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chaikin_volatility",
+      "file": "chaikin_volatility.md"
+    },
+    {
+      "title": "Chande Momentum Oscillator (CMO)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chande_momentum_oscillator_cmo",
+      "file": "chande_momentum_oscillator_cmo.md"
+    },
+    {
+      "title": "Change()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/change",
+      "file": "change.md"
+    },
+    {
+      "title": "ChangeOrder()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/changeorder",
+      "file": "changeorder.md"
+    },
+    {
+      "title": "Changing fonts for draw objects",
+      "url": "https://developer.ninjatrader.com/docs/desktop/changing-fonts-for-draw-objects",
+      "file": "changing-fonts-for-draw-objects.md"
+    },
+    {
+      "title": "CharacterLimit",
+      "url": "https://developer.ninjatrader.com/docs/desktop/characterlimit",
+      "file": "characterlimit.md"
+    },
+    {
+      "title": "CharactersReservedPerMedia",
+      "url": "https://developer.ninjatrader.com/docs/desktop/charactersreservedpermedia",
+      "file": "charactersreservedpermedia.md"
+    },
+    {
+      "title": "Chart Style",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chart_style",
+      "file": "chart_style.md"
+    },
+    {
+      "title": "ZOrder",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chart_zorder",
+      "file": "chart_zorder.md"
+    },
+    {
+      "title": "ChartAnchor",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartanchor",
+      "file": "chartanchor.md"
+    },
+    {
+      "title": "Time",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartanchor_time",
+      "file": "chartanchor_time.md"
+    },
+    {
+      "title": "ChartBars",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartbars",
+      "file": "chartbars.md"
+    },
+    {
+      "title": "Bars",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartbars_bars",
+      "file": "chartbars_bars.md"
+    },
+    {
+      "title": "Count",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartbars_count",
+      "file": "chartbars_count.md"
+    },
+    {
+      "title": "Properties",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartbars_properties",
+      "file": "chartbars_properties.md"
+    },
+    {
+      "title": "ChartControl",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartcontrol",
+      "file": "chartcontrol.md"
+    },
+    {
+      "title": "BarsPeriod",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartcontrol_barsperiod",
+      "file": "chartcontrol_barsperiod.md"
+    },
+    {
+      "title": "BarWidth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartcontrol_barwidth",
+      "file": "chartcontrol_barwidth.md"
+    },
+    {
+      "title": "IsYAxisDisplayedRight",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartcontrol_isyaxisdisplayedright",
+      "file": "chartcontrol_isyaxisdisplayedright.md"
+    },
+    {
+      "title": "Properties",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartcontrol_properties",
+      "file": "chartcontrol_properties.md"
+    },
+    {
+      "title": "ChartIndicators",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartindicators",
+      "file": "chartindicators.md"
+    },
+    {
+      "title": "ChartingExtensions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartingextensions",
+      "file": "chartingextensions.md"
+    },
+    {
+      "title": "ChartObjects",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartobjects",
+      "file": "chartobjects.md"
+    },
+    {
+      "title": "ChartPanel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartpanel",
+      "file": "chartpanel.md"
+    },
+    {
+      "title": "IsYAxisDisplayedLeft",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartpanel_isyaxisdisplayedleft",
+      "file": "chartpanel_isyaxisdisplayedleft.md"
+    },
+    {
+      "title": "ChartPanels",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartpanels",
+      "file": "chartpanels.md"
+    },
+    {
+      "title": "Charts",
+      "url": "https://developer.ninjatrader.com/docs/desktop/charts",
+      "file": "charts.md"
+    },
+    {
+      "title": "ChartScale",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartscale",
+      "file": "chartscale.md"
+    },
+    {
+      "title": "Scales",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartscale_chartpanel",
+      "file": "chartscale_chartpanel.md"
+    },
+    {
+      "title": "IsVisible",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartscale_isvisible",
+      "file": "chartscale_isvisible.md"
+    },
+    {
+      "title": "MaxValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartscale_maxvalue",
+      "file": "chartscale_maxvalue.md"
+    },
+    {
+      "title": "MinValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartscale_minvalue",
+      "file": "chartscale_minvalue.md"
+    },
+    {
+      "title": "Properties",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartscale_properties",
+      "file": "chartscale_properties.md"
+    },
+    {
+      "title": "ScaleJustification",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartscale_scalejustification",
+      "file": "chartscale_scalejustification.md"
+    },
+    {
+      "title": "OnRender()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartstyle_onrender",
+      "file": "chartstyle_onrender.md"
+    },
+    {
+      "title": "ChartStyleType",
+      "url": "https://developer.ninjatrader.com/docs/desktop/chartstyletype",
+      "file": "chartstyletype.md"
+    },
+    {
+      "title": "Checking for Null References",
+      "url": "https://developer.ninjatrader.com/docs/desktop/checking_for_null_references",
+      "file": "checking_for_null_references.md"
+    },
+    {
+      "title": "Choppiness Index",
+      "url": "https://developer.ninjatrader.com/docs/desktop/choppiness_index",
+      "file": "choppiness_index.md"
+    },
+    {
+      "title": "CleanUp()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cleanup",
+      "file": "cleanup.md"
+    },
+    {
+      "title": "ClearOutputWindow()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/clearoutputwindow",
+      "file": "clearoutputwindow.md"
+    },
+    {
+      "title": "Clone()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/clone",
+      "file": "clone.md"
+    },
+    {
+      "title": "Close",
+      "url": "https://developer.ninjatrader.com/docs/desktop/close",
+      "file": "close.md"
+    },
+    {
+      "title": "Closes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/closes",
+      "file": "closes.md"
+    },
+    {
+      "title": "CloseStrategy()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/closestrategy",
+      "file": "closestrategy.md"
+    },
+    {
+      "title": "Code Snippets",
+      "url": "https://developer.ninjatrader.com/docs/desktop/code_snippets",
+      "file": "code_snippets.md"
+    },
+    {
+      "title": "Coloring a region",
+      "url": "https://developer.ninjatrader.com/docs/desktop/coloring_a_region",
+      "file": "coloring_a_region.md"
+    },
+    {
+      "title": "Commercial Distribution",
+      "url": "https://developer.ninjatrader.com/docs/desktop/commercial_distribution",
+      "file": "commercial_distribution.md"
+    },
+    {
+      "title": "Commodity Channel Index (CCI)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/commodity_channel_index_cci",
+      "file": "commodity_channel_index_cci.md"
+    },
+    {
+      "title": "Common",
+      "url": "https://developer.ninjatrader.com/docs/desktop/common",
+      "file": "common.md"
+    },
+    {
+      "title": "Compare()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compare",
+      "file": "compare.md"
+    },
+    {
+      "title": "Compile Error Codes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compile_error_codes",
+      "file": "compile_error_codes.md"
+    },
+    {
+      "title": "Compile Errors",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compile_errors",
+      "file": "compile_errors.md"
+    },
+    {
+      "title": "Compiling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compiling",
+      "file": "compiling.md"
+    },
+    {
+      "title": "Compiling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compiling2",
+      "file": "compiling2.md"
+    },
+    {
+      "title": "Compiling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compiling3",
+      "file": "compiling3.md"
+    },
+    {
+      "title": "Compiling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compiling4",
+      "file": "compiling4.md"
+    },
+    {
+      "title": "Compiling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compiling5",
+      "file": "compiling5.md"
+    },
+    {
+      "title": "Compiling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compiling6",
+      "file": "compiling6.md"
+    },
+    {
+      "title": "Compiling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/compiling7",
+      "file": "compiling7.md"
+    },
+    {
+      "title": "Connect()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/connect",
+      "file": "connect.md"
+    },
+    {
+      "title": "Connection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/connection",
+      "file": "connection.md"
+    },
+    {
+      "title": "Connection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/connection_class",
+      "file": "connection_class.md"
+    },
+    {
+      "title": "ConnectionLossHandling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/connectionlosshandling",
+      "file": "connectionlosshandling.md"
+    },
+    {
+      "title": "ConnectionStatusEventArgs",
+      "url": "https://developer.ninjatrader.com/docs/desktop/connectionstatuseventargs",
+      "file": "connectionstatuseventargs.md"
+    },
+    {
+      "title": "ConnectionStatusUpdate",
+      "url": "https://developer.ninjatrader.com/docs/desktop/connectionstatusupdate",
+      "file": "connectionstatusupdate.md"
+    },
+    {
+      "title": "ConnectOptions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/connectoptions",
+      "file": "connectoptions.md"
+    },
+    {
+      "title": "Considerations for Compiled Assemblies",
+      "url": "https://developer.ninjatrader.com/docs/desktop/considerations_for_compiled_assemblies",
+      "file": "considerations_for_compiled_assemblies.md"
+    },
+    {
+      "title": "ControlCenter",
+      "url": "https://developer.ninjatrader.com/docs/desktop/controlcenter",
+      "file": "controlcenter.md"
+    },
+    {
+      "title": "NinjaTrader Controls",
+      "url": "https://developer.ninjatrader.com/docs/desktop/controls",
+      "file": "controls.md"
+    },
+    {
+      "title": "ConvertFromHorizontalPixels",
+      "url": "https://developer.ninjatrader.com/docs/desktop/convertfromhorizontalpixels",
+      "file": "convertfromhorizontalpixels.md"
+    },
+    {
+      "title": "ConvertFromVerticalPixels",
+      "url": "https://developer.ninjatrader.com/docs/desktop/convertfromverticalpixels",
+      "file": "convertfromverticalpixels.md"
+    },
+    {
+      "title": "ConvertToHorizontalPixels",
+      "url": "https://developer.ninjatrader.com/docs/desktop/converttohorizontalpixels",
+      "file": "converttohorizontalpixels.md"
+    },
+    {
+      "title": "ConvertToVerticalPixels",
+      "url": "https://developer.ninjatrader.com/docs/desktop/converttoverticalpixels",
+      "file": "converttoverticalpixels.md"
+    },
+    {
+      "title": "CopyDataValues()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/copydatavalues",
+      "file": "copydatavalues.md"
+    },
+    {
+      "title": "Correlation",
+      "url": "https://developer.ninjatrader.com/docs/desktop/correlation",
+      "file": "correlation.md"
+    },
+    {
+      "title": "Count",
+      "url": "https://developer.ninjatrader.com/docs/desktop/count",
+      "file": "count.md"
+    },
+    {
+      "title": "CountIf()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/countif",
+      "file": "countif.md"
+    },
+    {
+      "title": "CreateAnchor()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/createanchor",
+      "file": "createanchor.md"
+    },
+    {
+      "title": "CreateOrder()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/createorder",
+      "file": "createorder.md"
+    },
+    {
+      "title": "Creating a user-defined parameter type (enum)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/creating_a_user_defined_parameter_type_enum",
+      "file": "creating_a_user_defined_parameter_type_enum.md"
+    },
+    {
+      "title": "Creating Chart WPF (UI) Modifications from an Indicator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/creating_chart_wpf_ui_modifications_from_an_indicator",
+      "file": "creating_chart_wpf_ui_modifications_from_an_indicator.md"
+    },
+    {
+      "title": "Creating the Strategy via Self Programming",
+      "url": "https://developer.ninjatrader.com/docs/desktop/creating_the_strategy_via_self_programming",
+      "file": "creating_the_strategy_via_self_programming.md"
+    },
+    {
+      "title": "Creating the Strategy via the Wizard",
+      "url": "https://developer.ninjatrader.com/docs/desktop/creating_the_strategy_via_the_wizard",
+      "file": "creating_the_strategy_via_the_wizard.md"
+    },
+    {
+      "title": "Creating User Defined Input Parameters",
+      "url": "https://developer.ninjatrader.com/docs/desktop/creating_user_defined_input_parameters",
+      "file": "creating_user_defined_input_parameters.md"
+    },
+    {
+      "title": "Creating Your Own AddOn Window",
+      "url": "https://developer.ninjatrader.com/docs/desktop/creating_your_own_addon_window",
+      "file": "creating_your_own_addon_window.md"
+    },
+    {
+      "title": "Creating your own Level II data book (Accessing market depth)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/creating_your_own_level_ii_data_book_accessing_market_depth",
+      "file": "creating_your_own_level_ii_data_book_accessing_market_depth.md"
+    },
+    {
+      "title": "CrossAbove()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/crossabove",
+      "file": "crossabove.md"
+    },
+    {
+      "title": "CrossBelow()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/crossbelow",
+      "file": "crossbelow.md"
+    },
+    {
+      "title": "CrosshairType",
+      "url": "https://developer.ninjatrader.com/docs/desktop/crosshairtype",
+      "file": "crosshairtype.md"
+    },
+    {
+      "title": "CS0006",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0006",
+      "file": "cs0006.md"
+    },
+    {
+      "title": "CS0019",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0019",
+      "file": "cs0019.md"
+    },
+    {
+      "title": "CS0021",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0021",
+      "file": "cs0021.md"
+    },
+    {
+      "title": "CS0029",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0029",
+      "file": "cs0029.md"
+    },
+    {
+      "title": "CS0103",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0103",
+      "file": "cs0103.md"
+    },
+    {
+      "title": "CS0200",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0200",
+      "file": "cs0200.md"
+    },
+    {
+      "title": "CS0201",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0201",
+      "file": "cs0201.md"
+    },
+    {
+      "title": "CS0234",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0234",
+      "file": "cs0234.md"
+    },
+    {
+      "title": "CS0246",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0246",
+      "file": "cs0246.md"
+    },
+    {
+      "title": "CS0428",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0428",
+      "file": "cs0428.md"
+    },
+    {
+      "title": "CS0443",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs0443",
+      "file": "cs0443.md"
+    },
+    {
+      "title": "CS1002",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs1002",
+      "file": "cs1002.md"
+    },
+    {
+      "title": "CS1061",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs1061",
+      "file": "cs1061.md"
+    },
+    {
+      "title": "CS1501",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs1501",
+      "file": "cs1501.md"
+    },
+    {
+      "title": "CS1502",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs1502",
+      "file": "cs1502.md"
+    },
+    {
+      "title": "CS1503",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs1503",
+      "file": "cs1503.md"
+    },
+    {
+      "title": "CS1513",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs1513",
+      "file": "cs1513.md"
+    },
+    {
+      "title": "CS1525",
+      "url": "https://developer.ninjatrader.com/docs/desktop/cs1525",
+      "file": "cs1525.md"
+    },
+    {
+      "title": "Currency",
+      "url": "https://developer.ninjatrader.com/docs/desktop/currency",
+      "file": "currency.md"
+    },
+    {
+      "title": "Current Day OHL",
+      "url": "https://developer.ninjatrader.com/docs/desktop/current_day_ohl",
+      "file": "current_day_ohl.md"
+    },
+    {
+      "title": "CurrentBar",
+      "url": "https://developer.ninjatrader.com/docs/desktop/currentbar",
+      "file": "currentbar.md"
+    },
+    {
+      "title": "CurrentBars",
+      "url": "https://developer.ninjatrader.com/docs/desktop/currentbars",
+      "file": "currentbars.md"
+    },
+    {
+      "title": "CurrentText",
+      "url": "https://developer.ninjatrader.com/docs/desktop/currenttext",
+      "file": "currenttext.md"
+    },
+    {
+      "title": "CurrentValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/currentvalue",
+      "file": "currentvalue.md"
+    },
+    {
+      "title": "D2DFactory",
+      "url": "https://developer.ninjatrader.com/docs/desktop/d2dfactory",
+      "file": "d2dfactory.md"
+    },
+    {
+      "title": "Darvas",
+      "url": "https://developer.ninjatrader.com/docs/desktop/darvas",
+      "file": "darvas.md"
+    },
+    {
+      "title": "DataType",
+      "url": "https://developer.ninjatrader.com/docs/desktop/datatype",
+      "file": "datatype.md"
+    },
+    {
+      "title": "DaysToLoad",
+      "url": "https://developer.ninjatrader.com/docs/desktop/daystoload",
+      "file": "daystoload.md"
+    },
+    {
+      "title": "Debugging your NinjaScript Code",
+      "url": "https://developer.ninjatrader.com/docs/desktop/debugging_your_ninjascript_code",
+      "file": "debugging_your_ninjascript_code.md"
+    },
+    {
+      "title": "DefaultChartStyle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/defaultchartstyle",
+      "file": "defaultchartstyle.md"
+    },
+    {
+      "title": "DefaultQuantity",
+      "url": "https://developer.ninjatrader.com/docs/desktop/defaultquantity",
+      "file": "defaultquantity.md"
+    },
+    {
+      "title": "Denomination",
+      "url": "https://developer.ninjatrader.com/docs/desktop/denomination",
+      "file": "denomination.md"
+    },
+    {
+      "title": "Description",
+      "url": "https://developer.ninjatrader.com/docs/desktop/description",
+      "file": "description.md"
+    },
+    {
+      "title": "Developing Add Ons",
+      "url": "https://developer.ninjatrader.com/docs/desktop/developing_add_ons",
+      "file": "developing_add_ons.md"
+    },
+    {
+      "title": "Developing for Tick Replay",
+      "url": "https://developer.ninjatrader.com/docs/desktop/developing_for_tick_replay",
+      "file": "developing_for_tick_replay.md"
+    },
+    {
+      "title": "Developing Indicators",
+      "url": "https://developer.ninjatrader.com/docs/desktop/developing_indicators",
+      "file": "developing_indicators.md"
+    },
+    {
+      "title": "Developing Strategies",
+      "url": "https://developer.ninjatrader.com/docs/desktop/developing_strategies",
+      "file": "developing_strategies.md"
+    },
+    {
+      "title": "Diamond",
+      "url": "https://developer.ninjatrader.com/docs/desktop/diamond",
+      "file": "diamond.md"
+    },
+    {
+      "title": "Directional Movement (DM)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/directional_movement_dm",
+      "file": "directional_movement_dm.md"
+    },
+    {
+      "title": "Directional Movement Index (DMI)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/directional_movement_index_dmi",
+      "file": "directional_movement_index_dmi.md"
+    },
+    {
+      "title": "DirectWriteFactory",
+      "url": "https://developer.ninjatrader.com/docs/desktop/directwritefactory",
+      "file": "directwritefactory.md"
+    },
+    {
+      "title": "Disconnect()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/disconnect",
+      "file": "disconnect.md"
+    },
+    {
+      "title": "DisconnectDelaySeconds",
+      "url": "https://developer.ninjatrader.com/docs/desktop/disconnectdelayseconds",
+      "file": "disconnectdelayseconds.md"
+    },
+    {
+      "title": "Disparity Index",
+      "url": "https://developer.ninjatrader.com/docs/desktop/disparity_index",
+      "file": "disparity_index.md"
+    },
+    {
+      "title": "Displacement",
+      "url": "https://developer.ninjatrader.com/docs/desktop/displacement",
+      "file": "displacement.md"
+    },
+    {
+      "title": "DisplayAttribute",
+      "url": "https://developer.ninjatrader.com/docs/desktop/displayattribute",
+      "file": "displayattribute.md"
+    },
+    {
+      "title": "DisplayInDataBox",
+      "url": "https://developer.ninjatrader.com/docs/desktop/displayindatabox",
+      "file": "displayindatabox.md"
+    },
+    {
+      "title": "DisplayName",
+      "url": "https://developer.ninjatrader.com/docs/desktop/displayname",
+      "file": "displayname.md"
+    },
+    {
+      "title": "DisplayOnChartsMenus",
+      "url": "https://developer.ninjatrader.com/docs/desktop/displayonchartsmenus",
+      "file": "displayonchartsmenus.md"
+    },
+    {
+      "title": "Dispose()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/dispose",
+      "file": "dispose.md"
+    },
+    {
+      "title": "Distribution",
+      "url": "https://developer.ninjatrader.com/docs/desktop/distribution",
+      "file": "distribution.md"
+    },
+    {
+      "title": "Distribution Procedure",
+      "url": "https://developer.ninjatrader.com/docs/desktop/distribution_procedure",
+      "file": "distribution_procedure.md"
+    },
+    {
+      "title": "Dividends",
+      "url": "https://developer.ninjatrader.com/docs/desktop/dividends",
+      "file": "dividends.md"
+    },
+    {
+      "title": "Donchian Channel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/donchian_channel",
+      "file": "donchian_channel.md"
+    },
+    {
+      "title": "Dot",
+      "url": "https://developer.ninjatrader.com/docs/desktop/dot",
+      "file": "dot.md"
+    },
+    {
+      "title": "Double Stochastics",
+      "url": "https://developer.ninjatrader.com/docs/desktop/double_stochastics",
+      "file": "double_stochastics.md"
+    },
+    {
+      "title": "DownBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/downbrush",
+      "file": "downbrush.md"
+    },
+    {
+      "title": "DownBrushDX",
+      "url": "https://developer.ninjatrader.com/docs/desktop/downbrushdx",
+      "file": "downbrushdx.md"
+    },
+    {
+      "title": "Draw.AndrewsPitchfork()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_andrewspitchfork",
+      "file": "draw_andrewspitchfork.md"
+    },
+    {
+      "title": "Draw.Arc()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_arc",
+      "file": "draw_arc.md"
+    },
+    {
+      "title": "Draw.ArrowDown()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_arrowdown",
+      "file": "draw_arrowdown.md"
+    },
+    {
+      "title": "Draw.ArrowLine()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_arrowline",
+      "file": "draw_arrowline.md"
+    },
+    {
+      "title": "Draw.ArrowUp()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_arrowup",
+      "file": "draw_arrowup.md"
+    },
+    {
+      "title": "Draw.Diamond()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_diamond",
+      "file": "draw_diamond.md"
+    },
+    {
+      "title": "Draw.Dot()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_dot",
+      "file": "draw_dot.md"
+    },
+    {
+      "title": "Draw.Ellipse()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_ellipse",
+      "file": "draw_ellipse.md"
+    },
+    {
+      "title": "Draw.ExtendedLine()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_extendedline",
+      "file": "draw_extendedline.md"
+    },
+    {
+      "title": "Draw.FibonacciCircle()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_fibonaccicircle",
+      "file": "draw_fibonaccicircle.md"
+    },
+    {
+      "title": "Draw.FibonacciExtensions()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_fibonacciextensions",
+      "file": "draw_fibonacciextensions.md"
+    },
+    {
+      "title": "Draw.FibonacciRetracements()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_fibonacciretracements",
+      "file": "draw_fibonacciretracements.md"
+    },
+    {
+      "title": "Draw.FibonacciTimeExtensions()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_fibonaccitimeextensions",
+      "file": "draw_fibonaccitimeextensions.md"
+    },
+    {
+      "title": "Draw.GannFan()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_gannfan",
+      "file": "draw_gannfan.md"
+    },
+    {
+      "title": "Draw.HorizontalLine()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_horizontal_line",
+      "file": "draw_horizontal_line.md"
+    },
+    {
+      "title": "Draw.Line()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_line",
+      "file": "draw_line.md"
+    },
+    {
+      "title": "Draw Objects",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_objects",
+      "file": "draw_objects.md"
+    },
+    {
+      "title": "Draw.PathTool()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_pathtool",
+      "file": "draw_pathtool.md"
+    },
+    {
+      "title": "Draw.Polygon()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_polygon",
+      "file": "draw_polygon.md"
+    },
+    {
+      "title": "Draw.Ray()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_ray",
+      "file": "draw_ray.md"
+    },
+    {
+      "title": "Draw.Rectangle()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_rectangle",
+      "file": "draw_rectangle.md"
+    },
+    {
+      "title": "Draw.Region()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_region",
+      "file": "draw_region.md"
+    },
+    {
+      "title": "Draw.RegionHighlightX()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_regionhighlightx",
+      "file": "draw_regionhighlightx.md"
+    },
+    {
+      "title": "Draw.RegionHighlightY()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_regionhighlighty",
+      "file": "draw_regionhighlighty.md"
+    },
+    {
+      "title": "Draw.RegressionChannel()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_regressionchannel",
+      "file": "draw_regressionchannel.md"
+    },
+    {
+      "title": "Draw.RiskReward()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_riskreward",
+      "file": "draw_riskreward.md"
+    },
+    {
+      "title": "Draw.Ruler()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_ruler",
+      "file": "draw_ruler.md"
+    },
+    {
+      "title": "Draw.Square()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_square",
+      "file": "draw_square.md"
+    },
+    {
+      "title": "Draw.Text()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_text",
+      "file": "draw_text.md"
+    },
+    {
+      "title": "Draw.TextFixed()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_textfixed",
+      "file": "draw_textfixed.md"
+    },
+    {
+      "title": "Draw.TimeCycles()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_timecycles",
+      "file": "draw_timecycles.md"
+    },
+    {
+      "title": "Draw.TrendChannel()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_trendchannel",
+      "file": "draw_trendchannel.md"
+    },
+    {
+      "title": "Draw.Triangle()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_triangle",
+      "file": "draw_triangle.md"
+    },
+    {
+      "title": "Draw.TriangleDown()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_triangledown",
+      "file": "draw_triangledown.md"
+    },
+    {
+      "title": "Draw.TriangleUp()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_triangleup",
+      "file": "draw_triangleup.md"
+    },
+    {
+      "title": "Draw.VerticalLine()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/draw_verticalline",
+      "file": "draw_verticalline.md"
+    },
+    {
+      "title": "DrawHorizontalGridLines",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawhorizontalgridlines",
+      "file": "drawhorizontalgridlines.md"
+    },
+    {
+      "title": "Drawing",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawing",
+      "file": "drawing.md"
+    },
+    {
+      "title": "Drawing Tools",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawing_tools",
+      "file": "drawing_tools.md"
+    },
+    {
+      "title": "ConvertToVerticalPixels()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawing_tools_converttoverticalpixels",
+      "file": "drawing_tools_converttoverticalpixels.md"
+    },
+    {
+      "title": "DrawingState",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawingstate",
+      "file": "drawingstate.md"
+    },
+    {
+      "title": "DrawingTool",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawingtool",
+      "file": "drawingtool.md"
+    },
+    {
+      "title": "DrawnBy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawnby",
+      "file": "drawnby.md"
+    },
+    {
+      "title": "DrawnOnBar",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawnonbar",
+      "file": "drawnonbar.md"
+    },
+    {
+      "title": "DrawObjects",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawobjects",
+      "file": "drawobjects.md"
+    },
+    {
+      "title": "DrawOnPricePanel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawonpricepanel",
+      "file": "drawonpricepanel.md"
+    },
+    {
+      "title": "DrawVerticalGridLines",
+      "url": "https://developer.ninjatrader.com/docs/desktop/drawverticalgridlines",
+      "file": "drawverticalgridlines.md"
+    },
+    {
+      "title": "Dynamic Momentum Index (DMIndex)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/dynamic_momentum_index_dmindex",
+      "file": "dynamic_momentum_index_dmindex.md"
+    },
+    {
+      "title": "Ease of Movement",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ease_of_movement",
+      "file": "ease_of_movement.md"
+    },
+    {
+      "title": "Editor Keyboard Shortcuts",
+      "url": "https://developer.ninjatrader.com/docs/desktop/editor_keyboard_shortcuts",
+      "file": "editor_keyboard_shortcuts.md"
+    },
+    {
+      "title": "Educational Resources",
+      "url": "https://developer.ninjatrader.com/docs/desktop/educational_resources",
+      "file": "educational_resources.md"
+    },
+    {
+      "title": "Ellipse",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ellipse",
+      "file": "ellipse.md"
+    },
+    {
+      "title": "Ensuring indicator plots are valid before programmatically accessing them",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ensuring-indicator-plots-are-valid-before-programmatically-accessing-them",
+      "file": "ensuring-indicator-plots-are-valid-before-programmatically-accessing-them.md"
+    },
+    {
+      "title": "Entering Calculation Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic",
+      "file": "entering_calculation_logic.md"
+    },
+    {
+      "title": "Entering Calculation Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic2",
+      "file": "entering_calculation_logic2.md"
+    },
+    {
+      "title": "Entering Calculation Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic3",
+      "file": "entering_calculation_logic3.md"
+    },
+    {
+      "title": "Entering Calculation Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic4",
+      "file": "entering_calculation_logic4.md"
+    },
+    {
+      "title": "Entering Calculation Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic5",
+      "file": "entering_calculation_logic5.md"
+    },
+    {
+      "title": "Entering Calculation Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic6",
+      "file": "entering_calculation_logic6.md"
+    },
+    {
+      "title": "Entering on one time frame and exiting on another",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_on_one_time_frame_and_exiting_on_another",
+      "file": "entering_on_one_time_frame_and_exiting_on_another.md"
+    },
+    {
+      "title": "Entering Strategy Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entering_strategy_logic",
+      "file": "entering_strategy_logic.md"
+    },
+    {
+      "title": "EnterLong()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/enterlong",
+      "file": "enterlong.md"
+    },
+    {
+      "title": "EnterLongLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/enterlonglimit",
+      "file": "enterlonglimit.md"
+    },
+    {
+      "title": "EnterLongMIT()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/enterlongmit",
+      "file": "enterlongmit.md"
+    },
+    {
+      "title": "EnterLongStopLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/enterlongstoplimit",
+      "file": "enterlongstoplimit.md"
+    },
+    {
+      "title": "EnterLongStopMarket()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/enterlongstopmarket",
+      "file": "enterlongstopmarket.md"
+    },
+    {
+      "title": "EnterShort()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entershort",
+      "file": "entershort.md"
+    },
+    {
+      "title": "EnterShortLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entershortlimit",
+      "file": "entershortlimit.md"
+    },
+    {
+      "title": "EnterShortMIT()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entershortmit",
+      "file": "entershortmit.md"
+    },
+    {
+      "title": "EnterShortStopLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entershortstoplimit",
+      "file": "entershortstoplimit.md"
+    },
+    {
+      "title": "EnterShortStopMarket()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entershortstopmarket",
+      "file": "entershortstopmarket.md"
+    },
+    {
+      "title": "EntriesPerDirection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entriesperdirection",
+      "file": "entriesperdirection.md"
+    },
+    {
+      "title": "EntryHandling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/entryhandling",
+      "file": "entryhandling.md"
+    },
+    {
+      "title": "EvenTrades",
+      "url": "https://developer.ninjatrader.com/docs/desktop/eventrades",
+      "file": "eventrades.md"
+    },
+    {
+      "title": "Exchange",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exchange",
+      "file": "exchange.md"
+    },
+    {
+      "title": "Exchanges",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exchanges",
+      "file": "exchanges.md"
+    },
+    {
+      "title": "Execution",
+      "url": "https://developer.ninjatrader.com/docs/desktop/execution",
+      "file": "execution.md"
+    },
+    {
+      "title": "ExecutionUpdate",
+      "url": "https://developer.ninjatrader.com/docs/desktop/executionupdate",
+      "file": "executionupdate.md"
+    },
+    {
+      "title": "ExitLong()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitlong",
+      "file": "exitlong.md"
+    },
+    {
+      "title": "ExitLongLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitlonglimit",
+      "file": "exitlonglimit.md"
+    },
+    {
+      "title": "ExitLongMIT()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitlongmit",
+      "file": "exitlongmit.md"
+    },
+    {
+      "title": "ExitLongStopLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitlongstoplimit",
+      "file": "exitlongstoplimit.md"
+    },
+    {
+      "title": "ExitLongStopMarket()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitlongstopmarket",
+      "file": "exitlongstopmarket.md"
+    },
+    {
+      "title": "ExitOnSessionCloseSeconds",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitonsessioncloseseconds",
+      "file": "exitonsessioncloseseconds.md"
+    },
+    {
+      "title": "ExitShort()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitshort",
+      "file": "exitshort.md"
+    },
+    {
+      "title": "ExitShortLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitshortlimit",
+      "file": "exitshortlimit.md"
+    },
+    {
+      "title": "ExitShortMIT()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitshortmit",
+      "file": "exitshortmit.md"
+    },
+    {
+      "title": "ExitShortStopLimit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitshortstoplimit",
+      "file": "exitshortstoplimit.md"
+    },
+    {
+      "title": "ExitShortStopMarket()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exitshortstopmarket",
+      "file": "exitshortstopmarket.md"
+    },
+    {
+      "title": "Expiry",
+      "url": "https://developer.ninjatrader.com/docs/desktop/expiry",
+      "file": "expiry.md"
+    },
+    {
+      "title": "Export",
+      "url": "https://developer.ninjatrader.com/docs/desktop/export",
+      "file": "export.md"
+    },
+    {
+      "title": "Export Problems",
+      "url": "https://developer.ninjatrader.com/docs/desktop/export_problems",
+      "file": "export_problems.md"
+    },
+    {
+      "title": "Exposing indicator values that are not plots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/exposing_indicator_values_that_are_not_plots",
+      "file": "exposing_indicator_values_that_are_not_plots.md"
+    },
+    {
+      "title": "ExtendedLine",
+      "url": "https://developer.ninjatrader.com/docs/desktop/extendedline",
+      "file": "extendedline.md"
+    },
+    {
+      "title": "Fibonacci Pivots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fibonacci_pivots",
+      "file": "fibonacci_pivots.md"
+    },
+    {
+      "title": "FibonacciCircle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fibonaccicircle",
+      "file": "fibonaccicircle.md"
+    },
+    {
+      "title": "FibonacciExtensions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fibonacciextensions",
+      "file": "fibonacciextensions.md"
+    },
+    {
+      "title": "FibonacciRetracements",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fibonacciretracements",
+      "file": "fibonacciretracements.md"
+    },
+    {
+      "title": "FibonacciTimeExtensions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fibonaccitimeextensions",
+      "file": "fibonaccitimeextensions.md"
+    },
+    {
+      "title": "FirstTimePainted",
+      "url": "https://developer.ninjatrader.com/docs/desktop/firsttimepainted",
+      "file": "firsttimepainted.md"
+    },
+    {
+      "title": "Fisher Transform",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fisher_transform",
+      "file": "fisher_transform.md"
+    },
+    {
+      "title": "Flatten()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/flatten",
+      "file": "flatten.md"
+    },
+    {
+      "title": "Floating-Point Arithmetic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/floating_point_arithmetic",
+      "file": "floating_point_arithmetic.md"
+    },
+    {
+      "title": "ForceRefresh()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/forcerefresh",
+      "file": "forcerefresh.md"
+    },
+    {
+      "title": "Forecast Oscillator (FOSC)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/forecast_oscillator_fosc",
+      "file": "forecast_oscillator_fosc.md"
+    },
+    {
+      "title": "Format()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/format",
+      "file": "format.md"
+    },
+    {
+      "title": "FormatDecimals",
+      "url": "https://developer.ninjatrader.com/docs/desktop/formatdecimals",
+      "file": "formatdecimals.md"
+    },
+    {
+      "title": "FormatPrice()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/formatprice",
+      "file": "formatprice.md"
+    },
+    {
+      "title": "FormatPriceMarker()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/formatpricemarker",
+      "file": "formatpricemarker.md"
+    },
+    {
+      "title": "Formatting numbers",
+      "url": "https://developer.ninjatrader.com/docs/desktop/formatting_numbers",
+      "file": "formatting_numbers.md"
+    },
+    {
+      "title": "FromIndex",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fromindex",
+      "file": "fromindex.md"
+    },
+    {
+      "title": "FullName",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fullname",
+      "file": "fullname.md"
+    },
+    {
+      "title": "Functions and Methods Explained",
+      "url": "https://developer.ninjatrader.com/docs/desktop/functions_and_methods_explained",
+      "file": "functions_and_methods_explained.md"
+    },
+    {
+      "title": "FundamentalData",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fundamentaldata",
+      "file": "fundamentaldata.md"
+    },
+    {
+      "title": "FundamentalDataEventArgs",
+      "url": "https://developer.ninjatrader.com/docs/desktop/fundamentaldataeventargs",
+      "file": "fundamentaldataeventargs.md"
+    },
+    {
+      "title": "GannFan",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gannfan",
+      "file": "gannfan.md"
+    },
+    {
+      "title": "Get()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/get",
+      "file": "get.md"
+    },
+    {
+      "title": "GetAsk()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getask",
+      "file": "getask.md"
+    },
+    {
+      "title": "GetAtmStrategyEntryOrderStatus()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategyentryorderstatus",
+      "file": "getatmstrategyentryorderstatus.md"
+    },
+    {
+      "title": "GetAtmStrategyMarketPosition()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategymarketposition",
+      "file": "getatmstrategymarketposition.md"
+    },
+    {
+      "title": "GetAtmStrategyPositionAveragePrice()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategypositionaverageprice",
+      "file": "getatmstrategypositionaverageprice.md"
+    },
+    {
+      "title": "GetAtmStrategyPositionQuantity()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategypositionquantity",
+      "file": "getatmstrategypositionquantity.md"
+    },
+    {
+      "title": "GetAtmStrategyRealizedProfitLoss()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategyrealizedprofitloss",
+      "file": "getatmstrategyrealizedprofitloss.md"
+    },
+    {
+      "title": "GetAtmStrategyStopTargetOrderStatus()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategystoptargetorderstatus",
+      "file": "getatmstrategystoptargetorderstatus.md"
+    },
+    {
+      "title": "GetAtmStrategyUniqueId()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategyuniqueid",
+      "file": "getatmstrategyuniqueid.md"
+    },
+    {
+      "title": "GetAtmStrategyUnrealizedProfitLoss()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getatmstrategyunrealizedprofitloss",
+      "file": "getatmstrategyunrealizedprofitloss.md"
+    },
+    {
+      "title": "GetAttachedToChartBars()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getattachedtochartbars",
+      "file": "getattachedtochartbars.md"
+    },
+    {
+      "title": "GetBar()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getbar",
+      "file": "getbar.md"
+    },
+    {
+      "title": "GetBarIdxByTime()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getbaridxbytime",
+      "file": "getbaridxbytime.md"
+    },
+    {
+      "title": "GetBarIdxByX()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getbaridxbyx",
+      "file": "getbaridxbyx.md"
+    },
+    {
+      "title": "GetBarPaintWidth()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getbarpaintwidth",
+      "file": "getbarpaintwidth.md"
+    },
+    {
+      "title": "GetBid()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getbid",
+      "file": "getbid.md"
+    },
+    {
+      "title": "GetClose()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getclose",
+      "file": "getclose.md"
+    },
+    {
+      "title": "GetClosestAnchor()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getclosestanchor",
+      "file": "getclosestanchor.md"
+    },
+    {
+      "title": "GetCurrentAsk()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getcurrentask",
+      "file": "getcurrentask.md"
+    },
+    {
+      "title": "GetCurrentAskVolume()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getcurrentaskvolume",
+      "file": "getcurrentaskvolume.md"
+    },
+    {
+      "title": "GetCurrentBid()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getcurrentbid",
+      "file": "getcurrentbid.md"
+    },
+    {
+      "title": "GetCurrentBidVolume()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getcurrentbidvolume",
+      "file": "getcurrentbidvolume.md"
+    },
+    {
+      "title": "GetCursor()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getcursor",
+      "file": "getcursor.md"
+    },
+    {
+      "title": "GetDayBar()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getdaybar",
+      "file": "getdaybar.md"
+    },
+    {
+      "title": "GetHeaderPart()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getheaderpart",
+      "file": "getheaderpart.md"
+    },
+    {
+      "title": "GetHigh()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gethigh",
+      "file": "gethigh.md"
+    },
+    {
+      "title": "GetInitialLookBackDays()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getinitiallookbackdays",
+      "file": "getinitiallookbackdays.md"
+    },
+    {
+      "title": "GetInstrument()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getinstrument",
+      "file": "getinstrument.md"
+    },
+    {
+      "title": "GetLow()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getlow",
+      "file": "getlow.md"
+    },
+    {
+      "title": "GetMedian()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getmedian",
+      "file": "getmedian.md"
+    },
+    {
+      "title": "GetNextExpiry()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getnextexpiry",
+      "file": "getnextexpiry.md"
+    },
+    {
+      "title": "GetNextSession()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getnextsession",
+      "file": "getnextsession.md"
+    },
+    {
+      "title": "GetOpen()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getopen",
+      "file": "getopen.md"
+    },
+    {
+      "title": "GetPercentComplete()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getpercentcomplete",
+      "file": "getpercentcomplete.md"
+    },
+    {
+      "title": "GetPixelsForDistance()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getpixelsfordistance",
+      "file": "getpixelsfordistance.md"
+    },
+    {
+      "title": "GetPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getpoint",
+      "file": "getpoint.md"
+    },
+    {
+      "title": "GetPreviousTradingDayEnd()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getprevioustradingdayend",
+      "file": "getprevioustradingdayend.md"
+    },
+    {
+      "title": "GetRealtimeOrder()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getrealtimeorder",
+      "file": "getrealtimeorder.md"
+    },
+    {
+      "title": "GetSelectionPoints()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getselectionpoints",
+      "file": "getselectionpoints.md"
+    },
+    {
+      "title": "GetSessionEndTime()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getsessionendtime",
+      "file": "getsessionendtime.md"
+    },
+    {
+      "title": "GetSlotIndexByTime()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getslotindexbytime",
+      "file": "getslotindexbytime.md"
+    },
+    {
+      "title": "GetSlotIndexByX()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getslotindexbyx",
+      "file": "getslotindexbyx.md"
+    },
+    {
+      "title": "GetTime()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettime",
+      "file": "gettime.md"
+    },
+    {
+      "title": "GetTimeByBarIdx()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettimebybaridx",
+      "file": "gettimebybaridx.md"
+    },
+    {
+      "title": "GetTimeBySlotIndex()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettimebyslotindex",
+      "file": "gettimebyslotindex.md"
+    },
+    {
+      "title": "GetTimeByX()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettimebyx",
+      "file": "gettimebyx.md"
+    },
+    {
+      "title": "Getting indicator values from a specified time",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getting-indicator-values-from-a-specified-time",
+      "file": "getting-indicator-values-from-a-specified-time.md"
+    },
+    {
+      "title": "Getting PnL from an ATM strategy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getting-pnl-from-an-atm-strategy",
+      "file": "getting-pnl-from-an-atm-strategy.md"
+    },
+    {
+      "title": "GetTrades()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettrades",
+      "file": "gettrades.md"
+    },
+    {
+      "title": "GetTradingDay()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettradingday",
+      "file": "gettradingday.md"
+    },
+    {
+      "title": "GetTradingDayBeginLocal()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettradingdaybeginlocal",
+      "file": "gettradingdaybeginlocal.md"
+    },
+    {
+      "title": "GetTradingDayEndLocal()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/gettradingdayendlocal",
+      "file": "gettradingdayendlocal.md"
+    },
+    {
+      "title": "GetValueAt()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getvalueat",
+      "file": "getvalueat.md"
+    },
+    {
+      "title": "GetValueByY()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getvaluebyy",
+      "file": "getvaluebyy.md"
+    },
+    {
+      "title": "GetValueByYWpf()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getvaluebyywpf",
+      "file": "getvaluebyywpf.md"
+    },
+    {
+      "title": "GetVolume()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getvolume",
+      "file": "getvolume.md"
+    },
+    {
+      "title": "GetXByBarIndex()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getxbybarindex",
+      "file": "getxbybarindex.md"
+    },
+    {
+      "title": "GetXByTime()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getxbytime",
+      "file": "getxbytime.md"
+    },
+    {
+      "title": "GetYByValue()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getybyvalue",
+      "file": "getybyvalue.md"
+    },
+    {
+      "title": "GetYByValueWpf()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/getybyvaluewpf",
+      "file": "getybyvaluewpf.md"
+    },
+    {
+      "title": "H (Height)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/h_height",
+      "file": "h_height.md"
+    },
+    {
+      "title": "Halting a Strategy Once User Defined Conditions Are Met",
+      "url": "https://developer.ninjatrader.com/docs/desktop/halting_a_strategy_once_user_defined_conditions_are_met",
+      "file": "halting_a_strategy_once_user_defined_conditions_are_met.md"
+    },
+    {
+      "title": "Height",
+      "url": "https://developer.ninjatrader.com/docs/desktop/height",
+      "file": "height.md"
+    },
+    {
+      "title": "High",
+      "url": "https://developer.ninjatrader.com/docs/desktop/high",
+      "file": "high.md"
+    },
+    {
+      "title": "HighestBar()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/highestbar",
+      "file": "highestbar.md"
+    },
+    {
+      "title": "Highs",
+      "url": "https://developer.ninjatrader.com/docs/desktop/highs",
+      "file": "highs.md"
+    },
+    {
+      "title": "Historical Order Backfill Logic",
+      "url": "https://developer.ninjatrader.com/docs/desktop/historical_order_backfill_logic",
+      "file": "historical_order_backfill_logic.md"
+    },
+    {
+      "title": "Holidays",
+      "url": "https://developer.ninjatrader.com/docs/desktop/holidays",
+      "file": "holidays.md"
+    },
+    {
+      "title": "HorizontalLine",
+      "url": "https://developer.ninjatrader.com/docs/desktop/horizontalline",
+      "file": "horizontalline.md"
+    },
+    {
+      "title": "How do I resolve NinjaScript Programming Errors?",
+      "url": "https://developer.ninjatrader.com/docs/desktop/how_do_i_resolve_ninjascript_programming_errors",
+      "file": "how_do_i_resolve_ninjascript_programming_errors.md"
+    },
+    {
+      "title": "Icon",
+      "url": "https://developer.ninjatrader.com/docs/desktop/icon",
+      "file": "icon.md"
+    },
+    {
+      "title": "Icon",
+      "url": "https://developer.ninjatrader.com/docs/desktop/icon_barstype",
+      "file": "icon_barstype.md"
+    },
+    {
+      "title": "Icon",
+      "url": "https://developer.ninjatrader.com/docs/desktop/icon_drawingtool",
+      "file": "icon_drawingtool.md"
+    },
+    {
+      "title": "IDrawingTool",
+      "url": "https://developer.ninjatrader.com/docs/desktop/idrawingtool",
+      "file": "idrawingtool.md"
+    },
+    {
+      "title": "IgnoreOverfill",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ignoreoverfill",
+      "file": "ignoreoverfill.md"
+    },
+    {
+      "title": "IgnoresSnapping",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ignoressnapping",
+      "file": "ignoressnapping.md"
+    },
+    {
+      "title": "IgnoresUserInput",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ignoresuserinput",
+      "file": "ignoresuserinput.md"
+    },
+    {
+      "title": "IInstrumentProvider Interface",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iinstrumentprovider_interface",
+      "file": "iinstrumentprovider_interface.md"
+    },
+    {
+      "title": "IIntervalProvider Interface",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iintervalprovider_interface",
+      "file": "iintervalprovider_interface.md"
+    },
+    {
+      "title": "Import",
+      "url": "https://developer.ninjatrader.com/docs/desktop/import",
+      "file": "import.md"
+    },
+    {
+      "title": "Import Type",
+      "url": "https://developer.ninjatrader.com/docs/desktop/import_type",
+      "file": "import_type.md"
+    },
+    {
+      "title": "IncludeCommission",
+      "url": "https://developer.ninjatrader.com/docs/desktop/includecommission",
+      "file": "includecommission.md"
+    },
+    {
+      "title": "IncludeTradeHistoryInBacktest",
+      "url": "https://developer.ninjatrader.com/docs/desktop/includetradehistoryinbacktest",
+      "file": "includetradehistoryinbacktest.md"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://developer.ninjatrader.com/docs/desktop/index",
+      "file": "index.md"
+    },
+    {
+      "title": "Indicator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/indicator",
+      "file": "indicator.md"
+    },
+    {
+      "title": "DisplayName",
+      "url": "https://developer.ninjatrader.com/docs/desktop/indicator_displayname",
+      "file": "indicator_displayname.md"
+    },
+    {
+      "title": "Indicator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/indicator_overview",
+      "file": "indicator_overview.md"
+    },
+    {
+      "title": "IndicatorBaseConverter Class",
+      "url": "https://developer.ninjatrader.com/docs/desktop/indicatorbaseconverter",
+      "file": "indicatorbaseconverter.md"
+    },
+    {
+      "title": "Indicators",
+      "url": "https://developer.ninjatrader.com/docs/desktop/indicators",
+      "file": "indicators.md"
+    },
+    {
+      "title": "Input",
+      "url": "https://developer.ninjatrader.com/docs/desktop/input",
+      "file": "input.md"
+    },
+    {
+      "title": "Inputs",
+      "url": "https://developer.ninjatrader.com/docs/desktop/inputs",
+      "file": "inputs.md"
+    },
+    {
+      "title": "Instrument",
+      "url": "https://developer.ninjatrader.com/docs/desktop/instrument",
+      "file": "instrument.md"
+    },
+    {
+      "title": "Instruments",
+      "url": "https://developer.ninjatrader.com/docs/desktop/instruments",
+      "file": "instruments.md"
+    },
+    {
+      "title": "InstrumentSelector",
+      "url": "https://developer.ninjatrader.com/docs/desktop/instrumentselector",
+      "file": "instrumentselector.md"
+    },
+    {
+      "title": "InstrumentType",
+      "url": "https://developer.ninjatrader.com/docs/desktop/instrumenttype",
+      "file": "instrumenttype.md"
+    },
+    {
+      "title": "Intelliprompt",
+      "url": "https://developer.ninjatrader.com/docs/desktop/intelliprompt",
+      "file": "intelliprompt.md"
+    },
+    {
+      "title": "Intermediate - Historical Custom Series",
+      "url": "https://developer.ninjatrader.com/docs/desktop/intermediate_historical_custom_series",
+      "file": "intermediate_historical_custom_series.md"
+    },
+    {
+      "title": "Intermediate - RSI with Stop Loss & Profit Target",
+      "url": "https://developer.ninjatrader.com/docs/desktop/intermediate_rsi_with_stop_loss_profit_target",
+      "file": "intermediate_rsi_with_stop_loss_profit_target.md"
+    },
+    {
+      "title": "Intermediate - Your own SMA",
+      "url": "https://developer.ninjatrader.com/docs/desktop/intermediate_your_own_sma",
+      "file": "intermediate_your_own_sma.md"
+    },
+    {
+      "title": "IntervalSelector",
+      "url": "https://developer.ninjatrader.com/docs/desktop/intervalselector",
+      "file": "intervalselector.md"
+    },
+    {
+      "title": "INTTabFactory Interface",
+      "url": "https://developer.ninjatrader.com/docs/desktop/inttabfactory_interface",
+      "file": "inttabfactory_interface.md"
+    },
+    {
+      "title": "IsAdoptAccountPositionAware",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isadoptaccountpositionaware",
+      "file": "isadoptaccountpositionaware.md"
+    },
+    {
+      "title": "IsAttachedToNinjaScript",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isattachedtoninjascript",
+      "file": "isattachedtoninjascript.md"
+    },
+    {
+      "title": "IsAutoScale",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isautoscale",
+      "file": "isautoscale.md"
+    },
+    {
+      "title": "IsBrowsable",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isbrowsable",
+      "file": "isbrowsable.md"
+    },
+    {
+      "title": "IsChartOnly",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ischartonly",
+      "file": "ischartonly.md"
+    },
+    {
+      "title": "IsConfigured",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isconfigured",
+      "file": "isconfigured.md"
+    },
+    {
+      "title": "IsDataSeriesRequired",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isdataseriesrequired",
+      "file": "isdataseriesrequired.md"
+    },
+    {
+      "title": "IsDefault",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isdefault",
+      "file": "isdefault.md"
+    },
+    {
+      "title": "IsEditable",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iseditable",
+      "file": "iseditable.md"
+    },
+    {
+      "title": "IsEditing",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isediting",
+      "file": "isediting.md"
+    },
+    {
+      "title": "ISeries",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iseriest",
+      "file": "iseriest.md"
+    },
+    {
+      "title": "IsExitOnSessionCloseStrategy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isexitonsessionclosestrategy",
+      "file": "isexitonsessionclosestrategy.md"
+    },
+    {
+      "title": "IsFalling()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isfalling",
+      "file": "isfalling.md"
+    },
+    {
+      "title": "IsFillLimitOnTouch",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isfilllimitontouch",
+      "file": "isfilllimitontouch.md"
+    },
+    {
+      "title": "IsFirstBarOfSession",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isfirstbarofsession",
+      "file": "isfirstbarofsession.md"
+    },
+    {
+      "title": "IsFirstBarOfSessionByIndex()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isfirstbarofsessionbyindex",
+      "file": "isfirstbarofsessionbyindex.md"
+    },
+    {
+      "title": "IsFirstTickOfBar",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isfirsttickofbar",
+      "file": "isfirsttickofbar.md"
+    },
+    {
+      "title": "IsGlobalDrawingTool",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isglobaldrawingtool",
+      "file": "isglobaldrawingtool.md"
+    },
+    {
+      "title": "IsImageAttachmentSupported",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isimageattachmentsupported",
+      "file": "isimageattachmentsupported.md"
+    },
+    {
+      "title": "IsInHitTest",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isinhittest",
+      "file": "isinhittest.md"
+    },
+    {
+      "title": "IsInSession()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isinsession",
+      "file": "isinsession.md"
+    },
+    {
+      "title": "IsInstantiatedOnEachOptimizationIteration",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isinstantiatedoneachoptimizationiteration",
+      "file": "isinstantiatedoneachoptimizationiteration.md"
+    },
+    {
+      "title": "IsInStrategyAnalyzer",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isinstategyanalyzer",
+      "file": "isinstategyanalyzer.md"
+    },
+    {
+      "title": "IsLastBarOfSession",
+      "url": "https://developer.ninjatrader.com/docs/desktop/islastbarofsession",
+      "file": "islastbarofsession.md"
+    },
+    {
+      "title": "IsLocked",
+      "url": "https://developer.ninjatrader.com/docs/desktop/islocked",
+      "file": "islocked.md"
+    },
+    {
+      "title": "IsNewSession()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isnewsession",
+      "file": "isnewsession.md"
+    },
+    {
+      "title": "IsNinjaScriptDrawn",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isninjascriptdrawn",
+      "file": "isninjascriptdrawn.md"
+    },
+    {
+      "title": "IsOverlay",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isoverlay",
+      "file": "isoverlay.md"
+    },
+    {
+      "title": "IsRemoveLastBarSupported",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isremovelastbarsupported",
+      "file": "isremovelastbarsupported.md"
+    },
+    {
+      "title": "IsResetOnNewTradingDay",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isresetonnewtradingday",
+      "file": "isresetonnewtradingday.md"
+    },
+    {
+      "title": "IsResetOnNewTradingDays",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isresetonnewtradingdays",
+      "file": "isresetonnewtradingdays.md"
+    },
+    {
+      "title": "IsRising()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isrising",
+      "file": "isrising.md"
+    },
+    {
+      "title": "IsScrollArrowVisible",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isscrollarrowvisible",
+      "file": "isscrollarrowvisible.md"
+    },
+    {
+      "title": "IsSelected",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isselected",
+      "file": "isselected.md"
+    },
+    {
+      "title": "IsStayInDrawMode",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isstayindrawmode",
+      "file": "isstayindrawmode.md"
+    },
+    {
+      "title": "IsSuspendedWhileInactive",
+      "url": "https://developer.ninjatrader.com/docs/desktop/issuspendedwhileinactive",
+      "file": "issuspendedwhileinactive.md"
+    },
+    {
+      "title": "IsTickReplay",
+      "url": "https://developer.ninjatrader.com/docs/desktop/istickreplay",
+      "file": "istickreplay.md"
+    },
+    {
+      "title": "IsTickReplays",
+      "url": "https://developer.ninjatrader.com/docs/desktop/istickreplays",
+      "file": "istickreplays.md"
+    },
+    {
+      "title": "IsTimeBased",
+      "url": "https://developer.ninjatrader.com/docs/desktop/istimebased",
+      "file": "istimebased.md"
+    },
+    {
+      "title": "IsTradingDayDefined()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/istradingdaydefined",
+      "file": "istradingdaydefined.md"
+    },
+    {
+      "title": "IsTradingHoursBreakLineVisible",
+      "url": "https://developer.ninjatrader.com/docs/desktop/istradinghoursbreaklinevisible",
+      "file": "istradinghoursbreaklinevisible.md"
+    },
+    {
+      "title": "IsTransparent",
+      "url": "https://developer.ninjatrader.com/docs/desktop/istransparent",
+      "file": "istransparent.md"
+    },
+    {
+      "title": "IsUnmanaged",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isunmanaged",
+      "file": "isunmanaged.md"
+    },
+    {
+      "title": "IsUserDrawn",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isuserdrawn",
+      "file": "isuserdrawn.md"
+    },
+    {
+      "title": "IsValidDataPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isvaliddatapoint",
+      "file": "isvaliddatapoint.md"
+    },
+    {
+      "title": "IsValidDataPointAt()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isvaliddatapointat",
+      "file": "isvaliddatapointat.md"
+    },
+    {
+      "title": "IsVisible",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isvisible",
+      "file": "isvisible.md"
+    },
+    {
+      "title": "IsVisibleOnChart()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isvisibleonchart",
+      "file": "isvisibleonchart.md"
+    },
+    {
+      "title": "IsWaitUntilFlat",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iswaituntilflat",
+      "file": "iswaituntilflat.md"
+    },
+    {
+      "title": "IsYAxisDisplayedLeft",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isyaxisdisplayedleft",
+      "file": "isyaxisdisplayedleft.md"
+    },
+    {
+      "title": "IsYAxisDisplayedOverlay",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isyaxisdisplayedoverlay",
+      "file": "isyaxisdisplayedoverlay.md"
+    },
+    {
+      "title": "IsYAxisDisplayedOverlay",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isyaxisdisplayedoverlay_chartpanel",
+      "file": "isyaxisdisplayedoverlay_chartpanel.md"
+    },
+    {
+      "title": "IsYAxisDisplayedRight",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isyaxisdisplayedright_chartpanel",
+      "file": "isyaxisdisplayedright_chartpanel.md"
+    },
+    {
+      "title": "IsYPropertyVisibile",
+      "url": "https://developer.ninjatrader.com/docs/desktop/isypropertyvisibile",
+      "file": "isypropertyvisibile.md"
+    },
+    {
+      "title": "IWorkspacePersistence Interface",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iworkspacepersistence_interface",
+      "file": "iworkspacepersistence_interface.md"
+    },
+    {
+      "title": "Restore()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iworkspacepersistence_restore",
+      "file": "iworkspacepersistence_restore.md"
+    },
+    {
+      "title": "Save()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/iworkspacepersistence_save",
+      "file": "iworkspacepersistence_save.md"
+    },
+    {
+      "title": "Keeping orders alive",
+      "url": "https://developer.ninjatrader.com/docs/desktop/keeping_orders_alive",
+      "file": "keeping_orders_alive.md"
+    },
+    {
+      "title": "Keltner Channel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/keltner_channel",
+      "file": "keltner_channel.md"
+    },
+    {
+      "title": "KeyReversalDown",
+      "url": "https://developer.ninjatrader.com/docs/desktop/keyreversaldown",
+      "file": "keyreversaldown.md"
+    },
+    {
+      "title": "KeyReversalUp",
+      "url": "https://developer.ninjatrader.com/docs/desktop/keyreversalup",
+      "file": "keyreversalup.md"
+    },
+    {
+      "title": "LastSlotPainted",
+      "url": "https://developer.ninjatrader.com/docs/desktop/lastslotpainted",
+      "file": "lastslotpainted.md"
+    },
+    {
+      "title": "LastTimePainted",
+      "url": "https://developer.ninjatrader.com/docs/desktop/lasttimepainted",
+      "file": "lasttimepainted.md"
+    },
+    {
+      "title": "Least Recent Occurrence (LRO)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/least_recent_occurrence_lro",
+      "file": "least_recent_occurrence_lro.md"
+    },
+    {
+      "title": "Licensing User Authentication",
+      "url": "https://developer.ninjatrader.com/docs/desktop/licensing_user_authentication",
+      "file": "licensing_user_authentication.md"
+    },
+    {
+      "title": "Line",
+      "url": "https://developer.ninjatrader.com/docs/desktop/line",
+      "file": "line.md"
+    },
+    {
+      "title": "Line Class",
+      "url": "https://developer.ninjatrader.com/docs/desktop/line_class",
+      "file": "line_class.md"
+    },
+    {
+      "title": "Linear Regression",
+      "url": "https://developer.ninjatrader.com/docs/desktop/linear_regression",
+      "file": "linear_regression.md"
+    },
+    {
+      "title": "Linear Regression Intercept",
+      "url": "https://developer.ninjatrader.com/docs/desktop/linear_regression_intercept",
+      "file": "linear_regression_intercept.md"
+    },
+    {
+      "title": "Linear Regression Slope",
+      "url": "https://developer.ninjatrader.com/docs/desktop/linear_regression_slope",
+      "file": "linear_regression_slope.md"
+    },
+    {
+      "title": "Lines",
+      "url": "https://developer.ninjatrader.com/docs/desktop/lines",
+      "file": "lines.md"
+    },
+    {
+      "title": "Log()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/log",
+      "file": "log.md"
+    },
+    {
+      "title": "LongTrades",
+      "url": "https://developer.ninjatrader.com/docs/desktop/longtrades",
+      "file": "longtrades.md"
+    },
+    {
+      "title": "Looping Commands",
+      "url": "https://developer.ninjatrader.com/docs/desktop/looping_commands",
+      "file": "looping_commands.md"
+    },
+    {
+      "title": "LosingTrades",
+      "url": "https://developer.ninjatrader.com/docs/desktop/losingtrades",
+      "file": "losingtrades.md"
+    },
+    {
+      "title": "Low",
+      "url": "https://developer.ninjatrader.com/docs/desktop/low",
+      "file": "low.md"
+    },
+    {
+      "title": "LowestBar()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/lowestbar",
+      "file": "lowestbar.md"
+    },
+    {
+      "title": "Lows",
+      "url": "https://developer.ninjatrader.com/docs/desktop/lows",
+      "file": "lows.md"
+    },
+    {
+      "title": "MA Envelopes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ma_envelopes",
+      "file": "ma_envelopes.md"
+    },
+    {
+      "title": "Make sure you have enough bars in the data series you are accessing",
+      "url": "https://developer.ninjatrader.com/docs/desktop/make_sure_you_have_enough_bars",
+      "file": "make_sure_you_have_enough_bars.md"
+    },
+    {
+      "title": "Managed Approach",
+      "url": "https://developer.ninjatrader.com/docs/desktop/managed_approach",
+      "file": "managed_approach.md"
+    },
+    {
+      "title": "Manipulating DateTime objects",
+      "url": "https://developer.ninjatrader.com/docs/desktop/manipulating_datetime_objects",
+      "file": "manipulating_datetime_objects.md"
+    },
+    {
+      "title": "Manipulating string objects",
+      "url": "https://developer.ninjatrader.com/docs/desktop/manipulating_string_objects",
+      "file": "manipulating_string_objects.md"
+    },
+    {
+      "title": "Market Analyzer Column",
+      "url": "https://developer.ninjatrader.com/docs/desktop/market_analyzer_column",
+      "file": "market_analyzer_column.md"
+    },
+    {
+      "title": "OnRender()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/market_analyzer_column_onrender",
+      "file": "market_analyzer_column_onrender.md"
+    },
+    {
+      "title": "MarketData",
+      "url": "https://developer.ninjatrader.com/docs/desktop/marketdata",
+      "file": "marketdata.md"
+    },
+    {
+      "title": "MarketDataEventArgs",
+      "url": "https://developer.ninjatrader.com/docs/desktop/marketdataeventargs",
+      "file": "marketdataeventargs.md"
+    },
+    {
+      "title": "MarketDepth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/marketdepth",
+      "file": "marketdepth.md"
+    },
+    {
+      "title": "MarketDepthEventArgs",
+      "url": "https://developer.ninjatrader.com/docs/desktop/marketdeptheventargs",
+      "file": "marketdeptheventargs.md"
+    },
+    {
+      "title": "MarketPosition",
+      "url": "https://developer.ninjatrader.com/docs/desktop/marketposition",
+      "file": "marketposition.md"
+    },
+    {
+      "title": "MasterInstrument",
+      "url": "https://developer.ninjatrader.com/docs/desktop/masterinstrument",
+      "file": "masterinstrument.md"
+    },
+    {
+      "title": "Name",
+      "url": "https://developer.ninjatrader.com/docs/desktop/masterinstrument_name",
+      "file": "masterinstrument_name.md"
+    },
+    {
+      "title": "Maximum (MAX)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/maximum_max",
+      "file": "maximum_max.md"
+    },
+    {
+      "title": "MaximumBarsLookBack",
+      "url": "https://developer.ninjatrader.com/docs/desktop/maximumbarslookback",
+      "file": "maximumbarslookback.md"
+    },
+    {
+      "title": "MaxMinusMin",
+      "url": "https://developer.ninjatrader.com/docs/desktop/maxminusmin",
+      "file": "maxminusmin.md"
+    },
+    {
+      "title": "MaxValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/maxvalue",
+      "file": "maxvalue.md"
+    },
+    {
+      "title": "MaxValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/maxvalue_chartpanel",
+      "file": "maxvalue_chartpanel.md"
+    },
+    {
+      "title": "Median",
+      "url": "https://developer.ninjatrader.com/docs/desktop/median",
+      "file": "median.md"
+    },
+    {
+      "title": "Medians",
+      "url": "https://developer.ninjatrader.com/docs/desktop/medians",
+      "file": "medians.md"
+    },
+    {
+      "title": "MergePolicy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/mergepolicy",
+      "file": "mergepolicy.md"
+    },
+    {
+      "title": "Minimum (MIN)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/minimum_min",
+      "file": "minimum_min.md"
+    },
+    {
+      "title": "MinValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/minvalue",
+      "file": "minvalue.md"
+    },
+    {
+      "title": "MinValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/minvalue_chartpanel",
+      "file": "minvalue_chartpanel.md"
+    },
+    {
+      "title": "Modifying the price of stop loss and profit target orders",
+      "url": "https://developer.ninjatrader.com/docs/desktop/modifying_the_price_of_stop_loss_and_profit_target_orders",
+      "file": "modifying_the_price_of_stop_loss_and_profit_target_orders.md"
+    },
+    {
+      "title": "Momentum",
+      "url": "https://developer.ninjatrader.com/docs/desktop/momentum",
+      "file": "momentum.md"
+    },
+    {
+      "title": "Money Flow Index (MFI)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/money_flow_index_mfi",
+      "file": "money_flow_index_mfi.md"
+    },
+    {
+      "title": "Monitoring for and trading a breakout",
+      "url": "https://developer.ninjatrader.com/docs/desktop/monitoring_for_and_trading_a_breakout",
+      "file": "monitoring_for_and_trading_a_breakout.md"
+    },
+    {
+      "title": "Monitoring Stop-Loss and Profit Target Orders",
+      "url": "https://developer.ninjatrader.com/docs/desktop/monitoring_stop_loss_and_profit_target_orders",
+      "file": "monitoring_stop_loss_and_profit_target_orders.md"
+    },
+    {
+      "title": "Most Recent Occurrence (MRO)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/most_recent_occurrence_mro",
+      "file": "most_recent_occurrence_mro.md"
+    },
+    {
+      "title": "MouseDownPoint",
+      "url": "https://developer.ninjatrader.com/docs/desktop/mousedownpoint",
+      "file": "mousedownpoint.md"
+    },
+    {
+      "title": "MoveAnchor()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moveanchor",
+      "file": "moveanchor.md"
+    },
+    {
+      "title": "MoveAnchorX()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moveanchorx",
+      "file": "moveanchorx.md"
+    },
+    {
+      "title": "MoveAnchorY()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moveanchory",
+      "file": "moveanchory.md"
+    },
+    {
+      "title": "Moving Average Convergence-Divergence (MACD)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_convergence_divergence_macd",
+      "file": "moving_average_convergence_divergence_macd.md"
+    },
+    {
+      "title": "Moving Average - Double Exponential (DEMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_double_exponential_dema",
+      "file": "moving_average_double_exponential_dema.md"
+    },
+    {
+      "title": "Moving Average - Exponential (EMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_exponential_ema",
+      "file": "moving_average_exponential_ema.md"
+    },
+    {
+      "title": "Moving Average - Hull (HMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_hull_hma",
+      "file": "moving_average_hull_hma.md"
+    },
+    {
+      "title": "Moving Average - Kaufman's Adaptive (KAMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_kaufmans_adaptive",
+      "file": "moving_average_kaufmans_adaptive.md"
+    },
+    {
+      "title": "Moving Average - Mesa Adaptive (MAMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_mesa_adaptive",
+      "file": "moving_average_mesa_adaptive.md"
+    },
+    {
+      "title": "Moving Average Ribbon",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_ribbon",
+      "file": "moving_average_ribbon.md"
+    },
+    {
+      "title": "Moving Average - Simple (SMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_simple_sma",
+      "file": "moving_average_simple_sma.md"
+    },
+    {
+      "title": "Moving Average - T3 (T3)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_t3_t3",
+      "file": "moving_average_t3_t3.md"
+    },
+    {
+      "title": "Moving Average - Triangular (TMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_triangular_tma",
+      "file": "moving_average_triangular_tma.md"
+    },
+    {
+      "title": "Moving Average - Triple Exponential (TEMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_triple_exponential_tema",
+      "file": "moving_average_triple_exponential_tema.md"
+    },
+    {
+      "title": "Moving Average - Triple Exponential (TRIX)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_triple_exponential_trix",
+      "file": "moving_average_triple_exponential_trix.md"
+    },
+    {
+      "title": "Moving Average - Variable (VMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_variable_vma",
+      "file": "moving_average_variable_vma.md"
+    },
+    {
+      "title": "Moving Average - Volume Weighted (VWMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_volume_weighted_vwma",
+      "file": "moving_average_volume_weighted_vwma.md"
+    },
+    {
+      "title": "Moving Average - Weighted (WMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_weighted_wma",
+      "file": "moving_average_weighted_wma.md"
+    },
+    {
+      "title": "Moving Average - Zero Lag Exponential (ZLEMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/moving_average_zero_lag_exponential_zlema",
+      "file": "moving_average_zero_lag_exponential_zlema.md"
+    },
+    {
+      "title": "Multi-Colored Plots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/multi_colored_plots",
+      "file": "multi_colored_plots.md"
+    },
+    {
+      "title": "Multi-Threading Consideration for NinjaScript",
+      "url": "https://developer.ninjatrader.com/docs/desktop/multi_threading_consideration_for_ninjascript",
+      "file": "multi_threading_consideration_for_ninjascript.md"
+    },
+    {
+      "title": "Multi-Time Frame & Instruments",
+      "url": "https://developer.ninjatrader.com/docs/desktop/multi_time_frame_instruments",
+      "file": "multi_time_frame_instruments.md"
+    },
+    {
+      "title": "n Bars Down",
+      "url": "https://developer.ninjatrader.com/docs/desktop/n_bars_down",
+      "file": "n_bars_down.md"
+    },
+    {
+      "title": "n Bars Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/n_bars_up",
+      "file": "n_bars_up.md"
+    },
+    {
+      "title": "Name",
+      "url": "https://developer.ninjatrader.com/docs/desktop/name",
+      "file": "name.md"
+    },
+    {
+      "title": "Name",
+      "url": "https://developer.ninjatrader.com/docs/desktop/name_account",
+      "file": "name_account.md"
+    },
+    {
+      "title": "Net Change Display",
+      "url": "https://developer.ninjatrader.com/docs/desktop/net_change_display",
+      "file": "net_change_display.md"
+    },
+    {
+      "title": "NewsItems",
+      "url": "https://developer.ninjatrader.com/docs/desktop/newsitems",
+      "file": "newsitems.md"
+    },
+    {
+      "title": "NewsSubscription",
+      "url": "https://developer.ninjatrader.com/docs/desktop/newssubscription",
+      "file": "newssubscription.md"
+    },
+    {
+      "title": "NinjaScript Best Practices",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ninjascript_best_practices",
+      "file": "ninjascript_best_practices.md"
+    },
+    {
+      "title": "NinjaScript Editor Components",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_components",
+      "file": "ninjascript_editor_components.md"
+    },
+    {
+      "title": "NinjaScript Editor Overview",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_overview",
+      "file": "ninjascript_editor_overview.md"
+    },
+    {
+      "title": "NinjaScript Explorer",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ninjascript_explorer",
+      "file": "ninjascript_explorer.md"
+    },
+    {
+      "title": "NinjaScript Wizard",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ninjascript_wizard",
+      "file": "ninjascript_wizard.md"
+    },
+    {
+      "title": "NinjaScriptPropertyAttribute",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ninjascriptpropertyattribute",
+      "file": "ninjascriptpropertyattribute.md"
+    },
+    {
+      "title": "No Doc",
+      "url": "https://developer.ninjatrader.com/docs/desktop/nodoc",
+      "file": "nodoc.md"
+    },
+    {
+      "title": "NTMenuItem",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ntmenuitem",
+      "file": "ntmenuitem.md"
+    },
+    {
+      "title": "NTMessageBoxSimple.Show()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ntmessageboxsimple_show",
+      "file": "ntmessageboxsimple_show.md"
+    },
+    {
+      "title": "NTTabPage Class",
+      "url": "https://developer.ninjatrader.com/docs/desktop/nttabpage",
+      "file": "nttabpage.md"
+    },
+    {
+      "title": "NTWindow",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ntwindow",
+      "file": "ntwindow.md"
+    },
+    {
+      "title": "NumberOfIterations",
+      "url": "https://developer.ninjatrader.com/docs/desktop/numberofiterations",
+      "file": "numberofiterations.md"
+    },
+    {
+      "title": "NumberRestartAttempts",
+      "url": "https://developer.ninjatrader.com/docs/desktop/numberrestartattempts",
+      "file": "numberrestartattempts.md"
+    },
+    {
+      "title": "NumericTextBox",
+      "url": "https://developer.ninjatrader.com/docs/desktop/numerictextbox",
+      "file": "numerictextbox.md"
+    },
+    {
+      "title": "On Balance Volume (OBV)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/on_balance_volume_obv",
+      "file": "on_balance_volume_obv.md"
+    },
+    {
+      "title": "OnAccountItemUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onaccountitemupdate",
+      "file": "onaccountitemupdate.md"
+    },
+    {
+      "title": "OnAddTrade()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onaddtrade",
+      "file": "onaddtrade.md"
+    },
+    {
+      "title": "OnAuthorizeAccount()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onauthorizeaccount",
+      "file": "onauthorizeaccount.md"
+    },
+    {
+      "title": "OnBarsChanged()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onbarschanged",
+      "file": "onbarschanged.md"
+    },
+    {
+      "title": "OnBarUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onbarupdate",
+      "file": "onbarupdate.md"
+    },
+    {
+      "title": "OnCalculateMinMax()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/oncalculateminmax",
+      "file": "oncalculateminmax.md"
+    },
+    {
+      "title": "OnCalculatePerformanceValue()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/oncalculateperformancevalue",
+      "file": "oncalculateperformancevalue.md"
+    },
+    {
+      "title": "OnConnectionStatusUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onconnectionstatusupdate",
+      "file": "onconnectionstatusupdate.md"
+    },
+    {
+      "title": "OnCopyTo()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/oncopyto",
+      "file": "oncopyto.md"
+    },
+    {
+      "title": "OnDataPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ondatapoint",
+      "file": "ondatapoint.md"
+    },
+    {
+      "title": "OnExecutionUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onexecutionupdate",
+      "file": "onexecutionupdate.md"
+    },
+    {
+      "title": "OnFundamentalData()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onfundamentaldata",
+      "file": "onfundamentaldata.md"
+    },
+    {
+      "title": "OnMarketData()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onmarketdata",
+      "file": "onmarketdata.md"
+    },
+    {
+      "title": "OnMarketDepth()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onmarketdepth",
+      "file": "onmarketdepth.md"
+    },
+    {
+      "title": "OnMergePerformanceMetric()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onmergeperformancemetric",
+      "file": "onmergeperformancemetric.md"
+    },
+    {
+      "title": "OnMouseDown()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onmousedown",
+      "file": "onmousedown.md"
+    },
+    {
+      "title": "OnMouseMove()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onmousemove",
+      "file": "onmousemove.md"
+    },
+    {
+      "title": "OnMouseUp()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onmouseup",
+      "file": "onmouseup.md"
+    },
+    {
+      "title": "OnNextDataPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onnextdatapoint",
+      "file": "onnextdatapoint.md"
+    },
+    {
+      "title": "OnNextInstrument()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onnextinstrument",
+      "file": "onnextinstrument.md"
+    },
+    {
+      "title": "OnOptimize()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onoptimize",
+      "file": "onoptimize.md"
+    },
+    {
+      "title": "OnOrderTrace()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onordertrace",
+      "file": "onordertrace.md"
+    },
+    {
+      "title": "OnOrderUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onorderupdate",
+      "file": "onorderupdate.md"
+    },
+    {
+      "title": "OnPositionUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onpositionupdate",
+      "file": "onpositionupdate.md"
+    },
+    {
+      "title": "OnPropertyChanged()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onpropertychanged",
+      "file": "onpropertychanged.md"
+    },
+    {
+      "title": "OnRender()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onrender",
+      "file": "onrender.md"
+    },
+    {
+      "title": "OnRenderTargetChanged()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onrendertargetchanged",
+      "file": "onrendertargetchanged.md"
+    },
+    {
+      "title": "OnRestoreValues()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onrestorevalues",
+      "file": "onrestorevalues.md"
+    },
+    {
+      "title": "OnShare()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onshare",
+      "file": "onshare.md"
+    },
+    {
+      "title": "OnStateChange()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onstatechange",
+      "file": "onstatechange.md"
+    },
+    {
+      "title": "OnWindowCreated()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onwindowcreated",
+      "file": "onwindowcreated.md"
+    },
+    {
+      "title": "OnWindowDestroyed()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onwindowdestroyed",
+      "file": "onwindowdestroyed.md"
+    },
+    {
+      "title": "OnWindowRestored()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onwindowrestored",
+      "file": "onwindowrestored.md"
+    },
+    {
+      "title": "OnWindowSaved()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/onwindowsaved",
+      "file": "onwindowsaved.md"
+    },
+    {
+      "title": "Open",
+      "url": "https://developer.ninjatrader.com/docs/desktop/open",
+      "file": "open.md"
+    },
+    {
+      "title": "Opens",
+      "url": "https://developer.ninjatrader.com/docs/desktop/opens",
+      "file": "opens.md"
+    },
+    {
+      "title": "Optimization Fitness",
+      "url": "https://developer.ninjatrader.com/docs/desktop/optimization_fitness",
+      "file": "optimization_fitness.md"
+    },
+    {
+      "title": "OptimizationParameters",
+      "url": "https://developer.ninjatrader.com/docs/desktop/optimizationparameters",
+      "file": "optimizationparameters.md"
+    },
+    {
+      "title": "OptimizationPeriod",
+      "url": "https://developer.ninjatrader.com/docs/desktop/optimizationperiod",
+      "file": "optimizationperiod.md"
+    },
+    {
+      "title": "Optimizer",
+      "url": "https://developer.ninjatrader.com/docs/desktop/optimizer",
+      "file": "optimizer.md"
+    },
+    {
+      "title": "Order",
+      "url": "https://developer.ninjatrader.com/docs/desktop/order",
+      "file": "order.md"
+    },
+    {
+      "title": "Order Flow Cumulative Delta",
+      "url": "https://developer.ninjatrader.com/docs/desktop/order_flow_cumulative_delta",
+      "file": "order_flow_cumulative_delta.md"
+    },
+    {
+      "title": "Order Flow Volumetric Bars",
+      "url": "https://developer.ninjatrader.com/docs/desktop/order_flow_volumetric_bars",
+      "file": "order_flow_volumetric_bars.md"
+    },
+    {
+      "title": "Order Flow VWAP",
+      "url": "https://developer.ninjatrader.com/docs/desktop/order_flow_vwap",
+      "file": "order_flow_vwap.md"
+    },
+    {
+      "title": "Order Methods",
+      "url": "https://developer.ninjatrader.com/docs/desktop/order_methods",
+      "file": "order_methods.md"
+    },
+    {
+      "title": "Order Types",
+      "url": "https://developer.ninjatrader.com/docs/desktop/order_types",
+      "file": "order_types.md"
+    },
+    {
+      "title": "OrderFillResolution",
+      "url": "https://developer.ninjatrader.com/docs/desktop/orderfillresolution",
+      "file": "orderfillresolution.md"
+    },
+    {
+      "title": "OrderFillResolutionType",
+      "url": "https://developer.ninjatrader.com/docs/desktop/orderfillresolutiontype",
+      "file": "orderfillresolutiontype.md"
+    },
+    {
+      "title": "OrderFillResolutionValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/orderfillresolutionvalue",
+      "file": "orderfillresolutionvalue.md"
+    },
+    {
+      "title": "Orders",
+      "url": "https://developer.ninjatrader.com/docs/desktop/orders",
+      "file": "orders.md"
+    },
+    {
+      "title": "OrderUpdate",
+      "url": "https://developer.ninjatrader.com/docs/desktop/orderupdate",
+      "file": "orderupdate.md"
+    },
+    {
+      "title": "Other Uses for an AddOn",
+      "url": "https://developer.ninjatrader.com/docs/desktop/other_uses_for_an_addon",
+      "file": "other_uses_for_an_addon.md"
+    },
+    {
+      "title": "PaintPriceMarkers",
+      "url": "https://developer.ninjatrader.com/docs/desktop/paintpricemarkers",
+      "file": "paintpricemarkers.md"
+    },
+    {
+      "title": "Panel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/panel",
+      "file": "panel.md"
+    },
+    {
+      "title": "PanelIndex",
+      "url": "https://developer.ninjatrader.com/docs/desktop/panelindex",
+      "file": "panelindex.md"
+    },
+    {
+      "title": "PanelIndex",
+      "url": "https://developer.ninjatrader.com/docs/desktop/panelindex_chartpanel",
+      "file": "panelindex_chartpanel.md"
+    },
+    {
+      "title": "PanelUI",
+      "url": "https://developer.ninjatrader.com/docs/desktop/panelui",
+      "file": "panelui.md"
+    },
+    {
+      "title": "Parabolic SAR",
+      "url": "https://developer.ninjatrader.com/docs/desktop/parabolic_sar",
+      "file": "parabolic_sar.md"
+    },
+    {
+      "title": "Parameter sequencing",
+      "url": "https://developer.ninjatrader.com/docs/desktop/parameter_sequencing",
+      "file": "parameter_sequencing.md"
+    },
+    {
+      "title": "PartialHolidays",
+      "url": "https://developer.ninjatrader.com/docs/desktop/partialholidays",
+      "file": "partialholidays.md"
+    },
+    {
+      "title": "PathTool",
+      "url": "https://developer.ninjatrader.com/docs/desktop/pathtool",
+      "file": "pathtool.md"
+    },
+    {
+      "title": "Percentage Price Oscillator (PPO)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/percentage_price_oscillator_pp",
+      "file": "percentage_price_oscillator_pp.md"
+    },
+    {
+      "title": "PercentComplete",
+      "url": "https://developer.ninjatrader.com/docs/desktop/percentcomplete",
+      "file": "percentcomplete.md"
+    },
+    {
+      "title": "Performance Metrics",
+      "url": "https://developer.ninjatrader.com/docs/desktop/performance_metrics",
+      "file": "performance_metrics.md"
+    },
+    {
+      "title": "PerformanceMetrics",
+      "url": "https://developer.ninjatrader.com/docs/desktop/performancemetrics",
+      "file": "performancemetrics.md"
+    },
+    {
+      "title": "PerformanceUnit",
+      "url": "https://developer.ninjatrader.com/docs/desktop/performanceunit",
+      "file": "performanceunit.md"
+    },
+    {
+      "title": "Pivots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/pivots",
+      "file": "pivots.md"
+    },
+    {
+      "title": "PlaySound()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/playsound",
+      "file": "playsound.md"
+    },
+    {
+      "title": "PlotBrushes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/plotbrushes",
+      "file": "plotbrushes.md"
+    },
+    {
+      "title": "Plots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/plots",
+      "file": "plots.md"
+    },
+    {
+      "title": "Plotting from within a NinjaScript Strategy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/plotting_from_within_a_ninjascript_strategy",
+      "file": "plotting_from_within_a_ninjascript_strategy.md"
+    },
+    {
+      "title": "Points",
+      "url": "https://developer.ninjatrader.com/docs/desktop/points",
+      "file": "points.md"
+    },
+    {
+      "title": "PointValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/pointvalue",
+      "file": "pointvalue.md"
+    },
+    {
+      "title": "Polarized Fractal Efficiency (PFE)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/polarized_fractal_efficiency_pfe",
+      "file": "polarized_fractal_efficiency_pfe.md"
+    },
+    {
+      "title": "Polygon",
+      "url": "https://developer.ninjatrader.com/docs/desktop/polygon",
+      "file": "polygon.md"
+    },
+    {
+      "title": "Position",
+      "url": "https://developer.ninjatrader.com/docs/desktop/position",
+      "file": "position.md"
+    },
+    {
+      "title": "PositionAccount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/positionaccount",
+      "file": "positionaccount.md"
+    },
+    {
+      "title": "Quantity",
+      "url": "https://developer.ninjatrader.com/docs/desktop/positionaccount_quantity",
+      "file": "positionaccount_quantity.md"
+    },
+    {
+      "title": "Positions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/positions",
+      "file": "positions.md"
+    },
+    {
+      "title": "PositionsAccount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/positionsaccount",
+      "file": "positionsaccount.md"
+    },
+    {
+      "title": "PositionUpdate",
+      "url": "https://developer.ninjatrader.com/docs/desktop/positionupdate",
+      "file": "positionupdate.md"
+    },
+    {
+      "title": "PresentationSource",
+      "url": "https://developer.ninjatrader.com/docs/desktop/presentationsource",
+      "file": "presentationsource.md"
+    },
+    {
+      "title": "Price",
+      "url": "https://developer.ninjatrader.com/docs/desktop/price",
+      "file": "price.md"
+    },
+    {
+      "title": "Price Oscillator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/price_oscillator",
+      "file": "price_oscillator.md"
+    },
+    {
+      "title": "PriceLevels",
+      "url": "https://developer.ninjatrader.com/docs/desktop/pricelevels",
+      "file": "pricelevels.md"
+    },
+    {
+      "title": "PriceSeries<double>",
+      "url": "https://developer.ninjatrader.com/docs/desktop/priceseries",
+      "file": "priceseries.md"
+    },
+    {
+      "title": "PriceStatus",
+      "url": "https://developer.ninjatrader.com/docs/desktop/pricestatus",
+      "file": "pricestatus.md"
+    },
+    {
+      "title": "Print()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/print",
+      "file": "print.md"
+    },
+    {
+      "title": "PrintTo",
+      "url": "https://developer.ninjatrader.com/docs/desktop/printto",
+      "file": "printto.md"
+    },
+    {
+      "title": "Prior Day OHLC",
+      "url": "https://developer.ninjatrader.com/docs/desktop/prior_day_ohlc",
+      "file": "prior_day_ohlc.md"
+    },
+    {
+      "title": "PriorValue",
+      "url": "https://developer.ninjatrader.com/docs/desktop/priorvalue",
+      "file": "priorvalue.md"
+    },
+    {
+      "title": "PropagateInstrumentChange()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/propagateinstrumentchange",
+      "file": "propagateinstrumentchange.md"
+    },
+    {
+      "title": "PropagateIntervalChange()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/propagateintervalchange",
+      "file": "propagateintervalchange.md"
+    },
+    {
+      "title": "Protection DLL Security",
+      "url": "https://developer.ninjatrader.com/docs/desktop/protection_dll_security",
+      "file": "protection_dll_security.md"
+    },
+    {
+      "title": "Psychological Line",
+      "url": "https://developer.ninjatrader.com/docs/desktop/psychological_line",
+      "file": "psychological_line.md"
+    },
+    {
+      "title": "QuantityUpDown",
+      "url": "https://developer.ninjatrader.com/docs/desktop/quantityupdown",
+      "file": "quantityupdown.md"
+    },
+    {
+      "title": "R-squared",
+      "url": "https://developer.ninjatrader.com/docs/desktop/r_squared",
+      "file": "r_squared.md"
+    },
+    {
+      "title": "Range",
+      "url": "https://developer.ninjatrader.com/docs/desktop/range",
+      "file": "range.md"
+    },
+    {
+      "title": "Range Indicator (RIND)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/range_indicator_rind",
+      "file": "range_indicator_rind.md"
+    },
+    {
+      "title": "RangeAttribute",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rangeattribute",
+      "file": "rangeattribute.md"
+    },
+    {
+      "title": "Rate of Change (ROC)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rate_of_change_roc",
+      "file": "rate_of_change_roc.md"
+    },
+    {
+      "title": "Ray",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ray",
+      "file": "ray.md"
+    },
+    {
+      "title": "RealTimeTrades",
+      "url": "https://developer.ninjatrader.com/docs/desktop/realtime_trades",
+      "file": "realtime_trades.md"
+    },
+    {
+      "title": "RealtimeErrorHandling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/realtimeerrorhandling",
+      "file": "realtimeerrorhandling.md"
+    },
+    {
+      "title": "RearmAlert()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rearmalert",
+      "file": "rearmalert.md"
+    },
+    {
+      "title": "Rectangle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rectangle",
+      "file": "rectangle.md"
+    },
+    {
+      "title": "Reference Samples",
+      "url": "https://developer.ninjatrader.com/docs/desktop/reference_samples",
+      "file": "reference_samples.md"
+    },
+    {
+      "title": "Referencing the correct bar",
+      "url": "https://developer.ninjatrader.com/docs/desktop/referencing_the_correct_bar",
+      "file": "referencing_the_correct_bar.md"
+    },
+    {
+      "title": "Region",
+      "url": "https://developer.ninjatrader.com/docs/desktop/region",
+      "file": "region.md"
+    },
+    {
+      "title": "RegionHighlightX",
+      "url": "https://developer.ninjatrader.com/docs/desktop/regionhighlightx",
+      "file": "regionhighlightx.md"
+    },
+    {
+      "title": "RegionHighlightY",
+      "url": "https://developer.ninjatrader.com/docs/desktop/regionhighlighty",
+      "file": "regionhighlighty.md"
+    },
+    {
+      "title": "Regression Channel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/regression_channel",
+      "file": "regression_channel.md"
+    },
+    {
+      "title": "RegressionChannel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/regressionchannel",
+      "file": "regressionchannel.md"
+    },
+    {
+      "title": "Relative Spread Strength (RSS)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/relative_spread_strength_rss",
+      "file": "relative_spread_strength_rss.md"
+    },
+    {
+      "title": "Relative Strength Index (RSI)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/relative_strength_index_rsi",
+      "file": "relative_strength_index_rsi.md"
+    },
+    {
+      "title": "Relative Vigor Index",
+      "url": "https://developer.ninjatrader.com/docs/desktop/relative_vigor_index",
+      "file": "relative_vigor_index.md"
+    },
+    {
+      "title": "Relative Volatility Index (RVI)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/relative_volatility_index_rvi",
+      "file": "relative_volatility_index_rvi.md"
+    },
+    {
+      "title": "RemoveDrawObject()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/removedrawobject",
+      "file": "removedrawobject.md"
+    },
+    {
+      "title": "RemoveDrawObjects()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/removedrawobjects",
+      "file": "removedrawobjects.md"
+    },
+    {
+      "title": "RemoveLastBar()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/removelastbar",
+      "file": "removelastbar.md"
+    },
+    {
+      "title": "Removing and Custom Formatting an Indicator’s Chart Label",
+      "url": "https://developer.ninjatrader.com/docs/desktop/removing_and_custom_formatting_an_indicators_chart_label",
+      "file": "removing_and_custom_formatting_an_indicators_chart_label.md"
+    },
+    {
+      "title": "Removing draw objects from the chart",
+      "url": "https://developer.ninjatrader.com/docs/desktop/removing_draw_objects_from_the_chart",
+      "file": "removing_draw_objects_from_the_chart.md"
+    },
+    {
+      "title": "Rendering",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rendering",
+      "file": "rendering.md"
+    },
+    {
+      "title": "RenderTarget",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rendertarget",
+      "file": "rendertarget.md"
+    },
+    {
+      "title": "Reset()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/reset",
+      "file": "reset.md"
+    },
+    {
+      "title": "Resetting values at the beginning of new trading sessions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/resetting_values_at_the_beginning_of_new_trading_sessions",
+      "file": "resetting_values_at_the_beginning_of_new_trading_sessions.md"
+    },
+    {
+      "title": "RestartsWithinMinutes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/restartswithinminutes",
+      "file": "restartswithinminutes.md"
+    },
+    {
+      "title": "Restore()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/restore",
+      "file": "restore.md"
+    },
+    {
+      "title": "RiskReward",
+      "url": "https://developer.ninjatrader.com/docs/desktop/riskreward",
+      "file": "riskreward.md"
+    },
+    {
+      "title": "RolloverCollection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rollovercollection",
+      "file": "rollovercollection.md"
+    },
+    {
+      "title": "RoundDownToTickSize()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rounddowntoticksize",
+      "file": "rounddowntoticksize.md"
+    },
+    {
+      "title": "Rounding values to the nearest tick size",
+      "url": "https://developer.ninjatrader.com/docs/desktop/rounding_values_to_the_nearest_tick_size",
+      "file": "rounding_values_to_the_nearest_tick_size.md"
+    },
+    {
+      "title": "RoundToTickSize()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/roundtoticksize",
+      "file": "roundtoticksize.md"
+    },
+    {
+      "title": "Ruler",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ruler",
+      "file": "ruler.md"
+    },
+    {
+      "title": "RunIteration()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/runiteration",
+      "file": "runiteration.md"
+    },
+    {
+      "title": "Save()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/save",
+      "file": "save.md"
+    },
+    {
+      "title": "ScaleJustification",
+      "url": "https://developer.ninjatrader.com/docs/desktop/scalejustification",
+      "file": "scalejustification.md"
+    },
+    {
+      "title": "Scaling out of a position",
+      "url": "https://developer.ninjatrader.com/docs/desktop/scaling_out_of_a_position",
+      "file": "scaling_out_of_a_position.md"
+    },
+    {
+      "title": "SendMail()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sendmail",
+      "file": "sendmail.md"
+    },
+    {
+      "title": "Separating logic to either calculate once on bar close or on every tick",
+      "url": "https://developer.ninjatrader.com/docs/desktop/separating_logic_to_either_calculate_once_on_bar_close_or_on_every_tick",
+      "file": "separating_logic_to_either_calculate_once_on_bar_close_or_on_every_tick.md"
+    },
+    {
+      "title": "Series<t>",
+      "url": "https://developer.ninjatrader.com/docs/desktop/seriest",
+      "file": "seriest.md"
+    },
+    {
+      "title": "SessionIterator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sessioniterator",
+      "file": "sessioniterator.md"
+    },
+    {
+      "title": "Set Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/set_up10",
+      "file": "set_up10.md"
+    },
+    {
+      "title": "Set Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/set_up4",
+      "file": "set_up4.md"
+    },
+    {
+      "title": "Set Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/set_up5",
+      "file": "set_up5.md"
+    },
+    {
+      "title": "Set Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/set_up6",
+      "file": "set_up6.md"
+    },
+    {
+      "title": "Set Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/set_up7",
+      "file": "set_up7.md"
+    },
+    {
+      "title": "Set Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/set_up8",
+      "file": "set_up8.md"
+    },
+    {
+      "title": "Set Up",
+      "url": "https://developer.ninjatrader.com/docs/desktop/set_up9",
+      "file": "set_up9.md"
+    },
+    {
+      "title": "SetOrderQuantity",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setorderquantity",
+      "file": "setorderquantity.md"
+    },
+    {
+      "title": "SetParabolicStop()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setparabolicstop",
+      "file": "setparabolicstop.md"
+    },
+    {
+      "title": "SetProfitTarget()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setprofittarget",
+      "file": "setprofittarget.md"
+    },
+    {
+      "title": "SetPropertyName()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setpropertyname_barstype",
+      "file": "setpropertyname_barstype.md"
+    },
+    {
+      "title": "SetPropertyName()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setpropertyname_chartstyle",
+      "file": "setpropertyname_chartstyle.md"
+    },
+    {
+      "title": "SetState()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setstate",
+      "file": "setstate.md"
+    },
+    {
+      "title": "SetStopLoss()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setstoploss",
+      "file": "setstoploss.md"
+    },
+    {
+      "title": "SetTrailStop()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/settrailstop",
+      "file": "settrailstop.md"
+    },
+    {
+      "title": "SetZOrder",
+      "url": "https://developer.ninjatrader.com/docs/desktop/setzorder",
+      "file": "setzorder.md"
+    },
+    {
+      "title": "Share()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/share",
+      "file": "share.md"
+    },
+    {
+      "title": "Share Service",
+      "url": "https://developer.ninjatrader.com/docs/desktop/share_service",
+      "file": "share_service.md"
+    },
+    {
+      "title": "SharpDX",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx",
+      "file": "sharpdx.md"
+    },
+    {
+      "title": "SharpDX.Color",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_color",
+      "file": "sharpdx_color.md"
+    },
+    {
+      "title": "SharpDX.Color3",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_color3",
+      "file": "sharpdx_color3.md"
+    },
+    {
+      "title": "SharpDX.Color4",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_color4",
+      "file": "sharpdx_color4.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1",
+      "file": "sharpdx_direct2d1.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.AntialiasMode",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_antialiasmode",
+      "file": "sharpdx_direct2d1_antialiasmode.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.ArcSegment",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_arcsegment",
+      "file": "sharpdx_direct2d1_arcsegment.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.ArcSize",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_arcsize",
+      "file": "sharpdx_direct2d1_arcsize.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.Brush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_brush",
+      "file": "sharpdx_direct2d1_brush.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.Brush.Opacity",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_brush_opacity",
+      "file": "sharpdx_direct2d1_brush_opacity.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.Brush.Transform",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_brush_transform",
+      "file": "sharpdx_direct2d1_brush_transform.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.BrushProperties",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_brushproperties",
+      "file": "sharpdx_direct2d1_brushproperties.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.DrawTextOptions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_drawtextoptions",
+      "file": "sharpdx_direct2d1_drawtextoptions.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.Ellipse",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_ellipse",
+      "file": "sharpdx_direct2d1_ellipse.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.FigureBegin",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_figurebegin",
+      "file": "sharpdx_direct2d1_figurebegin.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.FigureEnd",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_figureend",
+      "file": "sharpdx_direct2d1_figureend.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.FillMode",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_fillmode",
+      "file": "sharpdx_direct2d1_fillmode.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GeometrySink",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_geometrysink",
+      "file": "sharpdx_direct2d1_geometrysink.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GeometrySink.AddLine()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_geometrysink_addline",
+      "file": "sharpdx_direct2d1_geometrysink_addline.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GeometrySink.AddLines()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_geometrysink_addlines",
+      "file": "sharpdx_direct2d1_geometrysink_addlines.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GeometrySink.BeginFigure()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_geometrysink_beginfigure",
+      "file": "sharpdx_direct2d1_geometrysink_beginfigure.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GeometrySink.Close()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_geometrysink_close",
+      "file": "sharpdx_direct2d1_geometrysink_close.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GeometrySink.EndFigure()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_geometrysink_endfigure",
+      "file": "sharpdx_direct2d1_geometrysink_endfigure.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GeometrySink.SetFillMode()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_geometrysink_setfillmode",
+      "file": "sharpdx_direct2d1_geometrysink_setfillmode.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GradientStopCollection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_gradientstopcollection",
+      "file": "sharpdx_direct2d1_gradientstopcollection.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GradientStopCollection.ColorInterpolationGamma",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_gradientstopcollection_colorinterpolationgamma",
+      "file": "sharpdx_direct2d1_gradientstopcollection_colorinterpolationgamma.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GradientStopCollection.ExtendMode",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_gradientstopcollection_extendmode",
+      "file": "sharpdx_direct2d1_gradientstopcollection_extendmode.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.GradientStopCollection.GradientStopCount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_gradientstopcollection_gradientstopcount",
+      "file": "sharpdx_direct2d1_gradientstopcollection_gradientstopcount.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.LinearGradientBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_lineargradientbrush",
+      "file": "sharpdx_direct2d1_lineargradientbrush.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.LinearGradientBrush.EndPoint",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_lineargradientbrush_endpoint",
+      "file": "sharpdx_direct2d1_lineargradientbrush_endpoint.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.LinearGradientBrush.GradientStopCollection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_lineargradientbrush_gradientstopcollection",
+      "file": "sharpdx_direct2d1_lineargradientbrush_gradientstopcollection.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.LinearGradientBrush.StartPoint",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_lineargradientbrush_startpoint",
+      "file": "sharpdx_direct2d1_lineargradientbrush_startpoint.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.LinearGradientBrushProperties",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_lineargradientbrushproperties",
+      "file": "sharpdx_direct2d1_lineargradientbrushproperties.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.MeasuringMode",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_measuringmode",
+      "file": "sharpdx_direct2d1_measuringmode.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.PathGeometry",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_pathgeometry",
+      "file": "sharpdx_direct2d1_pathgeometry.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.PathGeometry.FigureCount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_pathgeometry_figurecount",
+      "file": "sharpdx_direct2d1_pathgeometry_figurecount.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.PathGeometry.FillContainsPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_pathgeometry_fillcontainspoint",
+      "file": "sharpdx_direct2d1_pathgeometry_fillcontainspoint.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.PathGeometry.GetBounds()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_pathgeometry_getbounds",
+      "file": "sharpdx_direct2d1_pathgeometry_getbounds.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.PathGeometry.Open()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_pathgeometry_open",
+      "file": "sharpdx_direct2d1_pathgeometry_open.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.PathGeometry.SegmentCount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_pathgeometry_segmentcount",
+      "file": "sharpdx_direct2d1_pathgeometry_segmentcount.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.PathGeometry.StrokeContainsPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_pathgeometry_strokecontainspoint",
+      "file": "sharpdx_direct2d1_pathgeometry_strokecontainspoint.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RadialGradientBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_radialgradientbrush",
+      "file": "sharpdx_direct2d1_radialgradientbrush.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget",
+      "file": "sharpdx_direct2d1_rendertarget.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.AntialiasMode",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_antialiasmode",
+      "file": "sharpdx_direct2d1_rendertarget_antialiasmode.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.DrawEllipse()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_drawellipse",
+      "file": "sharpdx_direct2d1_rendertarget_drawellipse.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.DrawGeometry()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_drawgeometry",
+      "file": "sharpdx_direct2d1_rendertarget_drawgeometry.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.DrawLine()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_drawline",
+      "file": "sharpdx_direct2d1_rendertarget_drawline.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.DrawRectangle()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_drawrectangle",
+      "file": "sharpdx_direct2d1_rendertarget_drawrectangle.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.DrawText()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_drawtext",
+      "file": "sharpdx_direct2d1_rendertarget_drawtext.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.DrawTextLayout()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_drawtextlayout",
+      "file": "sharpdx_direct2d1_rendertarget_drawtextlayout.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.FillEllipse()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_fillellipse",
+      "file": "sharpdx_direct2d1_rendertarget_fillellipse.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.FillGeometry()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_fillgeometry",
+      "file": "sharpdx_direct2d1_rendertarget_fillgeometry.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.FillRectangle()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_fillrectangle",
+      "file": "sharpdx_direct2d1_rendertarget_fillrectangle.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.RenderTarget.Transform",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_rendertarget_transform",
+      "file": "sharpdx_direct2d1_rendertarget_transform.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.SolidColorBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_solidcolorbrush",
+      "file": "sharpdx_direct2d1_solidcolorbrush.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.SolidColorBrush.Color",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_solidcolorbrush_color",
+      "file": "sharpdx_direct2d1_solidcolorbrush_color.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle",
+      "file": "sharpdx_direct2d1_strokestyle.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.DashCap",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_dashcap",
+      "file": "sharpdx_direct2d1_strokestyle_dashcap.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.DashesCount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_dashescount",
+      "file": "sharpdx_direct2d1_strokestyle_dashescount.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.DashOffset",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_dashoffset",
+      "file": "sharpdx_direct2d1_strokestyle_dashoffset.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.DashStyle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_dashstyle",
+      "file": "sharpdx_direct2d1_strokestyle_dashstyle.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.EndCap",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_endcap",
+      "file": "sharpdx_direct2d1_strokestyle_endcap.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.GetDashes()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_getdashes",
+      "file": "sharpdx_direct2d1_strokestyle_getdashes.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.LineJoin",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_linejoin",
+      "file": "sharpdx_direct2d1_strokestyle_linejoin.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.MiterLimit",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_miterlimit",
+      "file": "sharpdx_direct2d1_strokestyle_miterlimit.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyle.StartCap",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyle_startcap",
+      "file": "sharpdx_direct2d1_strokestyle_startcap.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.StrokeStyleProperties",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_strokestyleproperties",
+      "file": "sharpdx_direct2d1_strokestyleproperties.md"
+    },
+    {
+      "title": "SharpDX.Direct2D1.SweepDirection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_direct2d1_sweepdirection",
+      "file": "sharpdx_direct2d1_sweepdirection.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite",
+      "file": "sharpdx_directwrite.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextLayout.LineMetrics",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_linemetrics",
+      "file": "sharpdx_directwrite_linemetrics.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat",
+      "file": "sharpdx_directwrite_textformat.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.FlowDirection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_flowdirection",
+      "file": "sharpdx_directwrite_textformat_flowdirection.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.FontFamilyName",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_fontfamilyname",
+      "file": "sharpdx_directwrite_textformat_fontfamilyname.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.FontSize",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_fontsize",
+      "file": "sharpdx_directwrite_textformat_fontsize.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.FontStretch",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_fontstretch",
+      "file": "sharpdx_directwrite_textformat_fontstretch.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.FontStyle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_fontstyle",
+      "file": "sharpdx_directwrite_textformat_fontstyle.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.FontWeight",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_fontweight",
+      "file": "sharpdx_directwrite_textformat_fontweight.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.ParagraphAlignment",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_paragraphalignment",
+      "file": "sharpdx_directwrite_textformat_paragraphalignment.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.ReadingDirection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_readingdirection",
+      "file": "sharpdx_directwrite_textformat_readingdirection.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.TextAlignment",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_textalignment",
+      "file": "sharpdx_directwrite_textformat_textalignment.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextFormat.WordWrapping",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textformat_wordwrapping",
+      "file": "sharpdx_directwrite_textformat_wordwrapping.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextLayout",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textlayout",
+      "file": "sharpdx_directwrite_textlayout.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextLayout.GetLineMetrics()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textlayout_getlinemetrics",
+      "file": "sharpdx_directwrite_textlayout_getlinemetrics.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextLayout.MaxHeight",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textlayout_maxheight",
+      "file": "sharpdx_directwrite_textlayout_maxheight.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextLayout.MaxWidth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textlayout_maxwidth",
+      "file": "sharpdx_directwrite_textlayout_maxwidth.md"
+    },
+    {
+      "title": "SharpDX.DirectWrite.TextLayout.Metrics",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_directwrite_textlayout_metrics",
+      "file": "sharpdx_directwrite_textlayout_metrics.md"
+    },
+    {
+      "title": "SharpDX.DisposeBase",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_disposebase",
+      "file": "sharpdx_disposebase.md"
+    },
+    {
+      "title": "SharpDX.DisposeBase.Dispose()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_disposebase_dispose",
+      "file": "sharpdx_disposebase_dispose.md"
+    },
+    {
+      "title": "SharpDX.DisposeBase.IsDisposed",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_disposebase_isdisposed",
+      "file": "sharpdx_disposebase_isdisposed.md"
+    },
+    {
+      "title": "SharpDX.Matrix3x2",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_matrix3x2",
+      "file": "sharpdx_matrix3x2.md"
+    },
+    {
+      "title": "SharpDX.RectangleF",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_rectanglef",
+      "file": "sharpdx_rectanglef.md"
+    },
+    {
+      "title": "Sharpdx.Size2F",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_size2f",
+      "file": "sharpdx_size2f.md"
+    },
+    {
+      "title": "SharpDX.Vector2",
+      "url": "https://developer.ninjatrader.com/docs/desktop/sharpdx_vector2",
+      "file": "sharpdx_vector2.md"
+    },
+    {
+      "title": "ShortTrades",
+      "url": "https://developer.ninjatrader.com/docs/desktop/shorttrades",
+      "file": "shorttrades.md"
+    },
+    {
+      "title": "ShowTransparentPlotsInDataBox",
+      "url": "https://developer.ninjatrader.com/docs/desktop/showtransparentplotsindatabox",
+      "file": "showtransparentplotsindatabox.md"
+    },
+    {
+      "title": "Signature",
+      "url": "https://developer.ninjatrader.com/docs/desktop/signature",
+      "file": "signature.md"
+    },
+    {
+      "title": "SimpleFont",
+      "url": "https://developer.ninjatrader.com/docs/desktop/simplefont",
+      "file": "simplefont.md"
+    },
+    {
+      "title": "SimulationAccountReset",
+      "url": "https://developer.ninjatrader.com/docs/desktop/simulationaccountreset",
+      "file": "simulationaccountreset.md"
+    },
+    {
+      "title": "Slippage",
+      "url": "https://developer.ninjatrader.com/docs/desktop/slippage",
+      "file": "slippage.md"
+    },
+    {
+      "title": "Slope()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/slope",
+      "file": "slope.md"
+    },
+    {
+      "title": "SlotsPainted",
+      "url": "https://developer.ninjatrader.com/docs/desktop/slotspainted",
+      "file": "slotspainted.md"
+    },
+    {
+      "title": "Splits",
+      "url": "https://developer.ninjatrader.com/docs/desktop/splits",
+      "file": "splits.md"
+    },
+    {
+      "title": "Square",
+      "url": "https://developer.ninjatrader.com/docs/desktop/square",
+      "file": "square.md"
+    },
+    {
+      "title": "Standard Deviation (StdDev)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/standard_deviation_stddev",
+      "file": "standard_deviation_stddev.md"
+    },
+    {
+      "title": "Standard Error (StdError)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/standard_error_stderror",
+      "file": "standard_error_stderror.md"
+    },
+    {
+      "title": "StartAtmStrategy()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/startatmstrategy",
+      "file": "startatmstrategy.md"
+    },
+    {
+      "title": "StartBehavior",
+      "url": "https://developer.ninjatrader.com/docs/desktop/startbehavior",
+      "file": "startbehavior.md"
+    },
+    {
+      "title": "State",
+      "url": "https://developer.ninjatrader.com/docs/desktop/state",
+      "file": "state.md"
+    },
+    {
+      "title": "Status",
+      "url": "https://developer.ninjatrader.com/docs/desktop/status",
+      "file": "status.md"
+    },
+    {
+      "title": "Stochastics",
+      "url": "https://developer.ninjatrader.com/docs/desktop/stochastics",
+      "file": "stochastics.md"
+    },
+    {
+      "title": "Stochastics Fast",
+      "url": "https://developer.ninjatrader.com/docs/desktop/stochastics_fast",
+      "file": "stochastics_fast.md"
+    },
+    {
+      "title": "Stochastics RSI (StochRSI)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/stochastics_rsi_stochrsi",
+      "file": "stochastics_rsi_stochrsi.md"
+    },
+    {
+      "title": "Stopping a strategy after consecutive losers",
+      "url": "https://developer.ninjatrader.com/docs/desktop/stopping_a_strategy_after_consecutive_losers",
+      "file": "stopping_a_strategy_after_consecutive_losers.md"
+    },
+    {
+      "title": "StopTargetHandling",
+      "url": "https://developer.ninjatrader.com/docs/desktop/stoptargethandling",
+      "file": "stoptargethandling.md"
+    },
+    {
+      "title": "Strategies",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategies",
+      "file": "strategies.md"
+    },
+    {
+      "title": "Strategy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategy",
+      "file": "strategy.md"
+    },
+    {
+      "title": "Strategy",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategy_overview",
+      "file": "strategy_overview.md"
+    },
+    {
+      "title": "PerformanceMetrics",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategy_performancemetrics",
+      "file": "strategy_performancemetrics.md"
+    },
+    {
+      "title": "Plots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategy_plots",
+      "file": "strategy_plots.md"
+    },
+    {
+      "title": "Strategy Position vs. Account Position",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategy_position_vs_account_position",
+      "file": "strategy_position_vs_account_position.md"
+    },
+    {
+      "title": "StrategyBase",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategybase",
+      "file": "strategybase.md"
+    },
+    {
+      "title": "StrategyBaseConverter Class",
+      "url": "https://developer.ninjatrader.com/docs/desktop/strategybaseconverter",
+      "file": "strategybaseconverter.md"
+    },
+    {
+      "title": "Stroke Class",
+      "url": "https://developer.ninjatrader.com/docs/desktop/stroke_class",
+      "file": "stroke_class.md"
+    },
+    {
+      "title": "Submit()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/submit",
+      "file": "submit.md"
+    },
+    {
+      "title": "SubmitOrderUnmanaged()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/submitorderunmanaged",
+      "file": "submitorderunmanaged.md"
+    },
+    {
+      "title": "Summation (SUM)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/summation_sum",
+      "file": "summation_sum.md"
+    },
+    {
+      "title": "SuperDOM Column",
+      "url": "https://developer.ninjatrader.com/docs/desktop/superdom_column",
+      "file": "superdom_column.md"
+    },
+    {
+      "title": "MarketDepth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/superdom_marketdepth",
+      "file": "superdom_marketdepth.md"
+    },
+    {
+      "title": "OnMarketData()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/superdomcolumn_onmarketdata",
+      "file": "superdomcolumn_onmarketdata.md"
+    },
+    {
+      "title": "OnOrderUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/superdomcolumn_onorderupdate",
+      "file": "superdomcolumn_onorderupdate.md"
+    },
+    {
+      "title": "OnPositionUpdate()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/superdomcolumn_onpositionupdate",
+      "file": "superdomcolumn_onpositionupdate.md"
+    },
+    {
+      "title": "OnRender()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/superdomcolumn_onrender",
+      "file": "superdomcolumn_onrender.md"
+    },
+    {
+      "title": "SupportsAlerts",
+      "url": "https://developer.ninjatrader.com/docs/desktop/supportsalerts",
+      "file": "supportsalerts.md"
+    },
+    {
+      "title": "SupportsMultiObjectiveOptimization",
+      "url": "https://developer.ninjatrader.com/docs/desktop/supportsmultiobjectiveoptimization",
+      "file": "supportsmultiobjectiveoptimization.md"
+    },
+    {
+      "title": "Swing",
+      "url": "https://developer.ninjatrader.com/docs/desktop/swing",
+      "file": "swing.md"
+    },
+    {
+      "title": "System Indicator Methods",
+      "url": "https://developer.ninjatrader.com/docs/desktop/system_indicator_methods",
+      "file": "system_indicator_methods.md"
+    },
+    {
+      "title": "SystemPerformance",
+      "url": "https://developer.ninjatrader.com/docs/desktop/systemperformance",
+      "file": "systemperformance.md"
+    },
+    {
+      "title": "TabControl",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tabcontrol",
+      "file": "tabcontrol.md"
+    },
+    {
+      "title": "TabControlManager",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tabcontrolmanager",
+      "file": "tabcontrolmanager.md"
+    },
+    {
+      "title": "TestPeriod",
+      "url": "https://developer.ninjatrader.com/docs/desktop/testperiod",
+      "file": "testperiod.md"
+    },
+    {
+      "title": "Text",
+      "url": "https://developer.ninjatrader.com/docs/desktop/text",
+      "file": "text.md"
+    },
+    {
+      "title": "TextFixed",
+      "url": "https://developer.ninjatrader.com/docs/desktop/textfixed",
+      "file": "textfixed.md"
+    },
+    {
+      "title": "The Strategy Development Process",
+      "url": "https://developer.ninjatrader.com/docs/desktop/the_strategy_development_process",
+      "file": "the_strategy_development_process.md"
+    },
+    {
+      "title": "TickCount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tickcount",
+      "file": "tickcount.md"
+    },
+    {
+      "title": "TickSize",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ticksize",
+      "file": "ticksize.md"
+    },
+    {
+      "title": "TifSelector",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tifselector",
+      "file": "tifselector.md"
+    },
+    {
+      "title": "Time",
+      "url": "https://developer.ninjatrader.com/docs/desktop/time",
+      "file": "time.md"
+    },
+    {
+      "title": "Time Series Forecast (TSF)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/time_series_forecast_tsf",
+      "file": "time_series_forecast_tsf.md"
+    },
+    {
+      "title": "TimeCycles",
+      "url": "https://developer.ninjatrader.com/docs/desktop/timecycles",
+      "file": "timecycles.md"
+    },
+    {
+      "title": "TimeInForce",
+      "url": "https://developer.ninjatrader.com/docs/desktop/timeinforce",
+      "file": "timeinforce.md"
+    },
+    {
+      "title": "TimePainted",
+      "url": "https://developer.ninjatrader.com/docs/desktop/timepainted",
+      "file": "timepainted.md"
+    },
+    {
+      "title": "Times",
+      "url": "https://developer.ninjatrader.com/docs/desktop/times",
+      "file": "times.md"
+    },
+    {
+      "title": "TimeSeries<datetime>",
+      "url": "https://developer.ninjatrader.com/docs/desktop/timeseries",
+      "file": "timeseries.md"
+    },
+    {
+      "title": "TimeZoneInfo",
+      "url": "https://developer.ninjatrader.com/docs/desktop/timezoneinfo",
+      "file": "timezoneinfo.md"
+    },
+    {
+      "title": "Tips",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tips",
+      "file": "tips.md"
+    },
+    {
+      "title": "ToChartString()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tochartstring",
+      "file": "tochartstring.md"
+    },
+    {
+      "title": "ToDay()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/today",
+      "file": "today.md"
+    },
+    {
+      "title": "ToDirectWriteTextFormat()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/todirectwritetextformat",
+      "file": "todirectwritetextformat.md"
+    },
+    {
+      "title": "ToDxBrush()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/todxbrush",
+      "file": "todxbrush.md"
+    },
+    {
+      "title": "ToIndex",
+      "url": "https://developer.ninjatrader.com/docs/desktop/toindex",
+      "file": "toindex.md"
+    },
+    {
+      "title": "ToTime()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/totime",
+      "file": "totime.md"
+    },
+    {
+      "title": "ToVector2()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tovector2",
+      "file": "tovector2.md"
+    },
+    {
+      "title": "TraceOrders",
+      "url": "https://developer.ninjatrader.com/docs/desktop/traceorders",
+      "file": "traceorders.md"
+    },
+    {
+      "title": "TraceOrders",
+      "url": "https://developer.ninjatrader.com/docs/desktop/traceorders2",
+      "file": "traceorders2.md"
+    },
+    {
+      "title": "Trade",
+      "url": "https://developer.ninjatrader.com/docs/desktop/trade",
+      "file": "trade.md"
+    },
+    {
+      "title": "TradeCollection",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradecollection",
+      "file": "tradecollection.md"
+    },
+    {
+      "title": "TradesCount",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradescount",
+      "file": "tradescount.md"
+    },
+    {
+      "title": "TradesPerformance",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradesperformance",
+      "file": "tradesperformance.md"
+    },
+    {
+      "title": "TradesPerformanceValues",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradesperformancevalues",
+      "file": "tradesperformancevalues.md"
+    },
+    {
+      "title": "Trading crossovers",
+      "url": "https://developer.ninjatrader.com/docs/desktop/trading_crossovers",
+      "file": "trading_crossovers.md"
+    },
+    {
+      "title": "Trading Hours",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradinghours",
+      "file": "tradinghours.md"
+    },
+    {
+      "title": "Name",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradinghours_name",
+      "file": "tradinghours_name.md"
+    },
+    {
+      "title": "Sessions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradinghours_sessions",
+      "file": "tradinghours_sessions.md"
+    },
+    {
+      "title": "Get()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/tradinghoursget",
+      "file": "tradinghoursget.md"
+    },
+    {
+      "title": "TransformBrush()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/transformbrush",
+      "file": "transformbrush.md"
+    },
+    {
+      "title": "Trend Lines",
+      "url": "https://developer.ninjatrader.com/docs/desktop/trend-lines",
+      "file": "trend-lines.md"
+    },
+    {
+      "title": "TrendChannel",
+      "url": "https://developer.ninjatrader.com/docs/desktop/trendchannel",
+      "file": "trendchannel.md"
+    },
+    {
+      "title": "Triangle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/triangle",
+      "file": "triangle.md"
+    },
+    {
+      "title": "TriangleDown",
+      "url": "https://developer.ninjatrader.com/docs/desktop/triangledown",
+      "file": "triangledown.md"
+    },
+    {
+      "title": "TriangleUp",
+      "url": "https://developer.ninjatrader.com/docs/desktop/triangleup",
+      "file": "triangleup.md"
+    },
+    {
+      "title": "TriggerCustomEvent()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/triggercustomevent",
+      "file": "triggercustomevent.md"
+    },
+    {
+      "title": "True Strength Index (TSI)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/true_strength_index_tsi",
+      "file": "true_strength_index_tsi.md"
+    },
+    {
+      "title": "TypeConverterAttribute()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/typeconverterattribute",
+      "file": "typeconverterattribute.md"
+    },
+    {
+      "title": "Typical",
+      "url": "https://developer.ninjatrader.com/docs/desktop/typical",
+      "file": "typical.md"
+    },
+    {
+      "title": "Typicals",
+      "url": "https://developer.ninjatrader.com/docs/desktop/typicals",
+      "file": "typicals.md"
+    },
+    {
+      "title": "Ultimate Oscillator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/ultimate_oscillator",
+      "file": "ultimate_oscillator.md"
+    },
+    {
+      "title": "NinjaScript Lifecycle",
+      "url": "https://developer.ninjatrader.com/docs/desktop/understanding_the_lifecycle_of",
+      "file": "understanding_the_lifecycle_of.md"
+    },
+    {
+      "title": "Unmanaged Approach",
+      "url": "https://developer.ninjatrader.com/docs/desktop/unmanaged_approach",
+      "file": "unmanaged_approach.md"
+    },
+    {
+      "title": "CancelOrder()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/unmanaged_cancelorder",
+      "file": "unmanaged_cancelorder.md"
+    },
+    {
+      "title": "ChangeOrderUnmanaged()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/unmanaged_changeorder",
+      "file": "unmanaged_changeorder.md"
+    },
+    {
+      "title": "UpBrush",
+      "url": "https://developer.ninjatrader.com/docs/desktop/upbrush",
+      "file": "upbrush.md"
+    },
+    {
+      "title": "UpBrushDX",
+      "url": "https://developer.ninjatrader.com/docs/desktop/upbrushdx",
+      "file": "upbrushdx.md"
+    },
+    {
+      "title": "Update()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/update",
+      "file": "update.md"
+    },
+    {
+      "title": "UpdateBar()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/updatebar",
+      "file": "updatebar.md"
+    },
+    {
+      "title": "UpdateFromPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/updatefrompoint",
+      "file": "updatefrompoint.md"
+    },
+    {
+      "title": "UpdateXFromPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/updatexfrompoint",
+      "file": "updatexfrompoint.md"
+    },
+    {
+      "title": "UpdateYFromPoint()",
+      "url": "https://developer.ninjatrader.com/docs/desktop/updateyfrompoint",
+      "file": "updateyfrompoint.md"
+    },
+    {
+      "title": "Url",
+      "url": "https://developer.ninjatrader.com/docs/desktop/url",
+      "file": "url.md"
+    },
+    {
+      "title": "UseOAuth",
+      "url": "https://developer.ninjatrader.com/docs/desktop/useoauth",
+      "file": "useoauth.md"
+    },
+    {
+      "title": "User-Based Vendor Licensing",
+      "url": "https://developer.ninjatrader.com/docs/desktop/user_based_licensing",
+      "file": "user_based_licensing.md"
+    },
+    {
+      "title": "User Definable Color Inputs",
+      "url": "https://developer.ninjatrader.com/docs/desktop/user_definable_color_inputs",
+      "file": "user_definable_color_inputs.md"
+    },
+    {
+      "title": "Using",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using",
+      "file": "using.md"
+    },
+    {
+      "title": "Using",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using2",
+      "file": "using2.md"
+    },
+    {
+      "title": "Using",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using3",
+      "file": "using3.md"
+    },
+    {
+      "title": "Using",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using4",
+      "file": "using4.md"
+    },
+    {
+      "title": "Using",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using5",
+      "file": "using5.md"
+    },
+    {
+      "title": "Using",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using6",
+      "file": "using6.md"
+    },
+    {
+      "title": "Using 3rd Party Indicators",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_3rd_party_indicators",
+      "file": "using_3rd_party_indicators.md"
+    },
+    {
+      "title": "Using a secondary series as an input series for an indicator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_a_secondary_series_as_an_input_series_for_an_indicator",
+      "file": "using_a_secondary_series_as_an_input_series_for_an_indicator.md"
+    },
+    {
+      "title": "Using a Series or DataSeries object to store calculations",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_a_series_or_dataseries_object_to_store_calculations",
+      "file": "using_a_series_or_dataseries_object_to_store_calculations.md"
+    },
+    {
+      "title": "Using a time filter to limit trading hours",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_a_time_filter_to_limit_trading_hours",
+      "file": "using_a_time_filter_to_limit_trading_hours.md"
+    },
+    {
+      "title": "Using a TypeConverter to Customize Property Grid Behavior",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_a_typeconverter_to_customize_property_grid_behavior",
+      "file": "using_a_typeconverter_to_customize_property_grid_behavior.md"
+    },
+    {
+      "title": "Using ATM Strategies",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_atm_strategies",
+      "file": "using_atm_strategies.md"
+    },
+    {
+      "title": "Using BitmapImage objects with Buttons",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_bitmapimage_objects_with_buttons",
+      "file": "using_bitmapimage_objects_with_buttons.md"
+    },
+    {
+      "title": "Using [] brackets",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_brackets",
+      "file": "using_brackets.md"
+    },
+    {
+      "title": "Using CancelOrder() method to cancel orders",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_cancelorder_method_to_ca",
+      "file": "using_cancelorder_method_to_ca.md"
+    },
+    {
+      "title": "Using custom events to output the current Level II data book",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_custom_events_to_output_the_current_level_ii_data_book",
+      "file": "using_custom_events_to_output_the_current_level_ii_data_book.md"
+    },
+    {
+      "title": "Using Historical Bid/Ask Series",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_historical_bid_ask_serie",
+      "file": "using_historical_bid_ask_serie.md"
+    },
+    {
+      "title": "Using Images and Geometry with Custom Icons",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_images_and_geometry_with_custom_icons",
+      "file": "using_images_and_geometry_with_custom_icons.md"
+    },
+    {
+      "title": "Using IsRising and IsFalling conditions in the Strategy Builder",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_isrising_and_isfalling_conditions_in_the_strategy_builder",
+      "file": "using_isrising_and_isfalling_conditions_in_the_strategy_builder.md"
+    },
+    {
+      "title": "Using multiple entry-exit signals simultaneously",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_multiple_entry_exit_signals_simultaneously",
+      "file": "using_multiple_entry_exit_signals_simultaneously.md"
+    },
+    {
+      "title": "Using OnOrderUpdate() and OnExecution() methods to submit protective orders",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_onorderupdate_and_onexec",
+      "file": "using_onorderupdate_and_onexec.md"
+    },
+    {
+      "title": "Using SharpDX for Custom Chart Rendering",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_sharpdx_for_custom_chart_rendering",
+      "file": "using_sharpdx_for_custom_chart_rendering.md"
+    },
+    {
+      "title": "Using StreamReader to read from a text file",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_streamreader_to_read_from_a_text_file",
+      "file": "using_streamreader_to_read_from_a_text_file.md"
+    },
+    {
+      "title": "Using StreamWriter to write to a text file",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_streamwriter_to_write_to_a_text_file",
+      "file": "using_streamwriter_to_write_to_a_text_file.md"
+    },
+    {
+      "title": "Using System.IO File properties to write to and read from a text file",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_system_io_file_properties_to_write_to_and_read_from_a_text_file",
+      "file": "using_system_io_file_properties_to_write_to_and_read_from_a_text_file.md"
+    },
+    {
+      "title": "Using trade performance statistics for money management",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_trade_performance_statistics_for_money_management",
+      "file": "using_trade_performance_statistics_for_money_management.md"
+    },
+    {
+      "title": "Using Try-Catch Blocks",
+      "url": "https://developer.ninjatrader.com/docs/desktop/using_try_catch_blocks",
+      "file": "using_try_catch_blocks.md"
+    },
+    {
+      "title": "Value",
+      "url": "https://developer.ninjatrader.com/docs/desktop/value",
+      "file": "value.md"
+    },
+    {
+      "title": "Values",
+      "url": "https://developer.ninjatrader.com/docs/desktop/values",
+      "file": "values.md"
+    },
+    {
+      "title": "VerticalLine",
+      "url": "https://developer.ninjatrader.com/docs/desktop/verticalline",
+      "file": "verticalline.md"
+    },
+    {
+      "title": "Visual Studio Debugging",
+      "url": "https://developer.ninjatrader.com/docs/desktop/visual_studio_debugging",
+      "file": "visual_studio_debugging.md"
+    },
+    {
+      "title": "Volume (VOL)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/volume",
+      "file": "volume.md"
+    },
+    {
+      "title": "Volume Moving Average (VOLMA)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/volume_moving_average_volma",
+      "file": "volume_moving_average_volma.md"
+    },
+    {
+      "title": "Volume Oscillator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/volume_oscillator",
+      "file": "volume_oscillator.md"
+    },
+    {
+      "title": "Volume Rate of Change (VROC)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/volume_rate_of_change_vroc",
+      "file": "volume_rate_of_change_vroc.md"
+    },
+    {
+      "title": "Volume Up Down",
+      "url": "https://developer.ninjatrader.com/docs/desktop/volume_up_down",
+      "file": "volume_up_down.md"
+    },
+    {
+      "title": "Volumes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/volumes",
+      "file": "volumes.md"
+    },
+    {
+      "title": "VolumeSeries<double>",
+      "url": "https://developer.ninjatrader.com/docs/desktop/volumeseries",
+      "file": "volumeseries.md"
+    },
+    {
+      "title": "Vortex",
+      "url": "https://developer.ninjatrader.com/docs/desktop/vortex",
+      "file": "vortex.md"
+    },
+    {
+      "title": "W (Width)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/w_width_chartpanel",
+      "file": "w_width_chartpanel.md"
+    },
+    {
+      "title": "WaitForOcoClosingBracket",
+      "url": "https://developer.ninjatrader.com/docs/desktop/waitforococlosingbracket",
+      "file": "waitforococlosingbracket.md"
+    },
+    {
+      "title": "Weighted",
+      "url": "https://developer.ninjatrader.com/docs/desktop/weighted",
+      "file": "weighted.md"
+    },
+    {
+      "title": "Weighteds",
+      "url": "https://developer.ninjatrader.com/docs/desktop/weighteds",
+      "file": "weighteds.md"
+    },
+    {
+      "title": "Width",
+      "url": "https://developer.ninjatrader.com/docs/desktop/width",
+      "file": "width.md"
+    },
+    {
+      "title": "Williams %R",
+      "url": "https://developer.ninjatrader.com/docs/desktop/williams_r",
+      "file": "williams_r.md"
+    },
+    {
+      "title": "WinningTrades",
+      "url": "https://developer.ninjatrader.com/docs/desktop/winningtrades",
+      "file": "winningtrades.md"
+    },
+    {
+      "title": "Wiseman Alligator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/wiseman_alligator",
+      "file": "wiseman_alligator.md"
+    },
+    {
+      "title": "Wiseman Awesome Oscillator",
+      "url": "https://developer.ninjatrader.com/docs/desktop/wiseman_awesome_oscillator",
+      "file": "wiseman_awesome_oscillator.md"
+    },
+    {
+      "title": "Woodies CCI",
+      "url": "https://developer.ninjatrader.com/docs/desktop/woodies_cci",
+      "file": "woodies_cci.md"
+    },
+    {
+      "title": "Woodies Pivots",
+      "url": "https://developer.ninjatrader.com/docs/desktop/woodies_pivots",
+      "file": "woodies_pivots.md"
+    },
+    {
+      "title": "Working with Brushes",
+      "url": "https://developer.ninjatrader.com/docs/desktop/working_with_brushes",
+      "file": "working_with_brushes.md"
+    },
+    {
+      "title": "Working with Chart Object Coordinates",
+      "url": "https://developer.ninjatrader.com/docs/desktop/working_with_chart_object_coordinates",
+      "file": "working_with_chart_object_coordinates.md"
+    },
+    {
+      "title": "Working with Pixel Coordinates",
+      "url": "https://developer.ninjatrader.com/docs/desktop/working_with_pixel_coordinates",
+      "file": "working_with_pixel_coordinates.md"
+    },
+    {
+      "title": "Working with Price Series",
+      "url": "https://developer.ninjatrader.com/docs/desktop/working_with_price_series",
+      "file": "working_with_price_series.md"
+    },
+    {
+      "title": "WorkspaceOptions",
+      "url": "https://developer.ninjatrader.com/docs/desktop/workspaceoptions",
+      "file": "workspaceoptions.md"
+    },
+    {
+      "title": "X (Coordinate)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/x_coordinate_chartpanel",
+      "file": "x_coordinate_chartpanel.md"
+    },
+    {
+      "title": "XmlIgnoreAttribute",
+      "url": "https://developer.ninjatrader.com/docs/desktop/xmlignoreattribute",
+      "file": "xmlignoreattribute.md"
+    },
+    {
+      "title": "Y (Coordinate)",
+      "url": "https://developer.ninjatrader.com/docs/desktop/y_coordinate_chartpanel",
+      "file": "y_coordinate_chartpanel.md"
+    },
+    {
+      "title": "ZigZag",
+      "url": "https://developer.ninjatrader.com/docs/desktop/zigzag",
+      "file": "zigzag.md"
+    },
+    {
+      "title": "ZOrderType",
+      "url": "https://developer.ninjatrader.com/docs/desktop/zordertype",
+      "file": "zordertype.md"
+    }
+  ]
+}

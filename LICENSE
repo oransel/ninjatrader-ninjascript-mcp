@@ -1,0 +1,22 @@
+GNU LESSER GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (c) 2026 Mustafa Oransel
+
+This library is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation; either version 3 of the License, or (at your option) any
+later version.
+
+This library is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with this library; if not, see <https://www.gnu.org/licenses/>.
+
+---
+
+Note: The documentation content in this repository is sourced from NinjaTrader's
+official developer documentation (https://developer.ninjatrader.com). Please
+refer to NinjaTrader's terms of use regarding the use of their documentation.
