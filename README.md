@@ -83,8 +83,9 @@ Point your AI assistant to this directory. The `index.json` file contains a mach
 ## File Structure
 
 All documentation files in `docs/` use a flat structure with filenames derived from the original URL:
-- `enterlong.md` ← from `.../docs/desktop/enterlong`
-- `moving_average_simple_sma.md` ← from `.../docs/desktop/moving_average_simple_sma`
+- `enterlong.md` ← from `https://developer.ninjatrader.com/docs/desktop/enterlong`
+- `moving_average_simple_sma.md` ← from `https://developer.ninjatrader.com/docs/desktop/moving_average_simple_sma`
+- `onstatechange.md` ← from `https://developer.ninjatrader.com/docs/desktop/onstatechange`
 
 ## Contributing
 

@@ -72,11 +72,4 @@ When writing or reviewing NinjaScript code:
 4. Check exit methods: `docs/exitlong.md`, `docs/exitshort.md`
 5. Review risk management: `docs/setstoploss.md`, `docs/setprofittarget.md`
 
-## File Naming Convention
-
-Files are named after their URL path (flattened):
-- `https://developer.ninjatrader.com/docs/desktop/enterlong` → `docs/enterlong.md`
-
-All documentation files are in a flat structure within `docs/`.
-
 _Generated on 2026-04-28_

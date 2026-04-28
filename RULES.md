@@ -57,8 +57,3 @@ tools, read the appropriate file(s) from this directory before answering.
 ### Drawing & Charts
 - `docs/drawing.md` - Drawing tools overview
 - `docs/draw_objects.md` - Draw method reference
-
-## File Naming
-
-All docs are flat in `docs/` — named after URL path:
-- `.../docs/desktop/enterlong` → `docs/enterlong.md`
