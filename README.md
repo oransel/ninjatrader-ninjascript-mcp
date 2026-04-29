@@ -55,10 +55,23 @@ consult the relevant .md files for accurate API signatures and examples.
 
 #### OpenCode
 
-Copy `RULES.md` to your `.opencode/` folder:
+Add the knowledge base path to your `AGENTS.md` file:
 
-```bash
-cp RULES.md /path/to/your/project/.opencode/rules.md
+```markdown
+## NinjaTrader Documentation
+When working with NinjaScript, reference the documentation in ./path/to/ninjatrader-kb/.
+- `docs/` - API reference
+- `best-practices/index.md` - Coding standards
+- `education/index.md` - Tutorials
+```
+
+Or use the `instructions` field in your `opencode.json`:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["./path/to/ninjatrader-kb/CLAUDE.md"]
+}
 ```
 
 #### Other AI Tools
@@ -117,4 +130,4 @@ Note: The documentation content in this repository is sourced from NinjaTrader's
 
 ---
 
-_Last updated: 2026-04-28_
+_Last updated: 2026-04-29_
