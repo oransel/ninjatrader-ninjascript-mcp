@@ -18,42 +18,659 @@ guides[Introduction](https://developer.ninjatrader.com/docs/desktop/index)
 
 references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [AddDataSeries()](https://developer.ninjatrader.com/docs/desktop/adddataseries)
+[AddHeikenAshi()](https://developer.ninjatrader.com/docs/desktop/addheikenashi)
+
+[AddKagi()](https://developer.ninjatrader.com/docs/desktop/addkagi)
+
+[AddLineBreak()](https://developer.ninjatrader.com/docs/desktop/addlinebreak)
+
+[AddPointAndFigure()](https://developer.ninjatrader.com/docs/desktop/addpointandfigure)
+
+[AddRenko()](https://developer.ninjatrader.com/docs/desktop/addrenko)
+
+[AddVolumetric()](https://developer.ninjatrader.com/docs/desktop/addvolumetric)
+
+[BarsArray](https://developer.ninjatrader.com/docs/desktop/barsarray)
+
+[BarsInProgress](https://developer.ninjatrader.com/docs/desktop/barsinprogress)
+
+[BarsPeriods](https://developer.ninjatrader.com/docs/desktop/barsperiods)
+
+[CurrentBars](https://developer.ninjatrader.com/docs/desktop/currentbars)
+
 
 [Alert, Debug, Share](https://developer.ninjatrader.com/docs/desktop/alert_debug_share)
+[Alert()](https://developer.ninjatrader.com/docs/desktop/alert)
+
+[ClearOutputWindow()](https://developer.ninjatrader.com/docs/desktop/clearoutputwindow)
+
+[Log()](https://developer.ninjatrader.com/docs/desktop/log)
+
+[PlaySound()](https://developer.ninjatrader.com/docs/desktop/playsound)
+
+[Print()](https://developer.ninjatrader.com/docs/desktop/print)
+
+[PrintTo](https://developer.ninjatrader.com/docs/desktop/printto)
+
+[RearmAlert()](https://developer.ninjatrader.com/docs/desktop/rearmalert)
+
+[SendMail()](https://developer.ninjatrader.com/docs/desktop/sendmail)
+
+[Share()](https://developer.ninjatrader.com/docs/desktop/share)
+
 
 [Analytical](https://developer.ninjatrader.com/docs/desktop/analytical)
+[ApproxCompare()](https://developer.ninjatrader.com/docs/desktop/approxcompare)
+
+[CountIf()](https://developer.ninjatrader.com/docs/desktop/countif)
+
+[CrossAbove()](https://developer.ninjatrader.com/docs/desktop/crossabove)
+
+[CrossBelow()](https://developer.ninjatrader.com/docs/desktop/crossbelow)
+
+[GetCurrentAsk()](https://developer.ninjatrader.com/docs/desktop/getcurrentask)
+
+[GetCurrentAskVolume()](https://developer.ninjatrader.com/docs/desktop/getcurrentaskvolume)
+
+[GetCurrentBid()](https://developer.ninjatrader.com/docs/desktop/getcurrentbid)
+
+[GetCurrentBidVolume()](https://developer.ninjatrader.com/docs/desktop/getcurrentbidvolume)
+
+[GetMedian()](https://developer.ninjatrader.com/docs/desktop/getmedian)
+
+[HighestBar()](https://developer.ninjatrader.com/docs/desktop/highestbar)
+
+[IsFalling()](https://developer.ninjatrader.com/docs/desktop/isfalling)
+
+[IsRising()](https://developer.ninjatrader.com/docs/desktop/isrising)
+
+[Least Recent Occurrence (LRO)](https://developer.ninjatrader.com/docs/desktop/least_recent_occurrence_lro)
+
+[LowestBar()](https://developer.ninjatrader.com/docs/desktop/lowestbar)
+
+[Most Recent Occurrence (MRO)](https://developer.ninjatrader.com/docs/desktop/most_recent_occurrence_mro)
+
+[Slope()](https://developer.ninjatrader.com/docs/desktop/slope)
+
+[TickSize](https://developer.ninjatrader.com/docs/desktop/ticksize)
+
+[ToDay()](https://developer.ninjatrader.com/docs/desktop/today)
+
+[ToTime()](https://developer.ninjatrader.com/docs/desktop/totime)
+
 
 [Attributes](https://developer.ninjatrader.com/docs/desktop/attributes)
+[BrowsableAttribute](https://developer.ninjatrader.com/docs/desktop/browsableattribute)
+
+[CategoryOrderAttribute](https://developer.ninjatrader.com/docs/desktop/categoryorderattribute)
+
+[DisplayAttribute](https://developer.ninjatrader.com/docs/desktop/displayattribute)
+
+[NinjaScriptPropertyAttribute](https://developer.ninjatrader.com/docs/desktop/ninjascriptpropertyattribute)
+
+[RangeAttribute](https://developer.ninjatrader.com/docs/desktop/rangeattribute)
+
+[TypeConverterAttribute()](https://developer.ninjatrader.com/docs/desktop/typeconverterattribute)
+
+[XmlIgnoreAttribute](https://developer.ninjatrader.com/docs/desktop/xmlignoreattribute)
+
 
 [Bars](https://developer.ninjatrader.com/docs/desktop/bars)
+[BarsSinceNewTradingDay](https://developer.ninjatrader.com/docs/desktop/barssincenewtradingday)
+
+[GetAsk()](https://developer.ninjatrader.com/docs/desktop/getask)
+
+[GetBar()](https://developer.ninjatrader.com/docs/desktop/getbar)
+
+[GetBid()](https://developer.ninjatrader.com/docs/desktop/getbid)
+
+[GetClose()](https://developer.ninjatrader.com/docs/desktop/getclose)
+
+[GetDayBar()](https://developer.ninjatrader.com/docs/desktop/getdaybar)
+
+[GetHigh()](https://developer.ninjatrader.com/docs/desktop/gethigh)
+
+[GetLow()](https://developer.ninjatrader.com/docs/desktop/getlow)
+
+[GetOpen()](https://developer.ninjatrader.com/docs/desktop/getopen)
+
+[GetSessionEndTime()](https://developer.ninjatrader.com/docs/desktop/getsessionendtime)
+
+[GetTime()](https://developer.ninjatrader.com/docs/desktop/gettime)
+
+[GetVolume()](https://developer.ninjatrader.com/docs/desktop/getvolume)
+
+[IsFirstBarOfSession](https://developer.ninjatrader.com/docs/desktop/isfirstbarofsession)
+
+[IsFirstBarOfSessionByIndex()](https://developer.ninjatrader.com/docs/desktop/isfirstbarofsessionbyindex)
+
+[IsLastBarOfSession](https://developer.ninjatrader.com/docs/desktop/islastbarofsession)
+
+[IsResetOnNewTradingDay](https://developer.ninjatrader.com/docs/desktop/isresetonnewtradingday)
+
+[IsTickReplay](https://developer.ninjatrader.com/docs/desktop/istickreplay)
+
+[PercentComplete](https://developer.ninjatrader.com/docs/desktop/percentcomplete)
+
+[TickCount](https://developer.ninjatrader.com/docs/desktop/tickcount)
+
+[ToChartString()](https://developer.ninjatrader.com/docs/desktop/tochartstring)
+
 
 [Charts](https://developer.ninjatrader.com/docs/desktop/charts)
+[ChartBars](https://developer.ninjatrader.com/docs/desktop/chartbars)
+
+[ChartControl](https://developer.ninjatrader.com/docs/desktop/chartcontrol)
+
+[ChartingExtensions](https://developer.ninjatrader.com/docs/desktop/chartingextensions)
+
+[ChartPanel](https://developer.ninjatrader.com/docs/desktop/chartpanel)
+
+[ChartScale](https://developer.ninjatrader.com/docs/desktop/chartscale)
+
+[FormatPriceMarker()](https://developer.ninjatrader.com/docs/desktop/formatpricemarker)
+
+[IsAutoScale](https://developer.ninjatrader.com/docs/desktop/isautoscale)
+
+[IsOverlay](https://developer.ninjatrader.com/docs/desktop/isoverlay)
+
+[IsSeparateZOrder](https://developer.ninjatrader.com/docs/desktop/isseparatezorder)
+
+[Rendering](https://developer.ninjatrader.com/docs/desktop/rendering)
+
+[ScaleJustification](https://developer.ninjatrader.com/docs/desktop/scalejustification)
+
+[Stroke Class](https://developer.ninjatrader.com/docs/desktop/stroke_class)
+
+[UserControlCollection](https://developer.ninjatrader.com/docs/desktop/usercontrolcollection)
+
 
 [Drawing](https://developer.ninjatrader.com/docs/desktop/drawing)
+[AllowRemovalOfDrawObjects](https://developer.ninjatrader.com/docs/desktop/allowremovalofdrawobjects)
+
+[BackBrush](https://developer.ninjatrader.com/docs/desktop/backbrush)
+
+[BackBrushAll](https://developer.ninjatrader.com/docs/desktop/backbrushall)
+
+[BackBrushes](https://developer.ninjatrader.com/docs/desktop/backbrushes)
+
+[BackBrushesAll](https://developer.ninjatrader.com/docs/desktop/backbrushesall)
+
+[BarBrush](https://developer.ninjatrader.com/docs/desktop/barbrush)
+
+[BarBrushes](https://developer.ninjatrader.com/docs/desktop/barbrushes)
+
+[Brushes](https://developer.ninjatrader.com/docs/desktop/brushes)
+
+[CandleOutlineBrush](https://developer.ninjatrader.com/docs/desktop/candleoutlinebrush)
+
+[CandleOutlineBrushes](https://developer.ninjatrader.com/docs/desktop/candleoutlinebrushes)
+
+[Draw.AndrewsPitchfork()](https://developer.ninjatrader.com/docs/desktop/draw_andrewspitchfork)
+
+[Draw.Arc()](https://developer.ninjatrader.com/docs/desktop/draw_arc)
+
+[Draw.ArrowDown()](https://developer.ninjatrader.com/docs/desktop/draw_arrowdown)
+
+[Draw.ArrowLine()](https://developer.ninjatrader.com/docs/desktop/draw_arrowline)
+
+[Draw.ArrowUp()](https://developer.ninjatrader.com/docs/desktop/draw_arrowup)
+
+[Draw.Diamond()](https://developer.ninjatrader.com/docs/desktop/draw_diamond)
+
+[Draw.Dot()](https://developer.ninjatrader.com/docs/desktop/draw_dot)
+
+[Draw.Ellipse()](https://developer.ninjatrader.com/docs/desktop/draw_ellipse)
+
+[Draw.ExtendedLine()](https://developer.ninjatrader.com/docs/desktop/draw_extendedline)
+
+[Draw.FibonacciCircle()](https://developer.ninjatrader.com/docs/desktop/draw_fibonaccicircle)
+
+[Draw.FibonacciExtensions()](https://developer.ninjatrader.com/docs/desktop/draw_fibonacciextensions)
+
+[Draw.FibonacciRetracements()](https://developer.ninjatrader.com/docs/desktop/draw_fibonacciretracements)
+
+[Draw.FibonacciTimeExtensions()](https://developer.ninjatrader.com/docs/desktop/draw_fibonaccitimeextensions)
+
+[Draw.GannFan()](https://developer.ninjatrader.com/docs/desktop/draw_gannfan)
+
+[Draw.HorizontalLine()](https://developer.ninjatrader.com/docs/desktop/draw_horizontal_line)
+
+[Draw.Line()](https://developer.ninjatrader.com/docs/desktop/draw_line)
+
+[Draw.PathTool()](https://developer.ninjatrader.com/docs/desktop/draw_pathtool)
+
+[Draw.Polygon()](https://developer.ninjatrader.com/docs/desktop/draw_polygon)
+
+[Draw.Ray()](https://developer.ninjatrader.com/docs/desktop/draw_ray)
+
+[Draw.Rectangle()](https://developer.ninjatrader.com/docs/desktop/draw_rectangle)
+
+[Draw.Region()](https://developer.ninjatrader.com/docs/desktop/draw_region)
+
+[Draw.RegionHighlightX()](https://developer.ninjatrader.com/docs/desktop/draw_regionhighlightx)
+
+[Draw.RegionHighlightY()](https://developer.ninjatrader.com/docs/desktop/draw_regionhighlighty)
+
+[Draw.RegressionChannel()](https://developer.ninjatrader.com/docs/desktop/draw_regressionchannel)
+
+[Draw.RiskReward()](https://developer.ninjatrader.com/docs/desktop/draw_riskreward)
+
+[Draw.Ruler()](https://developer.ninjatrader.com/docs/desktop/draw_ruler)
+
+[Draw.Square()](https://developer.ninjatrader.com/docs/desktop/draw_square)
+
+[Draw.Text()](https://developer.ninjatrader.com/docs/desktop/draw_text)
+
+[Draw.TextFixed()](https://developer.ninjatrader.com/docs/desktop/draw_textfixed)
+
+[Draw.TimeCycles()](https://developer.ninjatrader.com/docs/desktop/draw_timecycles)
+
+[Draw.TrendChannel()](https://developer.ninjatrader.com/docs/desktop/draw_trendchannel)
+
+[Draw.Triangle()](https://developer.ninjatrader.com/docs/desktop/draw_triangle)
+
+[Draw.TriangleDown()](https://developer.ninjatrader.com/docs/desktop/draw_triangledown)
+
+[Draw.TriangleUp()](https://developer.ninjatrader.com/docs/desktop/draw_triangleup)
+
+[Draw.VerticalLine()](https://developer.ninjatrader.com/docs/desktop/draw_verticalline)
+
+[DrawObjects](https://developer.ninjatrader.com/docs/desktop/drawobjects)
+
+[IDrawingTool](https://developer.ninjatrader.com/docs/desktop/idrawingtool)
+
+[PriceLevels](https://developer.ninjatrader.com/docs/desktop/pricelevels)
+
+[RemoveDrawObject()](https://developer.ninjatrader.com/docs/desktop/removedrawobject)
+
+[RemoveDrawObjects()](https://developer.ninjatrader.com/docs/desktop/removedrawobjects)
+
 
 [Instrument](https://developer.ninjatrader.com/docs/desktop/instrument)
+[Exchange](https://developer.ninjatrader.com/docs/desktop/exchange)
+
+[Expiry](https://developer.ninjatrader.com/docs/desktop/expiry)
+
+[FullName](https://developer.ninjatrader.com/docs/desktop/fullname)
+
+[GetInstrument()](https://developer.ninjatrader.com/docs/desktop/getinstrument)
+
+[Instruments](https://developer.ninjatrader.com/docs/desktop/instruments)
+
+[MasterInstrument](https://developer.ninjatrader.com/docs/desktop/masterinstrument)
+[Compare()](https://developer.ninjatrader.com/docs/desktop/compare)
+
+[Currency](https://developer.ninjatrader.com/docs/desktop/masterinstrument_currency)
+
+[Description](https://developer.ninjatrader.com/docs/desktop/masterinstrument_description)
+
+[Dividends](https://developer.ninjatrader.com/docs/desktop/dividends)
+
+[Exchanges](https://developer.ninjatrader.com/docs/desktop/exchanges)
+
+[FormatPrice()](https://developer.ninjatrader.com/docs/desktop/formatprice)
+
+[GetNextExpiry()](https://developer.ninjatrader.com/docs/desktop/getnextexpiry)
+
+[InstrumentType](https://developer.ninjatrader.com/docs/desktop/instrumenttype)
+
+[MergePolicy](https://developer.ninjatrader.com/docs/desktop/mergepolicy)
+
+[Name](https://developer.ninjatrader.com/docs/desktop/masterinstrument_name)
+
+[PointValue](https://developer.ninjatrader.com/docs/desktop/pointvalue)
+
+[RolloverCollection](https://developer.ninjatrader.com/docs/desktop/rollovercollection)
+
+[RoundDownToTickSize()](https://developer.ninjatrader.com/docs/desktop/rounddowntoticksize)
+
+[RoundToTickSize()](https://developer.ninjatrader.com/docs/desktop/roundtoticksize)
+
+[Splits](https://developer.ninjatrader.com/docs/desktop/splits)
+
+[TickSize](https://developer.ninjatrader.com/docs/desktop/masterinstrument_ticksize)
+
+[Url](https://developer.ninjatrader.com/docs/desktop/url)
+
 
 [ISeries](https://developer.ninjatrader.com/docs/desktop/iseriest)
+[Count](https://developer.ninjatrader.com/docs/desktop/iseries_count)
+
+[GetValueAt()](https://developer.ninjatrader.com/docs/desktop/getvalueat)
+
+[IsValidDataPoint()](https://developer.ninjatrader.com/docs/desktop/isvaliddatapoint)
+
+[IsValidDataPointAt()](https://developer.ninjatrader.com/docs/desktop/isvaliddatapointat)
+
+[MaximumBarsLookBack](https://developer.ninjatrader.com/docs/desktop/maximumbarslookback)
+
+[Reset()](https://developer.ninjatrader.com/docs/desktop/reset)
+
+[Series<t>](https://developer.ninjatrader.com/docs/desktop/seriest)
+
+[PriceSeries<double>](https://developer.ninjatrader.com/docs/desktop/priceseries)
+
+[TimeSeries<datetime>](https://developer.ninjatrader.com/docs/desktop/timeseries)
+
+[VolumeSeries<double>](https://developer.ninjatrader.com/docs/desktop/volumeseries)
+
 
 [OnBarUpdate()](https://developer.ninjatrader.com/docs/desktop/onbarupdate)
+[BarsPeriod](https://developer.ninjatrader.com/docs/desktop/barsperiod)
+
+[Calculate](https://developer.ninjatrader.com/docs/desktop/calculate)
+
+[Count](https://developer.ninjatrader.com/docs/desktop/count)
+
+[CurrentBar](https://developer.ninjatrader.com/docs/desktop/currentbar)
+
+[IsDataSeriesRequired](https://developer.ninjatrader.com/docs/desktop/isdataseriesrequired)
+
+[IsFirstTickOfBar](https://developer.ninjatrader.com/docs/desktop/isfirsttickofbar)
+
+[IsResetOnNewTradingDays](https://developer.ninjatrader.com/docs/desktop/isresetonnewtradingdays)
+
+[IsTickReplays](https://developer.ninjatrader.com/docs/desktop/istickreplays)
+
+[Update()](https://developer.ninjatrader.com/docs/desktop/update)
+
 
 [OnConnectionStatusUpdate()](https://developer.ninjatrader.com/docs/desktop/onconnectionstatusupdate)
+[ConnectionStatusEventArgs](https://developer.ninjatrader.com/docs/desktop/connectionstatuseventargs)
+
 
 [OnFundamentalData()](https://developer.ninjatrader.com/docs/desktop/onfundamentaldata)
+[FundamentalDataEventArgs](https://developer.ninjatrader.com/docs/desktop/fundamentaldataeventargs)
+
 
 [OnMarketData()](https://developer.ninjatrader.com/docs/desktop/onmarketdata)
+[MarketDataEventArgs](https://developer.ninjatrader.com/docs/desktop/marketdataeventargs)
+
 
 [OnMarketDepth()](https://developer.ninjatrader.com/docs/desktop/onmarketdepth)
+[MarketDepthEventArgs](https://developer.ninjatrader.com/docs/desktop/marketdeptheventargs)
+
 
 [OnStateChange()](https://developer.ninjatrader.com/docs/desktop/onstatechange)
+[SetState()](https://developer.ninjatrader.com/docs/desktop/setstate)
+
+[State](https://developer.ninjatrader.com/docs/desktop/state)
+
 
 [SessionIterator](https://developer.ninjatrader.com/docs/desktop/sessioniterator)
+[ActualSessionBegin](https://developer.ninjatrader.com/docs/desktop/actualsessionbegin)
+
+[ActualSessionEnd](https://developer.ninjatrader.com/docs/desktop/actualsessionend)
+
+[ActualTradingDayEndLocal](https://developer.ninjatrader.com/docs/desktop/actualtradingdayendlocal)
+
+[ActualTradingDayExchange](https://developer.ninjatrader.com/docs/desktop/actualtradingdayexchange)
+
+[CalculateTradingDay()](https://developer.ninjatrader.com/docs/desktop/calculatetradingday)
+
+[GetNextSession()](https://developer.ninjatrader.com/docs/desktop/getnextsession)
+
+[GetTradingDay()](https://developer.ninjatrader.com/docs/desktop/gettradingday)
+
+[GetTradingDayBeginLocal()](https://developer.ninjatrader.com/docs/desktop/gettradingdaybeginlocal)
+
+[GetTradingDayEndLocal()](https://developer.ninjatrader.com/docs/desktop/gettradingdayendlocal)
+
+[IsInSession()](https://developer.ninjatrader.com/docs/desktop/isinsession)
+
+[IsNewSession()](https://developer.ninjatrader.com/docs/desktop/isnewsession)
+
+[IsTradingDayDefined()](https://developer.ninjatrader.com/docs/desktop/istradingdaydefined)
+
 
 [SimpleFont](https://developer.ninjatrader.com/docs/desktop/simplefont)
+[ApplyTo()](https://developer.ninjatrader.com/docs/desktop/applyto)
+
+[ToDirectWriteTextFormat()](https://developer.ninjatrader.com/docs/desktop/todirectwritetextformat)
+
 
 [System Indicator Methods](https://developer.ninjatrader.com/docs/desktop/system_indicator_methods)
+[Accumulation/Distribution (ADL)](https://developer.ninjatrader.com/docs/desktop/accumulation_distribution_adl)
+
+[Adaptive Price Zone (APZ)](https://developer.ninjatrader.com/docs/desktop/adaptive_price_zone_apz)
+
+[Aroon](https://developer.ninjatrader.com/docs/desktop/aroon)
+
+[Aroon Oscillator](https://developer.ninjatrader.com/docs/desktop/aroon_oscillator)
+
+[Average Directional Index (ADX)](https://developer.ninjatrader.com/docs/desktop/average_directional_index_adx)
+
+[Average Directional Movement Rating (ADXR)](https://developer.ninjatrader.com/docs/desktop/average_directional_movement_rating_adxr)
+
+[Average True Range (ATR)](https://developer.ninjatrader.com/docs/desktop/average_true_range_atr)
+
+[Balance of Power (BOP)](https://developer.ninjatrader.com/docs/desktop/balance_of_power_bop)
+
+[Block Volume](https://developer.ninjatrader.com/docs/desktop/block_volume)
+
+[Bollinger Bands](https://developer.ninjatrader.com/docs/desktop/bollinger_bands)
+
+[BuySell Pressure](https://developer.ninjatrader.com/docs/desktop/buysell_pressure)
+
+[BuySell Volume](https://developer.ninjatrader.com/docs/desktop/buysell_volume)
+
+[Camarilla Pivots](https://developer.ninjatrader.com/docs/desktop/camarilla_pivots)
+
+[CandleStickPattern](https://developer.ninjatrader.com/docs/desktop/candlestickpattern)
+
+[Chaikin Money Flow](https://developer.ninjatrader.com/docs/desktop/chaikin_money_flow)
+
+[Chaikin Oscillator](https://developer.ninjatrader.com/docs/desktop/chaikin_oscillator)
+
+[Chaikin Volatility](https://developer.ninjatrader.com/docs/desktop/chaikin_volatility)
+
+[Chande Momentum Oscillator (CMO)](https://developer.ninjatrader.com/docs/desktop/chande_momentum_oscillator_cmo)
+
+[Choppiness Index](https://developer.ninjatrader.com/docs/desktop/choppiness_index)
+
+[Commitment Of Traders (COT)](https://developer.ninjatrader.com/docs/desktop/commitment_of_traders_cot)
+
+[Commodity Channel Index (CCI)](https://developer.ninjatrader.com/docs/desktop/commodity_channel_index_cci)
+
+[Correlation](https://developer.ninjatrader.com/docs/desktop/correlation)
+
+[Current Day OHL](https://developer.ninjatrader.com/docs/desktop/current_day_ohl)
+
+[Darvas](https://developer.ninjatrader.com/docs/desktop/darvas)
+
+[Directional Movement (DM)](https://developer.ninjatrader.com/docs/desktop/directional_movement_dm)
+
+[Directional Movement Index (DMI)](https://developer.ninjatrader.com/docs/desktop/directional_movement_index_dmi)
+
+[Disparity Index](https://developer.ninjatrader.com/docs/desktop/disparity_index)
+
+[Donchian Channel](https://developer.ninjatrader.com/docs/desktop/donchian_channel)
+
+[Double Stochastics](https://developer.ninjatrader.com/docs/desktop/double_stochastics)
+
+[Dynamic Momentum Index (DMIndex)](https://developer.ninjatrader.com/docs/desktop/dynamic_momentum_index_dmindex)
+
+[Ease of Movement](https://developer.ninjatrader.com/docs/desktop/ease_of_movement)
+
+[Fibonacci Pivots](https://developer.ninjatrader.com/docs/desktop/fibonacci_pivots)
+
+[Fisher Transform](https://developer.ninjatrader.com/docs/desktop/fisher_transform)
+
+[Forecast Oscillator (FOSC)](https://developer.ninjatrader.com/docs/desktop/forecast_oscillator_fosc)
+
+[Ichimoku Cloud](https://developer.ninjatrader.com/docs/desktop/ichimoku_cloud)
+
+[Keltner Channel](https://developer.ninjatrader.com/docs/desktop/keltner_channel)
+
+[KeyReversalDown](https://developer.ninjatrader.com/docs/desktop/keyreversaldown)
+
+[KeyReversalUp](https://developer.ninjatrader.com/docs/desktop/keyreversalup)
+
+[Linear Regression](https://developer.ninjatrader.com/docs/desktop/linear_regression)
+
+[Linear Regression Intercept](https://developer.ninjatrader.com/docs/desktop/linear_regression_intercept)
+
+[Linear Regression Slope](https://developer.ninjatrader.com/docs/desktop/linear_regression_slope)
+
+[MA Envelopes](https://developer.ninjatrader.com/docs/desktop/ma_envelopes)
+
+[Maximum (MAX)](https://developer.ninjatrader.com/docs/desktop/maximum_max)
+
+[McClellan Oscillator](https://developer.ninjatrader.com/docs/desktop/mcclellan_oscillator)
+
+[Minimum (MIN)](https://developer.ninjatrader.com/docs/desktop/minimum_min)
+
+[Momentum](https://developer.ninjatrader.com/docs/desktop/momentum)
+
+[Money Flow Index (MFI)](https://developer.ninjatrader.com/docs/desktop/money_flow_index_mfi)
+
+[Money Flow Oscillator](https://developer.ninjatrader.com/docs/desktop/money_flow_oscillator)
+
+[Moving Average - Double Exponential (DEMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_double_exponential_dema)
+
+[Moving Average - Exponential (EMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_exponential_ema)
+
+[Moving Average - Hull (HMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_hull_hma)
+
+[Moving Average - Kaufman's Adaptive (KAMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_kaufmans_adaptive)
+
+[Moving Average - Mesa Adaptive (MAMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_mesa_adaptive)
+
+[Moving Average - Simple (SMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_simple_sma)
+
+[Moving Average - T3 (T3)](https://developer.ninjatrader.com/docs/desktop/moving_average_t3_t3)
+
+[Moving Average - Triangular (TMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_triangular_tma)
+
+[Moving Average - Triple Exponential (TEMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_triple_exponential_tema)
+
+[Moving Average - Triple Exponential (TRIX)](https://developer.ninjatrader.com/docs/desktop/moving_average_triple_exponential_trix)
+
+[Moving Average - Variable (VMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_variable_vma)
+
+[Moving Average - Volume Weighted (VWMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_volume_weighted_vwma)
+
+[Moving Average - Weighted (WMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_weighted_wma)
+
+[Moving Average - Zero Lag Exponential (ZLEMA)](https://developer.ninjatrader.com/docs/desktop/moving_average_zero_lag_exponential_zlema)
+
+[Moving Average Convergence-Divergence (MACD)](https://developer.ninjatrader.com/docs/desktop/moving_average_convergence_divergence_macd)
+
+[Moving Average Ribbon](https://developer.ninjatrader.com/docs/desktop/moving_average_ribbon)
+
+[n Bars Down](https://developer.ninjatrader.com/docs/desktop/n_bars_down)
+
+[n Bars Up](https://developer.ninjatrader.com/docs/desktop/n_bars_up)
+
+[Net Change Display](https://developer.ninjatrader.com/docs/desktop/net_change_display)
+
+[On Balance Volume (OBV)](https://developer.ninjatrader.com/docs/desktop/on_balance_volume_obv)
+
+[Order Flow Cumulative Delta](https://developer.ninjatrader.com/docs/desktop/order_flow_cumulative_delta)
+
+[Order Flow Volume Profile](https://developer.ninjatrader.com/docs/desktop/order_flow_volume_profile)
+
+[Order Flow Volumetric Bars](https://developer.ninjatrader.com/docs/desktop/order_flow_volumetric_bars)
+
+[Order Flow VWAP](https://developer.ninjatrader.com/docs/desktop/order_flow_vwap)
+
+[Parabolic SAR](https://developer.ninjatrader.com/docs/desktop/parabolic_sar)
+
+[Percentage Price Oscillator (PPO)](https://developer.ninjatrader.com/docs/desktop/percentage_price_oscillator_pp)
+
+[Pivots](https://developer.ninjatrader.com/docs/desktop/pivots)
+
+[Polarized Fractal Efficiency (PFE)](https://developer.ninjatrader.com/docs/desktop/polarized_fractal_efficiency_pfe)
+
+[Price Oscillator](https://developer.ninjatrader.com/docs/desktop/price_oscillator)
+
+[Prior Day OHLC](https://developer.ninjatrader.com/docs/desktop/prior_day_ohlc)
+
+[Psychological Line](https://developer.ninjatrader.com/docs/desktop/psychological_line)
+
+[R-squared](https://developer.ninjatrader.com/docs/desktop/r_squared)
+
+[Range](https://developer.ninjatrader.com/docs/desktop/range)
+
+[Range Indicator (RIND)](https://developer.ninjatrader.com/docs/desktop/range_indicator_rind)
+
+[Rate of Change (ROC)](https://developer.ninjatrader.com/docs/desktop/rate_of_change_roc)
+
+[Regression Channel](https://developer.ninjatrader.com/docs/desktop/regression_channel)
+
+[Relative Spread Strength (RSS)](https://developer.ninjatrader.com/docs/desktop/relative_spread_strength_rss)
+
+[Relative Strength Index (RSI)](https://developer.ninjatrader.com/docs/desktop/relative_strength_index_rsi)
+
+[Relative Vigor Index](https://developer.ninjatrader.com/docs/desktop/relative_vigor_index)
+
+[Relative Volatility Index (RVI)](https://developer.ninjatrader.com/docs/desktop/relative_volatility_index_rvi)
+
+[Standard Deviation (StdDev)](https://developer.ninjatrader.com/docs/desktop/standard_deviation_stddev)
+
+[Standard Error (StdError)](https://developer.ninjatrader.com/docs/desktop/standard_error_stderror)
+
+[Stochastics](https://developer.ninjatrader.com/docs/desktop/stochastics)
+
+[Stochastics Fast](https://developer.ninjatrader.com/docs/desktop/stochastics_fast)
+
+[Stochastics RSI (StochRSI)](https://developer.ninjatrader.com/docs/desktop/stochastics_rsi_stochrsi)
+
+[Summation (SUM)](https://developer.ninjatrader.com/docs/desktop/summation_sum)
+
+[Swing](https://developer.ninjatrader.com/docs/desktop/swing)
+
+[Time Series Forecast (TSF)](https://developer.ninjatrader.com/docs/desktop/time_series_forecast_tsf)
+
+[Trend Lines](https://developer.ninjatrader.com/docs/desktop/trend-lines)
+
+[True Strength Index (TSI)](https://developer.ninjatrader.com/docs/desktop/true_strength_index_tsi)
+
+[Ultimate Oscillator](https://developer.ninjatrader.com/docs/desktop/ultimate_oscillator)
+
+[Valid Input Data for Indicator Methods](https://developer.ninjatrader.com/docs/desktop/valid_input_data_for_indicator)
+
+[Volume (VOL)](https://developer.ninjatrader.com/docs/desktop/volume)
+
+[Volume Moving Average (VOLMA)](https://developer.ninjatrader.com/docs/desktop/volume_moving_average_volma)
+
+[Volume Oscillator](https://developer.ninjatrader.com/docs/desktop/volume_oscillator)
+
+[Volume Rate of Change (VROC)](https://developer.ninjatrader.com/docs/desktop/volume_rate_of_change_vroc)
+
+[Volume Up Down](https://developer.ninjatrader.com/docs/desktop/volume_up_down)
+
+[Vortex](https://developer.ninjatrader.com/docs/desktop/vortex)
+
+[Williams %R](https://developer.ninjatrader.com/docs/desktop/williams_r)
+
+[Wiseman Alligator](https://developer.ninjatrader.com/docs/desktop/wiseman_alligator)
+
+[Wiseman Awesome Oscillator](https://developer.ninjatrader.com/docs/desktop/wiseman_awesome_oscillator)
+
+[Woodies CCI](https://developer.ninjatrader.com/docs/desktop/woodies_cci)
+
+[Woodies Pivots](https://developer.ninjatrader.com/docs/desktop/woodies_pivots)
+
+[ZigZag](https://developer.ninjatrader.com/docs/desktop/zigzag)
+
 
 [Trading Hours](https://developer.ninjatrader.com/docs/desktop/tradinghours)
+[Get()](https://developer.ninjatrader.com/docs/desktop/tradinghoursget)
+
+[GetPreviousTradingDayEnd()](https://developer.ninjatrader.com/docs/desktop/getprevioustradingdayend)
+
+[Holidays](https://developer.ninjatrader.com/docs/desktop/holidays)
+
+[Name](https://developer.ninjatrader.com/docs/desktop/tradinghours_name)
+
+[PartialHolidays](https://developer.ninjatrader.com/docs/desktop/partialholidays)
+
+[Sessions](https://developer.ninjatrader.com/docs/desktop/tradinghours_sessions)
+
+[TimeZoneInfo](https://developer.ninjatrader.com/docs/desktop/timezoneinfo)
+
 
 [Clone()](https://developer.ninjatrader.com/docs/desktop/clone)
 

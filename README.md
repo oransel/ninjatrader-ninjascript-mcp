@@ -6,11 +6,11 @@ A comprehensive, LLM-ready knowledge base of the [NinjaTrader Desktop SDK docume
 
 | Folder | Contents | Files |
 |--------|----------|-------|
-| `docs/` | Complete API reference | 1066 |
+| `docs/` | Complete API reference | 1168 |
 | `education/` | Learning resources & tutorials | 1 |
 | `best-practices/` | NinjaScript coding guidelines | 1 |
 
-**Total: 1068 documentation pages**
+**Total: 1170 documentation pages**
 
 ## Quick Start
 
@@ -130,4 +130,4 @@ Note: The documentation content in this repository is sourced from NinjaTrader's
 
 ---
 
-_Last updated: 2026-04-29_
+_Last updated: 2026-06-02_

@@ -5,7 +5,7 @@ Full API reference mirror from https://developer.ninjatrader.com/docs/desktop.
 ## Structure
 
 ```
-├── docs/               ← Main API documentation (1066 files)
+├── docs/               ← Main API documentation (1168 files)
 ├── education/          ← Educational resources
 └── best-practices/     ← NinjaScript coding guidelines
 ```

@@ -256,8 +256,22 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 
 [Indicator](https://developer.ninjatrader.com/docs/desktop/indicator)
 [AddLine()](https://developer.ninjatrader.com/docs/desktop/addline)
+[AreLinesConfigurable](https://developer.ninjatrader.com/docs/desktop/arelinesconfigurable)
+
+[Line Class](https://developer.ninjatrader.com/docs/desktop/line_class)
+
+[Lines](https://developer.ninjatrader.com/docs/desktop/lines)
+
 
 [AddPlot()](https://developer.ninjatrader.com/docs/desktop/addplot)
+[ArePlotsConfigurable](https://developer.ninjatrader.com/docs/desktop/areplotsconfigurable)
+
+[Displacement](https://developer.ninjatrader.com/docs/desktop/displacement)
+
+[PlotBrushes](https://developer.ninjatrader.com/docs/desktop/plotbrushes)
+
+[Plots](https://developer.ninjatrader.com/docs/desktop/plots)
+
 
 [BarsRequiredToPlot](https://developer.ninjatrader.com/docs/desktop/barsrequiredtoplot)
 

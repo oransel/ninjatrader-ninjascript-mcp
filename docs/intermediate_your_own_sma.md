@@ -13,8 +13,164 @@ guides[Introduction](https://developer.ninjatrader.com/docs/desktop/index)
 [NinjaScript Editor Overview](https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_overview)
 
 [Educational Resources](https://developer.ninjatrader.com/docs/desktop/educational_resources)
+[AddOn Development Overview](https://developer.ninjatrader.com/docs/desktop/addon_development_overview)
+
+[C# Method (Functions) Reference](https://developer.ninjatrader.com/docs/desktop/c_method_functions_reference)
+
+[Developing for Tick Replay](https://developer.ninjatrader.com/docs/desktop/developing_for_tick_replay)
+
+[Developing Indicators](https://developer.ninjatrader.com/docs/desktop/developing_indicators)
+[Developing Outside of the NinjaScript Editor](https://developer.ninjatrader.com/docs/desktop/developing_outside_of_the_ninj)
+
+[Advanced - Custom Drawing](https://developer.ninjatrader.com/docs/desktop/advanced_custom_drawing)
+[Set Up](https://developer.ninjatrader.com/docs/desktop/set_up9)
+
+[Entering Calculation Logic](https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic6)
+
+[Compiling](https://developer.ninjatrader.com/docs/desktop/compiling6)
+
+[Using](https://developer.ninjatrader.com/docs/desktop/using6)
+
+
+[Advanced - Custom Plot Colors via Thresholds](https://developer.ninjatrader.com/docs/desktop/advanced_custom_plot_colors)
+[Set Up](https://developer.ninjatrader.com/docs/desktop/set_up8)
+
+[Entering Calculation Logic](https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic5)
+
+[Compiling](https://developer.ninjatrader.com/docs/desktop/compiling5)
+
+[Using](https://developer.ninjatrader.com/docs/desktop/using5)
+
+
+[Intermediate - Historical Custom Series](https://developer.ninjatrader.com/docs/desktop/intermediate_historical_custom_series)
+[Set Up](https://developer.ninjatrader.com/docs/desktop/set_up7)
+
+[Entering Calculation Logic](https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic4)
+
+[Compiling](https://developer.ninjatrader.com/docs/desktop/compiling4)
+
+[Using](https://developer.ninjatrader.com/docs/desktop/using4)
+
+
+[Intermediate - Your own SMA](https://developer.ninjatrader.com/docs/desktop/intermediate_your_own_sma)
+[Set Up](https://developer.ninjatrader.com/docs/desktop/set_up6)
+
+[Entering Calculation Logic](https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic3)
+
+[Compiling](https://developer.ninjatrader.com/docs/desktop/compiling3)
+
+[Using](https://developer.ninjatrader.com/docs/desktop/using3)
+
+
+[Beginner - Indicator on Indicator](https://developer.ninjatrader.com/docs/desktop/beginner_indicator_on_indicator)
+[Set Up](https://developer.ninjatrader.com/docs/desktop/set_up5)
+
+[Entering Calculation Logic](https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic2)
+
+[Compiling](https://developer.ninjatrader.com/docs/desktop/compiling2)
+
+[Using](https://developer.ninjatrader.com/docs/desktop/using2)
+
+
+[Beginner - Using price variables](https://developer.ninjatrader.com/docs/desktop/beginner_using_price_variables)
+[Set Up](https://developer.ninjatrader.com/docs/desktop/set_up4)
+
+[Entering Calculation Logic](https://developer.ninjatrader.com/docs/desktop/entering_calculation_logic)
+
+[Compiling](https://developer.ninjatrader.com/docs/desktop/compiling)
+
+[Using](https://developer.ninjatrader.com/docs/desktop/using)
+
+
+[Developing Strategies](https://developer.ninjatrader.com/docs/desktop/developing_strategies)
+[Beginner - Simple MA Cross Over](https://developer.ninjatrader.com/docs/desktop/beginner_simple_ma_cross_over)
+
+[Intermediate - RSI with Stop Loss & Profit Target](https://developer.ninjatrader.com/docs/desktop/intermediate_rsi_with_stop_loss_profit_target)
+
+[The Strategy Development Process](https://developer.ninjatrader.com/docs/desktop/the_strategy_development_process)
+
+[Working with Accounts](https://developer.ninjatrader.com/docs/desktop/working_with_accounts)
+
+
+[Historical Order Backfill Logic](https://developer.ninjatrader.com/docs/desktop/historical_order_backfill_logic)
+
+[Multi-Threading Consideration for NinjaScript](https://developer.ninjatrader.com/docs/desktop/multi_threading_consideration_for_ninjascript)
+
+[Multi-Time Frame & Instruments](https://developer.ninjatrader.com/docs/desktop/multi_time_frame_instruments)
+
+[NinjaScript Lifecycle](https://developer.ninjatrader.com/docs/desktop/understanding_the_lifecycle_of)
+
+[Using 3rd Party Indicators](https://developer.ninjatrader.com/docs/desktop/using_3rd_party_indicators)
+
+[Using ATM Strategies](https://developer.ninjatrader.com/docs/desktop/using_atm_strategies)
+
+[Using BitmapImage objects with Buttons](https://developer.ninjatrader.com/docs/desktop/using_bitmapimage_objects_with_buttons)
+
+[Using Historical Bid/Ask Series](https://developer.ninjatrader.com/docs/desktop/using_historical_bid_ask_serie)
+
+[Using Images and Geometry with Custom Icons](https://developer.ninjatrader.com/docs/desktop/using_images_and_geometry_with_custom_icons)
+
+[Using SharpDX for Custom Chart Rendering](https://developer.ninjatrader.com/docs/desktop/using_sharpdx_for_custom_chart_rendering)
+
+[Working with Brushes](https://developer.ninjatrader.com/docs/desktop/working_with_brushes)
+
+[Working with Chart Object Coordinates](https://developer.ninjatrader.com/docs/desktop/working_with_chart_object_coordinates)
+
+[Working with Pixel Coordinates](https://developer.ninjatrader.com/docs/desktop/working_with_pixel_coordinates)
+
+[Working with Price Series](https://developer.ninjatrader.com/docs/desktop/working_with_price_series)
+
+[Reference Samples](https://developer.ninjatrader.com/docs/desktop/reference_samples)
+[Indicator](https://developer.ninjatrader.com/docs/desktop/indicator_overview)
+
+[Strategy](https://developer.ninjatrader.com/docs/desktop/strategy_overview)
+
+
+[Tips](https://developer.ninjatrader.com/docs/desktop/tips)
+[Adding Indicators to Strategies](https://developer.ninjatrader.com/docs/desktop/adding_indicators_to_strategies)
+
+[Basic Programming Concepts](https://developer.ninjatrader.com/docs/desktop/basic_programming_concepts)
+
+[Checking for Null References](https://developer.ninjatrader.com/docs/desktop/checking_for_null_references)
+
+[Creating User Defined Input Parameters](https://developer.ninjatrader.com/docs/desktop/creating_user_defined_input_parameters)
+
+[Debugging your NinjaScript Code](https://developer.ninjatrader.com/docs/desktop/debugging_your_ninjascript_code)
+
+[Floating-Point Arithmetic](https://developer.ninjatrader.com/docs/desktop/floating_point_arithmetic)
+
+[Formatting numbers](https://developer.ninjatrader.com/docs/desktop/formatting_numbers)
+
+[Functions and Methods Explained](https://developer.ninjatrader.com/docs/desktop/functions_and_methods_explained)
+
+[How do I resolve NinjaScript Programming Errors?](https://developer.ninjatrader.com/docs/desktop/how_do_i_resolve_ninjascript_programming_errors)
+
+[Looping Commands](https://developer.ninjatrader.com/docs/desktop/looping_commands)
+
+[Make sure you have enough bars in the data series you are accessing](https://developer.ninjatrader.com/docs/desktop/make_sure_you_have_enough_bars)
+
+[Order Types](https://developer.ninjatrader.com/docs/desktop/order_types)
+
+[Parameter sequencing](https://developer.ninjatrader.com/docs/desktop/parameter_sequencing)
+
+[Referencing the correct bar](https://developer.ninjatrader.com/docs/desktop/referencing_the_correct_bar)
+
+[Strategy Position vs. Account Position](https://developer.ninjatrader.com/docs/desktop/strategy_position_vs_account_position)
+
+[TraceOrders](https://developer.ninjatrader.com/docs/desktop/traceorders2)
+
+[User Definable Color Inputs](https://developer.ninjatrader.com/docs/desktop/user_definable_color_inputs)
+
+[Using [] brackets](https://developer.ninjatrader.com/docs/desktop/using_brackets)
+
 
 [User-Based Vendor Licensing](https://developer.ninjatrader.com/docs/desktop/user_based_licensing)
+[Quick-Start Guide](https://developer.ninjatrader.com/docs/desktop/user_based_licensing_quick_start_guide)
+
+[Migration Guide](https://developer.ninjatrader.com/docs/desktop/user_based_licensing_migration_guide)
+
+[FAQ](https://developer.ninjatrader.com/docs/desktop/user_based_licensing_faq)
+
 
 references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [AddDataSeries()](https://developer.ninjatrader.com/docs/desktop/adddataseries)

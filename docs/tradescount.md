@@ -358,6 +358,32 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [AddPerformanceMetric()](https://developer.ninjatrader.com/docs/desktop/addperformancemetric)
 
 [ATM Strategy Methods](https://developer.ninjatrader.com/docs/desktop/atm_strategy_methods)
+[AtmStrategyCancelEntryOrder()](https://developer.ninjatrader.com/docs/desktop/atmstrategycancelentryorder)
+
+[AtmStrategyChangeEntryOrder()](https://developer.ninjatrader.com/docs/desktop/atmstrategychangeentryorder)
+
+[AtmStrategyChangeStopTarget()](https://developer.ninjatrader.com/docs/desktop/atmstrategychangestoptarget)
+
+[AtmStrategyClose()](https://developer.ninjatrader.com/docs/desktop/atmstrategyclose)
+
+[AtmStrategyCreate()](https://developer.ninjatrader.com/docs/desktop/atmstrategycreate)
+
+[GetAtmStrategyEntryOrderStatus()](https://developer.ninjatrader.com/docs/desktop/getatmstrategyentryorderstatus)
+
+[GetAtmStrategyMarketPosition()](https://developer.ninjatrader.com/docs/desktop/getatmstrategymarketposition)
+
+[GetAtmStrategyPositionAveragePrice()](https://developer.ninjatrader.com/docs/desktop/getatmstrategypositionaverageprice)
+
+[GetAtmStrategyPositionQuantity()](https://developer.ninjatrader.com/docs/desktop/getatmstrategypositionquantity)
+
+[GetAtmStrategyRealizedProfitLoss()](https://developer.ninjatrader.com/docs/desktop/getatmstrategyrealizedprofitloss)
+
+[GetAtmStrategyStopTargetOrderStatus()](https://developer.ninjatrader.com/docs/desktop/getatmstrategystoptargetorderstatus)
+
+[GetAtmStrategyUniqueId()](https://developer.ninjatrader.com/docs/desktop/getatmstrategyuniqueid)
+
+[GetAtmStrategyUnrealizedProfitLoss()](https://developer.ninjatrader.com/docs/desktop/getatmstrategyunrealizedprofitloss)
+
 
 [BarsRequiredToTrade](https://developer.ninjatrader.com/docs/desktop/barsrequiredtotrade)
 
@@ -408,6 +434,8 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [NumberRestartAttempts](https://developer.ninjatrader.com/docs/desktop/numberrestartattempts)
 
 [OnAccountItemUpdate()](https://developer.ninjatrader.com/docs/desktop/onaccountitemupdate)
+[AccountItemEventArgs](https://developer.ninjatrader.com/docs/desktop/accountitemeventargs)
+
 
 [OnExecutionUpdate()](https://developer.ninjatrader.com/docs/desktop/onexecutionupdate)
 
@@ -420,8 +448,14 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [OptimizationPeriod](https://developer.ninjatrader.com/docs/desktop/optimizationperiod)
 
 [Order](https://developer.ninjatrader.com/docs/desktop/order)
+[IsTerminalState()](https://developer.ninjatrader.com/docs/desktop/isterminalstate)
+
 
 [Order Methods](https://developer.ninjatrader.com/docs/desktop/order_methods)
+[Managed Approach](https://developer.ninjatrader.com/docs/desktop/managed_approach)
+
+[Unmanaged Approach](https://developer.ninjatrader.com/docs/desktop/unmanaged_approach)
+
 
 [OrderFillResolution](https://developer.ninjatrader.com/docs/desktop/orderfillresolution)
 
@@ -434,8 +468,26 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [Plots](https://developer.ninjatrader.com/docs/desktop/strategy_plots)
 
 [Position](https://developer.ninjatrader.com/docs/desktop/position)
+[AveragePrice](https://developer.ninjatrader.com/docs/desktop/averageprice)
+
+[GetUnrealizedProfitLoss()](https://developer.ninjatrader.com/docs/desktop/position_getunrealizedprofitloss)
+
+[Instrument](https://developer.ninjatrader.com/docs/desktop/position_instrument)
+
+[MarketPosition](https://developer.ninjatrader.com/docs/desktop/position_marketposition)
+
+[Quantity](https://developer.ninjatrader.com/docs/desktop/quantity)
+
 
 [PositionAccount](https://developer.ninjatrader.com/docs/desktop/positionaccount)
+[AveragePrice](https://developer.ninjatrader.com/docs/desktop/positionaccount_averageprice)
+
+[GetUnrealizedProfitLoss()](https://developer.ninjatrader.com/docs/desktop/getunrealizedprofitloss)
+
+[Instrument](https://developer.ninjatrader.com/docs/desktop/positionaccount_instrument)
+
+[MarketPosition](https://developer.ninjatrader.com/docs/desktop/marketposition)
+
 
 [Positions](https://developer.ninjatrader.com/docs/desktop/positions)
 
@@ -458,6 +510,14 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [StrategyBaseConverter Class](https://developer.ninjatrader.com/docs/desktop/strategybaseconverter)
 
 [SystemPerformance](https://developer.ninjatrader.com/docs/desktop/systemperformance)
+[AllTrades](https://developer.ninjatrader.com/docs/desktop/alltrades)
+
+[LongTrades](https://developer.ninjatrader.com/docs/desktop/longtrades)
+
+[RealTimeTrades](https://developer.ninjatrader.com/docs/desktop/realtime_trades)
+
+[ShortTrades](https://developer.ninjatrader.com/docs/desktop/shorttrades)
+
 
 [TestPeriod](https://developer.ninjatrader.com/docs/desktop/testperiod)
 
@@ -468,8 +528,100 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [Trade](https://developer.ninjatrader.com/docs/desktop/trade)
 
 [TradeCollection](https://developer.ninjatrader.com/docs/desktop/tradecollection)
+[EvenTrades](https://developer.ninjatrader.com/docs/desktop/eventrades)
+
+[LosingTrades](https://developer.ninjatrader.com/docs/desktop/losingtrades)
+
+[TradesCount](https://developer.ninjatrader.com/docs/desktop/tradescount)
+
+[TradesPerformance](https://developer.ninjatrader.com/docs/desktop/tradesperformance)
+[AverageBarsInTrade](https://developer.ninjatrader.com/docs/desktop/averagebarsintrade)
+
+[AverageEntryEfficiency](https://developer.ninjatrader.com/docs/desktop/averageentryefficiency)
+
+[AverageExitEfficiency](https://developer.ninjatrader.com/docs/desktop/averageexitefficiency)
+
+[AverageTimeInMarket](https://developer.ninjatrader.com/docs/desktop/averagetimeinmarket)
+
+[AverageTotalEfficiency](https://developer.ninjatrader.com/docs/desktop/averagetotalefficiency)
+
+[Currency](https://developer.ninjatrader.com/docs/desktop/currency)
+
+[GrossLoss](https://developer.ninjatrader.com/docs/desktop/grossloss)
+
+[GrossProfit](https://developer.ninjatrader.com/docs/desktop/grossprofit)
+
+[LongestFlatPeriod](https://developer.ninjatrader.com/docs/desktop/longestflatperiod)
+
+[MaxConsecutiveLoser](https://developer.ninjatrader.com/docs/desktop/maxconsecutiveloser)
+
+[MaxConsecutiveWinner](https://developer.ninjatrader.com/docs/desktop/maxconsecutivewinner)
+
+[MaxTimeToRecover](https://developer.ninjatrader.com/docs/desktop/maxtimetorecover)
+
+[MonthlyStdDev](https://developer.ninjatrader.com/docs/desktop/monthlystddev)
+
+[MonthlyUlcer](https://developer.ninjatrader.com/docs/desktop/monthlyulcer)
+
+[NetProfit](https://developer.ninjatrader.com/docs/desktop/netprofit)
+
+[Percent](https://developer.ninjatrader.com/docs/desktop/percent)
+
+[PerformanceMetrics](https://developer.ninjatrader.com/docs/desktop/performancemetrics)
+
+[Pips](https://developer.ninjatrader.com/docs/desktop/pips)
+
+[Points](https://developer.ninjatrader.com/docs/desktop/points)
+
+[ProfitFactor](https://developer.ninjatrader.com/docs/desktop/profitfactor)
+
+[RiskFreeReturn](https://developer.ninjatrader.com/docs/desktop/riskfreereturn)
+
+[RSquared](https://developer.ninjatrader.com/docs/desktop/rsquared)
+
+[SharpeRatio](https://developer.ninjatrader.com/docs/desktop/sharperatio)
+
+[SortinoRatio](https://developer.ninjatrader.com/docs/desktop/sortinoratio)
+
+[Ticks](https://developer.ninjatrader.com/docs/desktop/ticks)
+
+[TotalCommission](https://developer.ninjatrader.com/docs/desktop/totalcommission)
+
+[TotalQuantity](https://developer.ninjatrader.com/docs/desktop/totalquantity)
+
+[TotalSlippage](https://developer.ninjatrader.com/docs/desktop/totalslippage)
+
+[TradesPerDay](https://developer.ninjatrader.com/docs/desktop/tradesperday)
+
+
+[WinningTrades](https://developer.ninjatrader.com/docs/desktop/winningtrades)
+
 
 [TradesPerformanceValues](https://developer.ninjatrader.com/docs/desktop/tradesperformancevalues)
+[AverageEtd](https://developer.ninjatrader.com/docs/desktop/averageetd)
+
+[AverageMae](https://developer.ninjatrader.com/docs/desktop/averagemae)
+
+[AverageMfe](https://developer.ninjatrader.com/docs/desktop/averagemfe)
+
+[AverageProfit](https://developer.ninjatrader.com/docs/desktop/averageprofit)
+
+[CumProfit](https://developer.ninjatrader.com/docs/desktop/cumprofit)
+
+[Drawdown](https://developer.ninjatrader.com/docs/desktop/drawdown)
+
+[LargestLoser](https://developer.ninjatrader.com/docs/desktop/largestloser)
+
+[LargestWinner](https://developer.ninjatrader.com/docs/desktop/largestwinner)
+
+[ProfitPerMonth](https://developer.ninjatrader.com/docs/desktop/profitpermonth)
+
+[StdDev](https://developer.ninjatrader.com/docs/desktop/stddev)
+
+[Turnaround](https://developer.ninjatrader.com/docs/desktop/turnaround)
+
+[Ulcer](https://developer.ninjatrader.com/docs/desktop/ulcer)
+
 
 [WaitForOcoClosingBracket](https://developer.ninjatrader.com/docs/desktop/waitforococlosingbracket)
 

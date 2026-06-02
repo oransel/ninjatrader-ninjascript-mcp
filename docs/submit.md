@@ -70,26 +70,110 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 
 [Add On](https://developer.ninjatrader.com/docs/desktop/add_on)
 [Account Class](https://developer.ninjatrader.com/docs/desktop/account_class)
+[AccountItem](https://developer.ninjatrader.com/docs/desktop/accountitem)
+
+[AccountItemUpdate](https://developer.ninjatrader.com/docs/desktop/accountitemupdate)
+
+[AccountStatusUpdate](https://developer.ninjatrader.com/docs/desktop/accountstatusupdate)
+
+[All](https://developer.ninjatrader.com/docs/desktop/all)
+
+[Cancel()](https://developer.ninjatrader.com/docs/desktop/cancel)
+
+[CancelAllOrders()](https://developer.ninjatrader.com/docs/desktop/accounts_cancelallorders)
+
+[Change()](https://developer.ninjatrader.com/docs/desktop/change)
+
+[Connection](https://developer.ninjatrader.com/docs/desktop/connection)
+
+[ConnectOptions](https://developer.ninjatrader.com/docs/desktop/connectoptions)
+
+[CreateOrder()](https://developer.ninjatrader.com/docs/desktop/createorder)
+
+[Denomination](https://developer.ninjatrader.com/docs/desktop/denomination)
+
+[Executions](https://developer.ninjatrader.com/docs/desktop/executions)
+
+[ExecutionUpdate](https://developer.ninjatrader.com/docs/desktop/executionupdate)
+
+[Flatten()](https://developer.ninjatrader.com/docs/desktop/flatten)
+
+[Get()](https://developer.ninjatrader.com/docs/desktop/get)
+
+[Name](https://developer.ninjatrader.com/docs/desktop/name_account)
+
+[Orders](https://developer.ninjatrader.com/docs/desktop/orders)
+
+[OrderUpdate](https://developer.ninjatrader.com/docs/desktop/orderupdate)
+
+[Positions](https://developer.ninjatrader.com/docs/desktop/positions_account)
+
+[PositionUpdate](https://developer.ninjatrader.com/docs/desktop/positionupdate)
+
+[SimulationAccountReset](https://developer.ninjatrader.com/docs/desktop/simulationaccountreset)
+
+[Strategies](https://developer.ninjatrader.com/docs/desktop/strategies)
+
+[Submit()](https://developer.ninjatrader.com/docs/desktop/submit)
+
 
 [Alert and Debug Concepts](https://developer.ninjatrader.com/docs/desktop/alert_and_debug_concepts)
+[AlertCallback()](https://developer.ninjatrader.com/docs/desktop/alertcallback)
+
+[RearmAlert()](https://developer.ninjatrader.com/docs/desktop/alert_rearmalert)
+
 
 [AtmStrategy](https://developer.ninjatrader.com/docs/desktop/atmstrategy)
 
 [BarsRequest](https://developer.ninjatrader.com/docs/desktop/barsrequest)
+[MergePolicy](https://developer.ninjatrader.com/docs/desktop/barsrequest_mergepolicy)
+
+[Request()](https://developer.ninjatrader.com/docs/desktop/request)
+
 
 [Connection](https://developer.ninjatrader.com/docs/desktop/connection_class)
+[CancelAllOrders()](https://developer.ninjatrader.com/docs/desktop/cancelallorders)
+
+[Connect()](https://developer.ninjatrader.com/docs/desktop/connect)
+
+[ConnectionStatusUpdate](https://developer.ninjatrader.com/docs/desktop/connectionstatusupdate)
+
+[Disconnect()](https://developer.ninjatrader.com/docs/desktop/disconnect)
+
+[Options](https://developer.ninjatrader.com/docs/desktop/connections_options)
+
+[PriceStatus](https://developer.ninjatrader.com/docs/desktop/pricestatus)
+
+[ReloadAllHistoricalData()](https://developer.ninjatrader.com/docs/desktop/reloadallhistoricaldata)
+
+[Status](https://developer.ninjatrader.com/docs/desktop/status)
+
 
 [ControlCenter](https://developer.ninjatrader.com/docs/desktop/controlcenter)
 
 [FundamentalData](https://developer.ninjatrader.com/docs/desktop/fundamentaldata)
 
 [IInstrumentProvider Interface](https://developer.ninjatrader.com/docs/desktop/iinstrumentprovider_interface)
+[Instrument](https://developer.ninjatrader.com/docs/desktop/iinstrumentprovider_instrument)
+
 
 [IIntervalProvider Interface](https://developer.ninjatrader.com/docs/desktop/iintervalprovider_interface)
+[BarsPeriod](https://developer.ninjatrader.com/docs/desktop/iintervalprovider_barsperiod)
+
 
 [INTTabFactory Interface](https://developer.ninjatrader.com/docs/desktop/inttabfactory_interface)
+[CreateParentWindow()](https://developer.ninjatrader.com/docs/desktop/createparentwindow)
+
+[CreateTabPage()](https://developer.ninjatrader.com/docs/desktop/createtabpage)
+
 
 [IWorkspacePersistence Interface](https://developer.ninjatrader.com/docs/desktop/iworkspacepersistence_interface)
+[Restore()](https://developer.ninjatrader.com/docs/desktop/iworkspacepersistence_restore)
+
+[Save()](https://developer.ninjatrader.com/docs/desktop/iworkspacepersistence_save)
+
+[WorkspaceOptions](https://developer.ninjatrader.com/docs/desktop/workspaceoptions)
+
 
 [MarketData](https://developer.ninjatrader.com/docs/desktop/marketdata)
 
@@ -100,12 +184,32 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [NewsSubscription](https://developer.ninjatrader.com/docs/desktop/newssubscription)
 
 [NinjaTrader Controls](https://developer.ninjatrader.com/docs/desktop/controls)
+[AccountSelector](https://developer.ninjatrader.com/docs/desktop/accountselector)
+
+[AtmStrategySelector](https://developer.ninjatrader.com/docs/desktop/atmstrategyselector)
+
+[InstrumentSelector](https://developer.ninjatrader.com/docs/desktop/instrumentselector)
+
+[IntervalSelector](https://developer.ninjatrader.com/docs/desktop/intervalselector)
+
+[QuantityUpDown](https://developer.ninjatrader.com/docs/desktop/quantityupdown)
+
+[TifSelector](https://developer.ninjatrader.com/docs/desktop/tifselector)
+
 
 [NTMenuItem](https://developer.ninjatrader.com/docs/desktop/ntmenuitem)
 
 [NTMessageBoxSimple.Show()](https://developer.ninjatrader.com/docs/desktop/ntmessageboxsimple_show)
 
 [NTTabPage Class](https://developer.ninjatrader.com/docs/desktop/nttabpage)
+[CleanUp()](https://developer.ninjatrader.com/docs/desktop/cleanup)
+
+[GetHeaderPart()](https://developer.ninjatrader.com/docs/desktop/getheaderpart)
+
+[Restore()](https://developer.ninjatrader.com/docs/desktop/restore)
+
+[Save()](https://developer.ninjatrader.com/docs/desktop/save)
+
 
 [NTWindow](https://developer.ninjatrader.com/docs/desktop/ntwindow)
 

@@ -200,6 +200,46 @@ references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [AttachedTo](https://developer.ninjatrader.com/docs/desktop/attachedto)
 
 [ChartAnchor](https://developer.ninjatrader.com/docs/desktop/chartanchor)
+[BarsAgo](https://developer.ninjatrader.com/docs/desktop/barsago)
+
+[CopyDataValues()](https://developer.ninjatrader.com/docs/desktop/copydatavalues)
+
+[DisplayName](https://developer.ninjatrader.com/docs/desktop/displayname)
+
+[DrawingTool](https://developer.ninjatrader.com/docs/desktop/drawingtool)
+
+[DrawnOnBar](https://developer.ninjatrader.com/docs/desktop/drawnonbar)
+
+[GetPoint()](https://developer.ninjatrader.com/docs/desktop/getpoint)
+
+[IsBrowsable](https://developer.ninjatrader.com/docs/desktop/isbrowsable)
+
+[IsEditing](https://developer.ninjatrader.com/docs/desktop/isediting)
+
+[IsNinjaScriptDrawn](https://developer.ninjatrader.com/docs/desktop/isninjascriptdrawn)
+
+[IsXPropertiesVisible](https://developer.ninjatrader.com/docs/desktop/isxpropertiesvisible)
+
+[IsYPropertyVisibile](https://developer.ninjatrader.com/docs/desktop/isypropertyvisibile)
+
+[MoveAnchor()](https://developer.ninjatrader.com/docs/desktop/moveanchor)
+
+[MoveAnchorX()](https://developer.ninjatrader.com/docs/desktop/moveanchorx)
+
+[MoveAnchorY()](https://developer.ninjatrader.com/docs/desktop/moveanchory)
+
+[Price](https://developer.ninjatrader.com/docs/desktop/price)
+
+[SlotIndex](https://developer.ninjatrader.com/docs/desktop/barindex)
+
+[Time](https://developer.ninjatrader.com/docs/desktop/chartanchor_time)
+
+[UpdateFromPoint()](https://developer.ninjatrader.com/docs/desktop/updatefrompoint)
+
+[UpdateXFromPoint()](https://developer.ninjatrader.com/docs/desktop/updatexfrompoint)
+
+[UpdateYFromPoint()](https://developer.ninjatrader.com/docs/desktop/updateyfrompoint)
+
 
 [ConvertToVerticalPixels()](https://developer.ninjatrader.com/docs/desktop/drawing_tools_converttoverticalpixels)
 
