@@ -45,24 +45,24 @@ When indicators are embedded (called) within a NinjaScript strategy, they are op
 
 
 ```csharp
-private double tripleValue = 0;
-
-protected override void OnBarUpdate()
+private double tripleValue = 0;
+ 
+protected override void OnBarUpdate()
 {
-  if (CurrentBar < 20)
-      return;
-
-  tripleValue = SMA(20)[0] * 3;
-  Value[0] = SMA(20)[0];
+  if (CurrentBar < 20)
+      return;
+ 
+  tripleValue = SMA(20)[0] * 3;
+  Value[0] = SMA(20)[0];
 }
-
-public double TripleValue
+ 
+public double TripleValue
 {
-    get
-    {
-      //call OnBarUpdate before returning tripleValue
-      Update();
-      return tripleValue;
-    }
+    get
+    {
+      //call OnBarUpdate before returning tripleValue
+      Update();
+      return tripleValue;
+    }
 }
 ```

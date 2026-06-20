@@ -38,13 +38,13 @@ A long value represents the volume at the desired bar index.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   base.OnRender(chartControl, chartScale);
-   // loop through all the rendered bars on the chart
-   for(int barIndex = ChartBars.FromIndex; barIndex &lt;= ChartBars.ToIndex; barIndex++)
-   {
-     // get the volume value at the selected bar index value
-     long volumeValue = Bars.GetVolume(barIndex);
-     Print("Bar #" + barIndex + " volume value is " + volumeValue);
-   }
+   base.OnRender(chartControl, chartScale);
+   // loop through all the rendered bars on the chart
+   for(int barIndex = ChartBars.FromIndex; barIndex &lt;= ChartBars.ToIndex; barIndex++)
+   {
+     // get the volume value at the selected bar index value
+     long volumeValue = Bars.GetVolume(barIndex);
+     Print("Bar #" + barIndex + " volume value is " + volumeValue);
+   }
 }
 ```

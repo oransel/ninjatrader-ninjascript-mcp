@@ -29,12 +29,12 @@ A **int** representing the **y-coordinate** at which the panel begins.
 
 
 ```csharp
-protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-  base.OnRender(chartControl, chartScale);
-
-  // Print the coordinates of the top-left corner of the panel
-  Print(String.Format("The panel begins at coordinates {0},{1}",ChartPanel.X ,ChartPanel.Y));
+  base.OnRender(chartControl, chartScale);
+   
+  // Print the coordinates of the top-left corner of the panel
+  Print(String.Format("The panel begins at coordinates {0},{1}",ChartPanel.X ,ChartPanel.Y));
 }
 ```
 

@@ -39,9 +39,9 @@ An **int** representing the bar index value at a specific time.
 ```csharp
 protected override void OnBarUpdate()
 {
-   if (ChartBars != null)
-   {
-     Print(ChartBars.GetBarIdxByTime(ChartControl, Time[0]));
-   }
+   if (ChartBars != null)
+   {
+     Print(ChartBars.GetBarIdxByTime(ChartControl, Time[0]));  
+   }
 }
 ```

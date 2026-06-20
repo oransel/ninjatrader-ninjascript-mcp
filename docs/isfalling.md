@@ -38,8 +38,8 @@ This method returns true if a falling condition is present; otherwise, false.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // If the 20 period SMA is falling (in downtrend) go short
-   if (IsFalling(SMA(20)))
-       EnterShort();
+   // If the 20 period SMA is falling (in downtrend) go short
+   if (IsFalling(SMA(20)))
+       EnterShort();
 }
 ```

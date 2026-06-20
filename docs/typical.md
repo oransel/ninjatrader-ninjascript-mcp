@@ -33,11 +33,11 @@ An **ISeries<`double`>** type object. Accessing this property via an index val
 
 ```csharp
 // Current bar typical price
-double barTypicalPrice = Typical[0];
-
+double barTypicalPrice = Typical[0];
+ 
 // Typical price of 10 bars ago
-double barTypicalPrice = Typical[10];
-
+double barTypicalPrice = Typical[10];
+ 
 // Current bar value of a 20 period exponential moving average of typical prices
-double value = EMA(Typical, 20)[0];
+double value = EMA(Typical, 20)[0];
 ```

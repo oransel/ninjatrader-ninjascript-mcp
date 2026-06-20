@@ -55,8 +55,8 @@ A bool value, when true indicates that specified data point is set; otherwise fa
 ```csharp
 protected override void OnBarUpdate()
 {
-   // only set plot value if hosted indicator is not reset
-   if(SMA(20).IsValidDataPoint(0))
-     MyPlot[0] = SMA(20)[0];
+   // only set plot value if hosted indicator is not reset
+   if(SMA(20).IsValidDataPoint(0))
+     MyPlot[0] = SMA(20)[0];
 }
 ```

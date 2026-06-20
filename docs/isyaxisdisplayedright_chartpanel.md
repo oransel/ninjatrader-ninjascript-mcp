@@ -33,13 +33,13 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 {
 
-   base.OnRender(chartControl, chartScale);
+   base.OnRender(chartControl, chartScale);
 
-   // Print a message if the y-axis is visible on the right
+   // Print a message if the y-axis is visible on the right
 
-   if (ChartPanel.IsYAxisDisplayedRight)
+   if (ChartPanel.IsYAxisDisplayedRight)
 
-       Print("The y-axis is visible on the right");
+       Print("The y-axis is visible on the right");
 
 }
 ```

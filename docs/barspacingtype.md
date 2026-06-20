@@ -37,8 +37,8 @@ An enum representing one of the values below:
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Print the type of bar spacing used on the chart
-   Print(chartControl.BarSpacingType);
+   // Print the type of bar spacing used on the chart
+   Print(chartControl.BarSpacingType);
 }
 ```
 

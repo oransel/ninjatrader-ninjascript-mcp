@@ -39,13 +39,13 @@ An **int** value representing a value of bars ago.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // store the lowest bar ago value
-   int lowestBar = LowestBar(Low, Bars.BarsSinceNewTradingDay);
+   // store the lowest bar ago value
+   int lowestBar = LowestBar(Low, Bars.BarsSinceNewTradingDay);
 
-   //evaluate low price from lowest bar ago value
-   double lowestPrice = Low[lowestBar];
+   //evaluate low price from lowest bar ago value
+   double lowestPrice = Low[lowestBar];
 
-   //Printed result:  Lowest price of the session: 2087.25 - occurred 362 bars ago
-   Print(string.Format("Lowest price of the session: {0} - occurred {1} bars ago", lowestPrice, lowestBar));
+   //Printed result:  Lowest price of the session: 2087.25 - occurred 362 bars ago
+   Print(string.Format("Lowest price of the session: {0} - occurred {1} bars ago", lowestPrice, lowestBar));
 }
 ```

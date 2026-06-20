@@ -42,10 +42,10 @@ Tip:  You can also find a list of these predefined brushes as well as their hex
 
 ```csharp
 // set the chart's background color to a predefined "Blue" brush
-BackBrush = Brushes.Blue;
-
+BackBrush = Brushes.Blue;
+ 
 //draw a line using a predefined "LimeGreen" brush.
-Draw.Line(this, "tag1", false, 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2);|   |
+Draw.Line(this, "tag1", false, 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2);|   |
 ```
 
 
@@ -67,10 +67,10 @@ In cases where you would like more specific color than one of the predefined bru
 
 ```csharp
 // initiate new solid color brush with custom blue color
-Brush myBrush = new SolidColorBrush(Color.FromRgb(56, 120, 153));
+Brush myBrush = new SolidColorBrush(Color.FromRgb(56, 120, 153));
 myBrush.Freeze();
 
-Draw.Line(this, "tag1", true, 10, 1000, 0, 1001, myBrush, DashStyleHelper.Dot, 2);
+Draw.Line(this, "tag1", true, 10, 1000, 0, 1001, myBrush, DashStyleHelper.Dot, 2);
 ```
 
 ![note image](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FWarning.3bcf24ba.svg&w=64&q=75)
@@ -95,10 +95,10 @@ Anytime you create a custom brush that will be used by NinjaTrader rendering it 
 
 ```csharp
 // initiate new solid color brush which has an alpha (transparency) value of 100
-myBrush = new SolidColorBrush(Color.FromArgb(100, 56, 120, 153));
+myBrush = new SolidColorBrush(Color.FromArgb(100, 56, 120, 153));
 myBrush.Freeze();
 
-Draw.Line(this, "tag1", true, 10, 1000, 0, 1001, myBrush, DashStyleHelper.Dot, 2);
+Draw.Line(this, "tag1", true, 10, 1000, 0, 1001, myBrush, DashStyleHelper.Dot, 2);
 ```
 
 ![note image](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FWarning.3bcf24ba.svg&w=64&q=75)
@@ -123,7 +123,7 @@ In order to achieve the desired behavior of saving the user defined brush input,
 
 ```csharp
 [XmlIgnore]
-public Brush MyBrush { get; set; }
+public Brush MyBrush { get; set; }
 ```
 
 
@@ -132,10 +132,10 @@ In its place, we create a new public string called "MyBrushSerialize" which will
 
 ```csharp
 [Browsable(false)]
-public string MyBrushSerialize
+public string MyBrushSerialize
 {
-  get { return Serialize.BrushToString(MyBrush); }
-  set { MyBrush = Serialize.StringToBrush(value); }
+  get { return Serialize.BrushToString(MyBrush); }
+  set { MyBrush = Serialize.StringToBrush(value); }
 }
 ```
 
@@ -155,10 +155,10 @@ You can optionally define a custom brush to be added to the standard color picke
 
 ```csharp
 [CustomBrush]
-public Brush MyBrush
+public Brush MyBrush
 {
-  get { return new SolidColorBrush(Color.FromRgb(25, 175, 185)); }
-  set { }
+  get { return new SolidColorBrush(Color.FromRgb(25, 175, 185)); }
+  set { }
 }
 ```
 
@@ -201,10 +201,10 @@ Please see [OnRenderTargetChanged()](https://developer.ninjatrader.com/docs/des
 
 ```csharp
 // use predefined "Blue" SharpDX Color
-SharpDX.Direct2D1.SolidColorBrush solidBlueDXBrush = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.Blue);
+SharpDX.Direct2D1.SolidColorBrush solidBlueDXBrush = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.Blue);
 
 // create custom Brush using a "Red" SharpDX Color with "Alpha" (0.100f) transparency/opacity
-SharpDX.Direct2D1.SolidColorBrush transparentRedDXBrush = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, new SharpDX.Color4(new SharpDX.Color3(220f, 0f, 0f), 0.100f));|
+SharpDX.Direct2D1.SolidColorBrush transparentRedDXBrush = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, new SharpDX.Color4(new SharpDX.Color3(220f, 0f, 0f), 0.100f));|
 ```
 
 
@@ -222,10 +222,10 @@ Converting ToDxBrush() can result in performance issues depending on the numbe
 
 ```csharp
 // convert predefined WPF "Blue" to SharpDX Brush
-SharpDX.Direct2D1.Brush blueDXBrush = Brushes.Blue.ToDxBrush(RenderTarget);
+SharpDX.Direct2D1.Brush blueDXBrush = Brushes.Blue.ToDxBrush(RenderTarget);
 
 // convert the computed WPF Brush to SharpDX Brush
-SharpDX.Direct2D1.Brush customDXBrush = customWPFBrush.ToDxBrush(RenderTarget);|
+SharpDX.Direct2D1.Brush customDXBrush = customWPFBrush.ToDxBrush(RenderTarget);|
 ```
 
 

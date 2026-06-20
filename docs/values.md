@@ -30,17 +30,17 @@ A collection of **ISeries<`double`>** objects.
 
 ```csharp
 // OnBarUpdate method of a custom indicator
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-    // Ensures we have enough bars loaded for our indicator
-    if (CurrentBar < 1)
-        return;
-
-    // Evaluates the indicator's secondary value 1 bar ago and sets the value of the indicator
-    // for the current bar being evaluated
-    if (Values[1][1] < High[0] - Low[0])
-        Value[0] = High[0] - Low[0];
-    else
-        Value[0] = High[0] - Close[0];
+    // Ensures we have enough bars loaded for our indicator
+    if (CurrentBar < 1)
+        return;
+ 
+    // Evaluates the indicator's secondary value 1 bar ago and sets the value of the indicator
+    // for the current bar being evaluated
+    if (Values[1][1] < High[0] - Low[0])
+        Value[0] = High[0] - Low[0];
+    else
+        Value[0] = High[0] - Close[0];
 }
 ```

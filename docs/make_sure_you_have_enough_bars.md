@@ -34,9 +34,9 @@ Following are two ways to resolve this:
 ```csharp
 protected override void OnBarUpdate()
 {
-   if (CurrentBar < 1)
-       return;
-   if (Close[0] > Close[1])
+   if (CurrentBar < 1)
+       return;
+   if (Close[0] > Close[1])
         // Do something
 }
 ```
@@ -60,7 +60,7 @@ The resolution above substitutes the minimum value between the current bar being
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
+   if (State == State.SetDefaults)
     {
         Name = "Multi-Time Frame & Instruments Example";
     }

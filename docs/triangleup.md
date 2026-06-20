@@ -28,8 +28,8 @@ Represents an interface that exposes information regarding a Triangle Up [IDraw
 
 ```csharp
 // Instantiate a TriangleUp object
-TriangleUp myTri = Draw.TriangleUp(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);
-
+TriangleUp myTri = Draw.TriangleUp(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);            
+ 
 // Change the object's AreaBrush
-myTri.AreaBrush = Brushes.Beige;
+myTri.AreaBrush = Brushes.Beige;
 ```

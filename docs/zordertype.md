@@ -36,17 +36,17 @@ An enum determining the drawing tool's ZOrder type.  Possible values are:
 
 
 ```csharp
-protected override void OnStateChange()
+protected override void OnStateChange()
 {
-  if (State == State.SetDefaults)
-  {
-    Name               = @"My Drawing Tool";
-
-    // always draw this last
-    ZOrderType           = DrawingToolZOrder.AlwaysDrawnLast;
-  }
-  else if (State == State.Configure)
-  {
-  }
+  if (State == State.SetDefaults)
+  {
+    Name               = @"My Drawing Tool";
+         
+    // always draw this last
+    ZOrderType           = DrawingToolZOrder.AlwaysDrawnLast;
+  }
+  else if (State == State.Configure)
+  {
+  }
 }
 ```

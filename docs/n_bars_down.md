@@ -55,11 +55,11 @@ Evaluates for n number of consecutive lower closes. Returns a value of 1 when th
 // OnBarUpdate method
 protected override void OnBarUpdate()
 {
-   // Evaluates if we have 3 consecutive lower closes
-   double value = NBarsDown(3, true, true, true)[0];
-
-   if (value == 1)
-       Print("We have three consecutive lower closes");
+   // Evaluates if we have 3 consecutive lower closes
+   double value = NBarsDown(3, true, true, true)[0];
+ 
+   if (value == 1)
+       Print("We have three consecutive lower closes");
 }
 ```
 

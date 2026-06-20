@@ -37,8 +37,8 @@ A string representing text to display in the column.
 ```csharp
 protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 {
-   // Print "Ask" in the column if an Ask price update is received
-   if(marketDataUpdate.MarketDataType == MarketDataType.Ask)
-       CurrentText = "Ask";
+   // Print "Ask" in the column if an Ask price update is received
+   if(marketDataUpdate.MarketDataType == MarketDataType.Ask)
+       CurrentText = "Ask";
 }
 ```

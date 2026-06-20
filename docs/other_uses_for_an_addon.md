@@ -17,12 +17,12 @@ To modify an existing type of NinjaTrader window (for example, to add a button t
 // OnWindowCreated() will be called any time a new NTWindow is created. It will be called in the thread of that window
 protected override void OnWindowCreated(Window window)
 {
-   // Declare a Chart object and instantiate it to the Window passed into the method
-   Gui.Chart.Chart myChart = window as Gui.Chart.Chart;
-
-   // Use this check to return if the calling Window is not of the Type you are looking for
-   if (myChart == null)
-       return;
+   // Declare a Chart object and instantiate it to the Window passed into the method
+   Gui.Chart.Chart myChart = window as Gui.Chart.Chart;
+    
+   // Use this check to return if the calling Window is not of the Type you are looking for
+   if (myChart == null)
+       return;
 }
 ```
 
@@ -33,8 +33,8 @@ If you are unsure of the Type name for a particular type of window, you can open
 ```csharp
 protected override void OnWindowCreated(Window window)
 {
-   // Print the Type of any open windows, for future reference
-   Print(window.ToString());
+   // Print the Type of any open windows, for future reference
+   Print(window.ToString());
 }
 ```
 
@@ -49,65 +49,65 @@ Gui.Chart.ChartTrader chartTrader;
 Button sampleButton;
 Grid myGrid;
 Grid mainGrid;
-
+ 
 protected override void OnWindowCreated(Window window)
 {
-   // Instantiate myChart by assigning a reference to the calling Window
-   myChart = window as Gui.Chart.Chart;
-
-   if (myChart == null)
-   {
-       return;
-   }
-
-   //find chart trader from myChart's Chart Control by its Automation ID: "ChartWindowChartTrader"
-   chartTrader = Window.GetWindow(myChart.ActiveChartControl.Parent).FindFirst("ChartWindowChartTraderControl") as Gui.Chart.ChartTrader;
-
-   if (chartTrader == null)
-   {
-       return;
-   }
-
-   // Instantiate sampleButton
-   sampleButton = new Button
-   {
-       Content = "Sample Button",
-       Style = System.Windows.Application.Current.TryFindResource("Button") as Style
-   };
-
-   // Attach a custom event handler to the .Click event
-   sampleButton.Click += SampleButton_Click;
-
-   // Set a custom AutomationId for the button, so that it can be referenced elsewhere the same way we found Chart Trader
-   System.Windows.Automation.AutomationProperties.SetAutomationId(sampleButton, "SampleButton");
-
-   //this is the main chart trader grid where the default buttons and controls reside
-   mainGrid = chartTrader.FindName("grdMain") as Grid;
-
-   // Return if Chart Trader is null
-   if (mainGrid == null)
-   {
-       return;
-   }
-
-   // by default, there will be 7 rows in Chart Trader, we need to add a new row for the new button
-   if (mainGrid.RowDefinitions.Count <= 7)
-       mainGrid.RowDefinitions.Add(new RowDefinition());
-
-   //define a new grid, and add our button to that grid
-   myGrid = new Grid();
-   myGrid.Children.Add(sampleButton);
-
-   //set my grid to the new row
-   Grid.SetRow(myGrid, 8);
-
-   //finally, add our grid to the main grid
-   mainGrid.Children.Add(myGrid);
+   // Instantiate myChart by assigning a reference to the calling Window
+   myChart = window as Gui.Chart.Chart;
+ 
+   if (myChart == null)
+   {
+       return;
+   }
+ 
+   //find chart trader from myChart's Chart Control by its Automation ID: "ChartWindowChartTrader"
+   chartTrader = Window.GetWindow(myChart.ActiveChartControl.Parent).FindFirst("ChartWindowChartTraderControl") as Gui.Chart.ChartTrader;
+ 
+   if (chartTrader == null)
+   {
+       return;
+   }
+ 
+   // Instantiate sampleButton
+   sampleButton = new Button
+   {
+       Content = "Sample Button",
+       Style = System.Windows.Application.Current.TryFindResource("Button") as Style
+   };
+ 
+   // Attach a custom event handler to the .Click event
+   sampleButton.Click += SampleButton_Click;
+ 
+   // Set a custom AutomationId for the button, so that it can be referenced elsewhere the same way we found Chart Trader
+   System.Windows.Automation.AutomationProperties.SetAutomationId(sampleButton, "SampleButton");
+ 
+   //this is the main chart trader grid where the default buttons and controls reside
+   mainGrid = chartTrader.FindName("grdMain") as Grid;
+ 
+   // Return if Chart Trader is null
+   if (mainGrid == null)
+   {
+       return;
+   }
+ 
+   // by default, there will be 7 rows in Chart Trader, we need to add a new row for the new button
+   if (mainGrid.RowDefinitions.Count <= 7)
+       mainGrid.RowDefinitions.Add(new RowDefinition());
+ 
+   //define a new grid, and add our button to that grid
+   myGrid = new Grid();
+   myGrid.Children.Add(sampleButton);
+ 
+   //set my grid to the new row
+   Grid.SetRow(myGrid, 8);
+ 
+   //finally, add our grid to the main grid
+   mainGrid.Children.Add(myGrid);
 }
-
+ 
 private void SampleButton_Click(object sender, RoutedEventArgs e)
 {
-   Print("Sample Button Clicked");
+   Print("Sample Button Clicked");
 }
 ```
 
@@ -118,16 +118,16 @@ Since we are dynamically adding elements to open windows, it is important to cle
 ```csharp
 protected override void OnWindowDestroyed(Window window)
 {
-   // Return if there is no button, or if the destroyed window is not a chart
-   if(sampleButton == null || !(window is Gui.Chart.Chart))
-   {
-       return;
-   }
-
-   // Detach the event handler from the .Click event, remove the grid, and nullify the button
-   sampleButton.Click -= SampleButton_Click;
-   mainGrid.Children.Remove(myGrid);
-   sampleButton = null;
+   // Return if there is no button, or if the destroyed window is not a chart
+   if(sampleButton == null || !(window is Gui.Chart.Chart))
+   {
+       return;
+   }
+ 
+   // Detach the event handler from the .Click event, remove the grid, and nullify the button
+   sampleButton.Click -= SampleButton_Click;
+   mainGrid.Children.Remove(myGrid);
+   sampleButton = null;
 }
 ```
 
@@ -138,42 +138,42 @@ Below is another example of adding elements into chart windows. In this example,
 ```csharp
 protected override void OnWindowCreated(Window window)
 {
-   // Obtain a reference to any chart that triggered OnWindowCreated
-   Chart Window = window as Chart;
-
-   // Instantiate a grid to hold a reference to the content of the chart window
-   Grid mainWindowGrid = Window.Content as Grid;
-
-   // Add existing row definition for existing row if it is not present
-   if (mainWindowGrid.RowDefinitions.Count == 0)
-   {
-       mainWindowGrid.RowDefinitions.Add(new RowDefinition());
-   }
-
-   // Instantiate a RowDefinition and set its height
-   RowDefinition row = new RowDefinition();
-   row.Height = new GridLength(PanelLength);
-
-   // Insert the new row into the chart's main window grid
-   mainWindowGrid.RowDefinitions.Insert(0, row);
-
-   //Move Existing Elements down one row, since our new content will take the top row
-   foreach (UIElement element in mainWindowGrid.Children)
-   {
-       element.SetValue(Grid.RowProperty, (int)element.GetValue(Grid.RowProperty) + 1);
-   }
-
-   //Create the Top Panel grid and add it to our newly defined row
-   Grid Panel = new Grid();
-   Panel.SetValue(Grid.RowProperty, 0);
-   mainWindowGrid.Children.Add(Panel);
-
-   //Create a sample text block and add it to the Top/Bottom Panel Grid.
-   TextBlock TextBlock = new TextBlock();
-   TextBlock.Text = PanelDirection.ToString() + " Panel (" + PanelLocation.ToString() + ") Sample Text Block";
-   TextBlock.Foreground = Brushes.Red;
-   TextBlock.SetValue(Grid.RowProperty, 0);
-   Panel.Children.Add(TextBlock);
+   // Obtain a reference to any chart that triggered OnWindowCreated
+   Chart Window = window as Chart;
+    
+   // Instantiate a grid to hold a reference to the content of the chart window
+   Grid mainWindowGrid = Window.Content as Grid;
+    
+   // Add existing row definition for existing row if it is not present
+   if (mainWindowGrid.RowDefinitions.Count == 0)
+   {
+       mainWindowGrid.RowDefinitions.Add(new RowDefinition());
+   }
+                
+   // Instantiate a RowDefinition and set its height
+   RowDefinition row = new RowDefinition();
+   row.Height = new GridLength(PanelLength);
+    
+   // Insert the new row into the chart's main window grid
+   mainWindowGrid.RowDefinitions.Insert(0, row);
+    
+   //Move Existing Elements down one row, since our new content will take the top row
+   foreach (UIElement element in mainWindowGrid.Children)
+   {
+       element.SetValue(Grid.RowProperty, (int)element.GetValue(Grid.RowProperty) + 1);
+   }
+    
+   //Create the Top Panel grid and add it to our newly defined row
+   Grid Panel = new Grid();
+   Panel.SetValue(Grid.RowProperty, 0);
+   mainWindowGrid.Children.Add(Panel);
+ 
+   //Create a sample text block and add it to the Top/Bottom Panel Grid.
+   TextBlock TextBlock = new TextBlock();
+   TextBlock.Text = PanelDirection.ToString() + " Panel (" + PanelLocation.ToString() + ") Sample Text Block";
+   TextBlock.Foreground = Brushes.Red;
+   TextBlock.SetValue(Grid.RowProperty, 0);
+   Panel.Children.Add(TextBlock);
 }
 ```
 
@@ -196,40 +196,40 @@ From time to time, you may need to access certain global data, such as account v
 // Custom Subscribe() method to refresh subscriptions
 private void Subscribe()
 {
-   if (myAccount != null)
-   {
-       // Unsubscribe to any prior account subscriptions
-       myAccount.AccountItemUpdate -= OnAccountItemUpdate;
-       myAccount.ExecutionUpdate -= OnExecutionUpdate;
-       myAccount.OrderUpdate -= OnOrderUpdate;
-       myAccount.PositionUpdate -= OnPositionUpdate;
-
-       // Subscribe to new account subscriptions
-       myAccount.AccountItemUpdate   += OnAccountItemUpdate;
-       myAccount.ExecutionUpdate     += OnExecutionUpdate;
-       myAccount.OrderUpdate         += OnOrderUpdate;
-       myAccount.PositionUpdate     += OnPositionUpdate;
-   }
+   if (myAccount != null)
+   {
+       // Unsubscribe to any prior account subscriptions
+       myAccount.AccountItemUpdate -= OnAccountItemUpdate;
+       myAccount.ExecutionUpdate -= OnExecutionUpdate;
+       myAccount.OrderUpdate -= OnOrderUpdate;
+       myAccount.PositionUpdate -= OnPositionUpdate;
+ 
+       // Subscribe to new account subscriptions
+       myAccount.AccountItemUpdate   += OnAccountItemUpdate;
+       myAccount.ExecutionUpdate     += OnExecutionUpdate;
+       myAccount.OrderUpdate         += OnOrderUpdate;
+       myAccount.PositionUpdate     += OnPositionUpdate;
+   }
 }
-
+ 
 private void OnAccountItemUpdate(object sender, AccountItemEventArgs e)
 {
-   // Handle account item updates
+   // Handle account item updates
 }
-
+ 
 private void OnExecutionUpdate(object sender, AccountItemEventArgs e)
 {
-   // Handle execution updates
+   // Handle execution updates
 }
-
+ 
 private void OnOrderUpdate(object sender, AccountItemEventArgs e)
 {
-   // Handle order updates
+   // Handle order updates
 }
-
+ 
 private void OnPositionUpdate(object sender, AccountItemEventArgs e)
 {
-   // Handle position updates
+   // Handle position updates
 }
 ```
 
@@ -251,70 +251,70 @@ Market data can be accessed via a **BarsRequest** object, which can provide real
 // Custom method to perform a BarsRequest
 private NinjaTrader.Data.BarsRequest DoBarsRequest(Instrument instrument, int lookBackPeriod)
 {
-   // Declare a BarsRequest object
-   NinjaTrader.Data.BarsRequest barsRequest;
-
-   // Request x number of days back of data.
-   barsRequest = new NinjaTrader.Data.BarsRequest(instrument, DateTime.Now.AddDays(-lookBackPeriod), DateTime.Now);
-
-   // If you wish to request x number of bars back instead you can use this signature:
-   // barsRequest = new NinjaTrader.Data.BarsRequest(instrument, lookBackPeriod);
-
-
-   // Parameterize the request
-   barsRequest.BarsPeriod = new NinjaTrader.Data.BarsPeriod { BarsPeriodType = BarsPeriodType.Minute, Value = 60 };
-   barsRequest.TradingHours     = NinjaTrader.Data.TradingHours.Get("Default 24 x 7");
-
-   // Additional parameters which could be set
-   // barsRequest.IsDividendAdjusted      = true;
-   // barsRequest.IsResetOnNewTradingDay   = false;
-   // barsRequest.IsSplitAdjusted         = true;
-   // barsRequest.LookupPolicy            = LookupPolicies.Provider;
-   // barsRequest.MergePolicy            = MergePolicy.DoNotMerge;
-
-   // Attach event handler for real-time events if you want to process real-time data
-   barsRequest.Update     += MyOnBarUpdate;
-
-   // Call the Request method on the BarsRequest object to request the bars
-   barsRequest.Request(new Action<ninjatrader.data.barsrequest, errorcode,="" string="">((bars, errorCode, errorMessage) =>
-   {
-       Dispatcher.InvokeAsync(new Action(() =>
-       {
-           if (errorCode != ErrorCode.NoError)
-           {
-               // Handle any errors in requesting bars here
-               outputBox.Text = string.Format("Error on requesting bars: {0}, {1}", errorCode, errorMessage);
-               return;
-           }
-       }));
-   }));
-
-   // Return the Bars Request to any callers of this method
-   return barsRequest;
+   // Declare a BarsRequest object
+   NinjaTrader.Data.BarsRequest barsRequest;
+    
+   // Request x number of days back of data.
+   barsRequest = new NinjaTrader.Data.BarsRequest(instrument, DateTime.Now.AddDays(-lookBackPeriod), DateTime.Now);
+ 
+   // If you wish to request x number of bars back instead you can use this signature:
+   // barsRequest = new NinjaTrader.Data.BarsRequest(instrument, lookBackPeriod);
+    
+ 
+   // Parameterize the request
+   barsRequest.BarsPeriod = new NinjaTrader.Data.BarsPeriod { BarsPeriodType = BarsPeriodType.Minute, Value = 60 };
+   barsRequest.TradingHours     = NinjaTrader.Data.TradingHours.Get("Default 24 x 7");
+    
+   // Additional parameters which could be set
+   // barsRequest.IsDividendAdjusted      = true;
+   // barsRequest.IsResetOnNewTradingDay   = false;
+   // barsRequest.IsSplitAdjusted         = true;
+   // barsRequest.LookupPolicy            = LookupPolicies.Provider;
+   // barsRequest.MergePolicy            = MergePolicy.DoNotMerge;
+ 
+   // Attach event handler for real-time events if you want to process real-time data
+   barsRequest.Update     += MyOnBarUpdate;
+    
+   // Call the Request method on the BarsRequest object to request the bars
+   barsRequest.Request(new Action<ninjatrader.data.barsrequest, errorcode,="" string="">((bars, errorCode, errorMessage) =>
+   {
+       Dispatcher.InvokeAsync(new Action(() =>
+       {
+           if (errorCode != ErrorCode.NoError)
+           {
+               // Handle any errors in requesting bars here
+               outputBox.Text = string.Format("Error on requesting bars: {0}, {1}", errorCode, errorMessage);
+               return;
+           }
+       }));
+   }));
+    
+   // Return the Bars Request to any callers of this method
+   return barsRequest;
 }
-
+ 
 // BarsUpdateEventArgs is provided by the BarsRequest's Update event
 private void MyOnBarUpdate(object sender, NinjaTrader.Data.BarsUpdateEventArgs e)
 {
-   /* Dispatcher.InvokeAsync() is needed for multi-threading considerations. When processing events outside of the UI thread, and we want to
-    influence the UI .InvokeAsync() allows us to do so. It can also help prevent the UI thread from locking up on long operations. */
-   Dispatcher.InvokeAsync(() =>
-   {
-       /* Depending on the BarsPeriod type of your barsRequest you can have situations where more than one bar is updated by a single tick
-        Be sure to process the full range of updated bars to ensure you did not miss a bar. */
-
-       // Process updated bars on each tick
-       for (int i = e.MinIndex; i <= e.MaxIndex; i++)
-       {
-           // Processing every single tick
-           outputBox.Text = string.Format("REALTIME BARS{0}Time: {1}{0}Open: {2}{0}High: {3}{0}Low: {4}{0}Close: {5}",
-               Environment.NewLine,
-               e.BarsSeries.GetTime(i),
-               e.BarsSeries.GetOpen(i),
-               e.BarsSeries.GetHigh(i),
-               e.BarsSeries.GetLow(i),
-               e.BarsSeries.GetClose(i));
-       }
-   });
+   /* Dispatcher.InvokeAsync() is needed for multi-threading considerations. When processing events outside of the UI thread, and we want to
+    influence the UI .InvokeAsync() allows us to do so. It can also help prevent the UI thread from locking up on long operations. */
+   Dispatcher.InvokeAsync(() =>
+   {
+       /* Depending on the BarsPeriod type of your barsRequest you can have situations where more than one bar is updated by a single tick
+        Be sure to process the full range of updated bars to ensure you did not miss a bar. */
+ 
+       // Process updated bars on each tick
+       for (int i = e.MinIndex; i <= e.MaxIndex; i++)
+       {
+           // Processing every single tick
+           outputBox.Text = string.Format("REALTIME BARS{0}Time: {1}{0}Open: {2}{0}High: {3}{0}Low: {4}{0}Close: {5}",
+               Environment.NewLine,
+               e.BarsSeries.GetTime(i),
+               e.BarsSeries.GetOpen(i),
+               e.BarsSeries.GetHigh(i),
+               e.BarsSeries.GetLow(i),
+               e.BarsSeries.GetClose(i));
+       }
+   });
 }
 ```

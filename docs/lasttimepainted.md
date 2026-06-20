@@ -31,10 +31,10 @@ A **DateTime** object corresponding to the slot index of the most recently paint
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   DateTime lastSlotTime = chartControl.LastTimePainted;
+   DateTime lastSlotTime = chartControl.LastTimePainted;
 
-   // Print the index of the last slot painted on the chart
-   Print(lastSlotTime);
+   // Print the index of the last slot painted on the chart
+   Print(lastSlotTime);
 }
 ```
 

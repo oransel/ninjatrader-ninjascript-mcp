@@ -53,8 +53,8 @@ Developed by Larry Williams and introduced in his article in the April, 1985 iss
 
 ```csharp
 // Prints the current value of a typical Ultimate Oscillator using default price type
-double value = UltimateOscillator(7, 14, 28)[0];
-Print("The current Ultimate Oscillator value is " + value.ToString());
+double value = UltimateOscillator(7, 14, 28)[0];
+Print("The current Ultimate Oscillator value is " + value.ToString());
 ```
 
 

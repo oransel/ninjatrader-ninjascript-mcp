@@ -50,8 +50,8 @@ You must override the method with the following syntax.
 ```csharp
 public override void OnMouseUp(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {
-   //when the user releases the mouse, ensure the drawing state is set to normal
-   if (DrawingState == DrawingState.Editing || DrawingState == DrawingState.Moving)
-     DrawingState = DrawingState.Normal;
+   //when the user releases the mouse, ensure the drawing state is set to normal
+   if (DrawingState == DrawingState.Editing || DrawingState == DrawingState.Moving)
+     DrawingState = DrawingState.Normal;
 }
 ```

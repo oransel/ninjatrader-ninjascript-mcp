@@ -31,10 +31,10 @@ A **NinjaTrader.Data.BarsPeriod** object containing information on the period us
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   BarsPeriod period = chartControl.BarsPeriod;
-
-   // Print the period (interval) of the Bars object on the chart
-   Print(period);
+   BarsPeriod period = chartControl.BarsPeriod;
+ 
+   // Print the period (interval) of the Bars object on the chart
+   Print(period);
 }
 ```
 

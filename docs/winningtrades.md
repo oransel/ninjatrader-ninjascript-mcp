@@ -33,17 +33,17 @@ A subcollection of [Trade](https://developer.ninjatrader.com/docs/desktop/trade
 
 
 ```csharp
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-    // Accesses the first/last winning trade in the strategy (oldest trade is at index 0)
-    // and prints out the profit as a percentage to the output window
-    if (SystemPerformance.AllTrades.WinningTrades.Count > 1)
-    {
-        Trade lastTrade = SystemPerformance.AllTrades.WinningTrades[SystemPerformance.AllTrades.Count - 1];
-        Trade firstTrade = SystemPerformance.AllTrades.WinningTrades[0];
-
-        Print("The last winning trade's profit was " + lastTrade.ProfitPercent);
-        Print("The first winning trade's profit was " + firstTrade.ProfitPercent);
-    }
+    // Accesses the first/last winning trade in the strategy (oldest trade is at index 0)
+    // and prints out the profit as a percentage to the output window
+    if (SystemPerformance.AllTrades.WinningTrades.Count > 1)
+    {
+        Trade lastTrade = SystemPerformance.AllTrades.WinningTrades[SystemPerformance.AllTrades.Count - 1];
+        Trade firstTrade = SystemPerformance.AllTrades.WinningTrades[0];
+ 
+        Print("The last winning trade's profit was " + lastTrade.ProfitPercent);
+        Print("The first winning trade's profit was " + firstTrade.ProfitPercent);
+    }
 }
 ```

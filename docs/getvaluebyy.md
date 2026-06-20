@@ -38,10 +38,10 @@ A **double** value representing a series value on the chart scale. This is norma
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // the price value of the pixel coordinate passed in the method
-   double valueByY =   chartScale.GetValueByY(1);
+   // the price value of the pixel coordinate passed in the method
+   double valueByY =   chartScale.GetValueByY(1);
 
-   Print("valueByY: " + valueByY); //2106.19693333
+   Print("valueByY: " + valueByY); //2106.19693333
 }
 ```
 

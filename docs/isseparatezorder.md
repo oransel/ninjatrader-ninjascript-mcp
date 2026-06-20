@@ -29,12 +29,12 @@ This property returns true if the object is drawn on a separate ZOrder; other
 
 
 ```csharp
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-  // Instantiate a Dot object
-  Dot myDot = Draw.Dot(this, "NewDot", true, 5, High[5], Brushes.Black);
-
-  // Set the Dot object to use a separate Z-Order than the indicator that created it
-  myDot.IsSeparateZOrder = true;
+  // Instantiate a Dot object
+  Dot myDot = Draw.Dot(this, "NewDot", true, 5, High[5], Brushes.Black);
+ 
+  // Set the Dot object to use a separate Z-Order than the indicator that created it
+  myDot.IsSeparateZOrder = true;
 }
 ```

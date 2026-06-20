@@ -48,12 +48,12 @@ You must override the method in your strategy with the following syntax:
 ```csharp
 protected override void OnOrderTrace(DateTime timestamp, string message)
 {
-   // The below print would give us the default tracing
-   Print(string.Format("{0} {1}", timestamp, message));
-
-   // The extended example would also include the instrument fullname from our primary bars object
-   if (BarsArray[0] != null)
-       Print(string.Format("{0} {1} {2}", timestamp, message, BarsArray[0].Instrument.FullName));
+   // The below print would give us the default tracing
+   Print(string.Format("{0} {1}", timestamp, message));
+ 
+   // The extended example would also include the instrument fullname from our primary bars object
+   if (BarsArray[0] != null)
+       Print(string.Format("{0} {1} {2}", timestamp, message, BarsArray[0].Instrument.FullName));
 }
 ```
 

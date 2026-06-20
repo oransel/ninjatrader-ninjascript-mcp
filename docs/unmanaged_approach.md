@@ -20,12 +20,12 @@ In the OnStateChange() method designating the [IsUnmanaged](https://developer.n
 
 
 ```csharp
-protected override void OnStateChange()
+protected override void OnStateChange()
 {
-    if (State == State.SetDefaults)
-    {
-        IsUnmanaged = true;
-    }
+    if (State == State.SetDefaults)
+    {
+        IsUnmanaged = true;
+    }
 }
 ```
 
@@ -46,11 +46,11 @@ In the example below, a buy limit order to enter a long position is working at t
 
 
 ```csharp
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-    // Entry condition
-    if (Close[0] > SMA(20)[0] && entryOrder == null)
-        entryOrder = SubmitOrderUnmanaged(0, OrderAction.Buy, OrderType.Limit, 1, GetCurrentBid(), 0, "", "Long Limit");
+    // Entry condition
+    if (Close[0] > SMA(20)[0] && entryOrder == null)
+        entryOrder = SubmitOrderUnmanaged(0, OrderAction.Buy, OrderType.Limit, 1, GetCurrentBid(), 0, "", "Long Limit");
 }
 ```
 
@@ -74,11 +74,11 @@ Unlike the Managed approach where you could modify a working order by calling th
 
 
 ```csharp
-protected override void OnBarUpdate()
-{
+protected override void OnBarUpdate()
+{ 
 	// Raise stop loss to breakeven when you are at least 4 ticks in profit
-	if (stopOrder != null && stopOrder.StopPrice < Position.AveragePrice && Close[0] >= Position.AveragePrice + 4 * TickSize)
-	  ChangeOrder(stopOrder, stopOrder.Quantity, 0, Position.AveragePrice);
+	if (stopOrder != null && stopOrder.StopPrice < Position.AveragePrice && Close[0] >= Position.AveragePrice + 4 * TickSize)
+	  ChangeOrder(stopOrder, stopOrder.Quantity, 0, Position.AveragePrice);
 }
 ```
 
@@ -90,15 +90,15 @@ Similar to the live until canceled technique from the Managed approach, cancelin
 
 
 ```csharp
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-    // Cancel entry order if price is moving away from our limit price
-    if (entryOrder != null && Close[0] < entryOrder.LimitPrice - 4 * TickSize)
-    {
-        CancelOrder(entryOrder);
-
-        // If the entryOrder Order object is no longer needed I should reset it to null in the OnOrderUpdate() method
-    }
+    // Cancel entry order if price is moving away from our limit price
+    if (entryOrder != null && Close[0] < entryOrder.LimitPrice - 4 * TickSize)
+    {
+        CancelOrder(entryOrder);
+ 
+        // If the entryOrder Order object is no longer needed I should reset it to null in the OnOrderUpdate() method
+    }
 }
 ```
 

@@ -43,12 +43,12 @@ The returned DirectWrite.TextFormat object should be disposed of immediately whe
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Set text to chart label simple font object
-   SharpDX.DirectWrite.TextFormat textFormat = chartControl.Properties.LabelFont.ToDirectWriteTextFormat();
-
-   // use the textFormat in a RenderTarget.DrawText() or DrawTextLayout() method
-
-   // do not forget to dispose text format when finished
-   textFormat.Dispose();
+   // Set text to chart label simple font object
+   SharpDX.DirectWrite.TextFormat textFormat = chartControl.Properties.LabelFont.ToDirectWriteTextFormat();
+ 
+   // use the textFormat in a RenderTarget.DrawText() or DrawTextLayout() method
+ 
+   // do not forget to dispose text format when finished
+   textFormat.Dispose();
 }
 ```

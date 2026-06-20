@@ -53,13 +53,13 @@ A Variable Moving Average is an exponential moving average that automatically ad
 // OnBarUpdate method of a strategy
 protected override void OnBarUpdate()
 {
-   // Print out the VMA value of lows 3 bars ago for fun
-   double value = VMA(Low, 9, 9)[3];
-   Print("The value is " + value.ToString());
-
-   // Go long if price closes above the current VMA value
-   if (Close[0] > VMA(9, 9)[0])
-       EnterLong();
+   // Print out the VMA value of lows 3 bars ago for fun
+   double value = VMA(Low, 9, 9)[3];
+   Print("The value is " + value.ToString());
+ 
+   // Go long if price closes above the current VMA value
+   if (Close[0] > VMA(9, 9)[0])
+       EnterLong();
 }
 ```
 

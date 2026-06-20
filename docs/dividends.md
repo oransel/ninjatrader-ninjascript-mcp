@@ -39,7 +39,7 @@ Possible values are:
 ```csharp
 foreach(Dividend dividends in Bars.Instrument.MasterInstrument.Dividends)
 {
-   Print(dividends.Amount);
-   Print(dividends.Date);
+   Print(dividends.Amount);
+   Print(dividends.Date);
 }
 ```

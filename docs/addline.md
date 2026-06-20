@@ -62,12 +62,12 @@ This method should ONLY be called within the `OnStateChange()` method during Sta
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Examples Indicator";
-     // Adds an oscillator line at a value of 30
-     AddLine(Brushes.Gray, 30, "Lower");
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Examples Indicator";
+     // Adds an oscillator line at a value of 30
+     AddLine(Brushes.Gray, 30, "Lower");
+   }
 }
 ```
 
@@ -78,29 +78,29 @@ protected override void OnStateChange()
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name                 = "Examples Indicator";
+   if (State == State.SetDefaults)
+   {
+     Name                 = "Examples Indicator";
 
-     // logical property which user can set
-     UseSpecialMode   = false;
-     // Default brush selection pushed to the UI
-     MyBrush = Brushes.Red;
-   }
-   else if (State == State.Configure)
-   {
-     // if user enables logical property
-     if (UseSpecialMode)
-     {
-         // add line using default selected brush and special line name
-         AddLine(MyBrush, 40,  "My Special Line");
-     }
-     else
-     {
-         // otherwise use default selected brush and regular line name
-         AddLine(MyBrush, 60, "My Regular Line");
-     }
-   }
+     // logical property which user can set
+     UseSpecialMode   = false;
+     // Default brush selection pushed to the UI
+     MyBrush = Brushes.Red;
+   }
+   else if (State == State.Configure)
+   {
+     // if user enables logical property
+     if (UseSpecialMode)
+     {
+         // add line using default selected brush and special line name
+         AddLine(MyBrush, 40,  "My Special Line");
+     }
+     else
+     {
+         // otherwise use default selected brush and regular line name
+         AddLine(MyBrush, 60, "My Regular Line");
+     }
+   }
 }
 
 [XmlIgnore]

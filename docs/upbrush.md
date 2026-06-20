@@ -35,12 +35,12 @@ A [WPF](https://msdn.microsoft.com/en-us/library/ms754130(v=vs.110).aspx) Brus
 
 
 ```csharp
-protected override void OnStateChange()
+protected override void OnStateChange()
 {
-  if (State == State.Configure)
-  {
-      // Set a new name for the UpBrush property
-      SetPropertyName("UpBrush", "AdvancingBrush");
-  }
+  if (State == State.Configure)
+  {
+      // Set a new name for the UpBrush property
+      SetPropertyName("UpBrush", "AdvancingBrush");
+  }
 }
 ```

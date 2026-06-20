@@ -11,11 +11,11 @@ In C#, square brackets represent a way to access values stored within an collect
 
 
 ```csharp
-double close1 = Close[1]; // gets the close price one bar ago
+double close1 = Close[1]; // gets the close price one bar ago
 
-double high3 = High[3]; // gets the high of three bars ago
+double high3 = High[3]; // gets the high of three bars ago
 
-double low = Low; // results in compile error. Low is an array, and can't be accessed directly. It should be Low[n Bars ago].
+double low = Low; // results in compile error. Low is an array, and can't be accessed directly. It should be Low[n Bars ago].
 ```
 
 
@@ -23,9 +23,9 @@ Many of NinjaTrader's indicators store their values in Series as well, generally
 
 
 ```csharp
-double SMA_current = SMA(14)[0]; // gets the current value of the SMA
-double SMA_1 = SMA(14)[1]; // gets the SMA value one bar ago
-double SMA_value = SMA(14); // results in compile error. SMA(14) is a Series and the variable SMA_value of type double can't hold a Series.
+double SMA_current = SMA(14)[0]; // gets the current value of the SMA
+double SMA_1 = SMA(14)[1]; // gets the SMA value one bar ago
+double SMA_value = SMA(14); // results in compile error. SMA(14) is a Series and the variable SMA_value of type double can't hold a Series.
 ```
 
 
@@ -35,7 +35,7 @@ Most of the time, you need an index value (number in the square brackets), but t
 ```csharp
 CrossAbove(ISeries<double> series1, ISeries<double> series2, int lookBackPeriod)
 
-CrossAbove(ISeries<double> series1, double value, int lookBackPeriod)
+CrossAbove(ISeries<double> series1, double value, int lookBackPeriod)
 ```
 
 
@@ -43,11 +43,11 @@ This means the first variable must always be a `ISeries<double>` object, and the
 
 
 ```csharp
-if (CrossAbove(SMA(14), SMA(28), 1)) // works fine
+if (CrossAbove(SMA(14), SMA(28), 1)) // works fine
 
-if (CrossAbove(SMA(14), 1000, 1)) // works fine, this uses a double for the second argument. See the above overload.
+if (CrossAbove(SMA(14), 1000, 1)) // works fine, this uses a double for the second argument. See the above overload.
 
-if (CrossAbove(SMA(14)[0], SMA(28)[0], 1)) // compile error: SMA(14)[0] is a double, not a ISeries<double>
+if (CrossAbove(SMA(14)[0], SMA(28)[0], 1)) // compile error: SMA(14)[0] is a double, not a ISeries<double>
 
-if (CrossAbove(SMA(14), SMA(28)[0], 1)) // would work fine with a ISeries<double> as first argument and a double as the second argument
+if (CrossAbove(SMA(14), SMA(28)[0], 1)) // would work fine with a ISeries<double> as first argument and a double as the second argument
 ```

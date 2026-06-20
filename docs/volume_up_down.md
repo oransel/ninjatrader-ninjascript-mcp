@@ -51,8 +51,8 @@ Variation of the [VOL](https://developer.ninjatrader.com/docs/desktop/volume) 
 
 ```csharp
 // Prints the current value VolumeUpDown
-double value = VolumeUpDown()[0];
-Print("The current Volume value is " + value.ToString());
+double value = VolumeUpDown()[0];
+Print("The current Volume value is " + value.ToString());
 ```
 
 

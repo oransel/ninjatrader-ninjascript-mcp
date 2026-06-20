@@ -54,16 +54,16 @@ The Connection class can be used to monitor connection related events as well as
 
 ```csharp
 // Example of accessing information on all connected connections
-public class MyAddOnTab : NTTabPage
+public class MyAddOnTab : NTTabPage
 {
-  public MyAddOnTab()
-  {
-    // Print information about all connected connections
-    lock (Connection.Connections)
-      foreach(Connection c in Connection.Connections)
-          NinjaTrader.Code.Output.Process(string.Format("Connection: {0} Provider: {1}", c.Options.Name, c.Options.Provider), PrintTo.OutputTab1);
-
-    // Other required NTTabPage members left out for demonstration purposes. Be sure to add them in your own code.
-  }
+  public MyAddOnTab()
+  {
+    // Print information about all connected connections
+    lock (Connection.Connections)
+      foreach(Connection c in Connection.Connections)
+          NinjaTrader.Code.Output.Process(string.Format("Connection: {0} Provider: {1}", c.Options.Name, c.Options.Provider), PrintTo.OutputTab1);
+ 
+    // Other required NTTabPage members left out for demonstration purposes. Be sure to add them in your own code.
+  }
 }
 ```

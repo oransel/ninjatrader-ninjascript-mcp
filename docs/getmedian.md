@@ -45,10 +45,10 @@ A **double** value representing the median value of the series.
 
 ```csharp
 protected override void OnBarUpdate()
-{
-   // Print the median price of the last 10 open prices
-   //(current open price + look back period's 9 open prices before that)
-   double openMedian = GetMedian(Open, 9);
-   Print("The median of the last 10 open prices is: " + openMedian);
+{  
+   // Print the median price of the last 10 open prices
+   //(current open price + look back period's 9 open prices before that)
+   double openMedian = GetMedian(Open, 9);        
+   Print("The median of the last 10 open prices is: " + openMedian);      
 }
 ```

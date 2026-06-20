@@ -37,9 +37,9 @@ An enum specifying the type of Cross Hair currently enabled on the chart. Possib
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Print a message if the user enables the Global Cross Hair without time scrolling
-   if (chartControl.CrosshairType == CrosshairType.GlobalNoTimeScroll)
-       Print("It is recommended to enable Global Cross Hair time scrolling with this indicator");
+   // Print a message if the user enables the Global Cross Hair without time scrolling
+   if (chartControl.CrosshairType == CrosshairType.GlobalNoTimeScroll)
+       Print("It is recommended to enable Global Cross Hair time scrolling with this indicator");
 }
 ```
 

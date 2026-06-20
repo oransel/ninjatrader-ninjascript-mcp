@@ -18,38 +18,38 @@ Enter the code contained within the **OnStateChange()** method in the image belo
 
 ```csharp
 {
-     Description                               = @"RSI with a Stop Loss and Profit Target";
-     Name                                     = "RSIwithStopAndTarget";
-     Calculate                                 = Calculate.OnBarClose;
-     EntriesPerDirection                       = 1;
-     EntryHandling                             = EntryHandling.AllEntries;
-     IsExitOnSessionCloseStrategy             = true;
-     ExitOnSessionCloseSeconds                 = 30;
-     IsFillLimitOnTouch                       = false;
-     MaximumBarsLookBack                       = MaximumBarsLookBack.TwoHundredFiftySix;
-     OrderFillResolution                       = OrderFillResolution.Standard;
-     Slippage                                 = 0;
-     StartBehavior                             = StartBehavior.WaitUntilFlat;
-     TimeInForce                               = TimeInForce.Gtc;
-     TraceOrders                               = false;
-     RealtimeErrorHandling                     = RealtimeErrorHandling.StopCancelClose;
-     StopTargetHandling                       = StopTargetHandling.PerEntryExecution;
-     BarsRequiredToTrade                       = 20;
-     // Disable this property for performance gains in Strategy Analyzer optimizations
-     // See the Help Guide for additional information
-     IsInstantiatedOnEachOptimizationIteration = true;
-     RSIPeriod                                 = 14;
-     RSISmooth                                 = 3;
-     ProfitTarget                             = 12;
-     StopLoss                                 = 6;
-   }
-   else if (State == State.DataLoaded)
-   {
-     AddChartIndicator(RSI(RSIPeriod, RSISmooth));
+     Description                               = @"RSI with a Stop Loss and Profit Target";
+     Name                                     = "RSIwithStopAndTarget";
+     Calculate                                 = Calculate.OnBarClose;
+     EntriesPerDirection                       = 1;
+     EntryHandling                             = EntryHandling.AllEntries;
+     IsExitOnSessionCloseStrategy             = true;
+     ExitOnSessionCloseSeconds                 = 30;
+     IsFillLimitOnTouch                       = false;
+     MaximumBarsLookBack                       = MaximumBarsLookBack.TwoHundredFiftySix;
+     OrderFillResolution                       = OrderFillResolution.Standard;
+     Slippage                                 = 0;
+     StartBehavior                             = StartBehavior.WaitUntilFlat;
+     TimeInForce                               = TimeInForce.Gtc;
+     TraceOrders                               = false;
+     RealtimeErrorHandling                     = RealtimeErrorHandling.StopCancelClose;
+     StopTargetHandling                       = StopTargetHandling.PerEntryExecution;
+     BarsRequiredToTrade                       = 20;
+     // Disable this property for performance gains in Strategy Analyzer optimizations
+     // See the Help Guide for additional information
+     IsInstantiatedOnEachOptimizationIteration = true;
+     RSIPeriod                                 = 14;
+     RSISmooth                                 = 3;
+     ProfitTarget                             = 12;
+     StopLoss                                 = 6;
+   }
+   else if (State == State.DataLoaded)
+   {
+     AddChartIndicator(RSI(RSIPeriod, RSISmooth));
 
-     SetStopLoss(CalculationMode.Ticks, StopLoss);
-     SetProfitTarget(CalculationMode.Ticks, ProfitTarget);
-   }
+     SetStopLoss(CalculationMode.Ticks, StopLoss);
+     SetProfitTarget(CalculationMode.Ticks, ProfitTarget);
+   }
 }
 ```
 
@@ -102,11 +102,11 @@ Enter the code contained within the **OnBarUpdate()** method in the image below 
 ```csharp
 protected override void OnBarUpdate()
 {
-   if (CurrentBar < RSIPeriod)
-     return;
-
-   if(CrossAbove(RSI(RSIPeriod, RSISmooth), 20, 1))
-     EnterLong();
+   if (CurrentBar < RSIPeriod)
+     return;
+  
+   if(CrossAbove(RSI(RSIPeriod, RSISmooth), 20, 1))
+     EnterLong();
 }
 ```
 

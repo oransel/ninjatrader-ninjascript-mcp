@@ -40,7 +40,7 @@ Based on the image below, there are three ChartPanel objects in the ChartPanels 
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Print the number of panels currently displayed on the chart
-   Print(String.Format("There are {0} panels on the chart", chartControl.ChartPanels.Count));
+   // Print the number of panels currently displayed on the chart
+   Print(String.Format("There are {0} panels on the chart", chartControl.ChartPanels.Count));  
 }
 ```

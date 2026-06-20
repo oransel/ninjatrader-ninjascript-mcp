@@ -39,9 +39,9 @@ A **DateTime** struct representing a bar time value at a specific bar index valu
 ```csharp
 protected override void OnBarUpdate()
 {
-   if (ChartBars != null)
-   {
-     Print(ChartBars.GetTimeByBarIdx(ChartControl, 50)); //8/11/2015 4:30:00 AM
-   }
+   if (ChartBars != null)
+   {
+     Print(ChartBars.GetTimeByBarIdx(ChartControl, 50)); //8/11/2015 4:30:00 AM
+   }
 }
 ```

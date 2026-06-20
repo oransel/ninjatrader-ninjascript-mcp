@@ -29,21 +29,21 @@ An array of [ISeries<`double`>](https://developer.ninjatrader.com/docs/desktop/
 
 
 ```csharp
-protected override void OnStateChange()
+protected override void OnStateChange()
 {
-    if (State == State.Configure)
-    {
-        // Adds a 5 minute Bars object to the strategy and is automatically assigned
-        // a Bars object index of 1 since the primary data the strategy is run against
-        // set by the UI takes the index of 0.
-        AddDataSeries("AAPL", BarsPeriodType.Minute, 5);
-    }
+    if (State == State.Configure)
+    {
+        // Adds a 5 minute Bars object to the strategy and is automatically assigned
+        // a Bars object index of 1 since the primary data the strategy is run against
+        // set by the UI takes the index of 0.
+        AddDataSeries("AAPL", BarsPeriodType.Minute, 5);
+    }
 }
-
-protected override void OnBarUpdate()
+ 
+protected override void OnBarUpdate()
 {
-    // Compares the primary bar's typical price to the 5-minute bar's typical price
-    if (Typicals[0][0] > Typicals[1][0])
-        Print("The primary bar's typical price is greater");
+    // Compares the primary bar's typical price to the 5-minute bar's typical price
+    if (Typicals[0][0] > Typicals[1][0])
+        Print("The primary bar's typical price is greater");
 }
 ```

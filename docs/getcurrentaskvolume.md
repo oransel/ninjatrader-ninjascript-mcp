@@ -49,41 +49,41 @@ A long value representing the current ask volume.
 ```csharp
 protected override void OnBarUpdate()
 {
-   long currentAskVolume = GetCurrentAskVolume();
-   Print("The Current Ask volume is: " + currentAskVolume);
-   //The Current Ask volume is: 158
+   long currentAskVolume = GetCurrentAskVolume();
+   Print("The Current Ask volume is: " + currentAskVolume);
+   //The Current Ask volume is: 158
 }
 
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Examples Indicator";
-   }
-   if (State == State.Configure)
-   {
-     //Add MSFT as our additional data series
-     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Examples Indicator";
+   }
+   if (State == State.Configure)
+   {
+     //Add MSFT as our additional data series
+     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
+   }
 }
 protected override void OnBarUpdate()
 {
-   if(BarsInProgress == 0)
-   {
-     long currentAskVolume = GetCurrentAskVolume(0);
-     Print("The Current Ask volume is: " + currentAskVolume);
-     //The Current Ask volume is: 346
-   }
+   if(BarsInProgress == 0)
+   {
+     long currentAskVolume = GetCurrentAskVolume(0);
+     Print("The Current Ask volume is: " + currentAskVolume);
+     //The Current Ask volume is: 346
+   }
 
-   if(BarsInProgress == 1)
+   if(BarsInProgress == 1)
 
-   {
+   {
 
-     long msftAskVolume = GetCurrentAskVolume(1);
+     long msftAskVolume = GetCurrentAskVolume(1);
 
-     Print("MSFT's Current Ask volume is: " + msftAskVolume);
+     Print("MSFT's Current Ask volume is: " + msftAskVolume);
 
-     //MSFT's Current Ask volume is: 1548
+     //MSFT's Current Ask volume is: 1548
 
-   }
+   }
 ```

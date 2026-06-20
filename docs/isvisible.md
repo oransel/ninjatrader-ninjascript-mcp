@@ -43,14 +43,14 @@ A bool value when true will be displayed on the chart; otherwise false; default 
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Loops through the DrawObjects collection via a threadsafe list copy
-   foreach (DrawingTool draw in DrawObjects.ToList())
-   {
-     // Detect all manual drawn line objects and change their visibility
-     if (draw is DrawingTools.Line && draw.IsUserDrawn)
-     {
-         draw.IsVisible = false;
-     }
-   }
+   // Loops through the DrawObjects collection via a threadsafe list copy
+   foreach (DrawingTool draw in DrawObjects.ToList())
+   {
+     // Detect all manual drawn line objects and change their visibility
+     if (draw is DrawingTools.Line && draw.IsUserDrawn)
+     {
+         draw.IsVisible = false;
+     }
+   }            
 }
 ```

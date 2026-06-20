@@ -114,10 +114,10 @@ Return values representing the sidewinder plot value are as follows:
 
 ```csharp
 // Prints the current value of a 14 period WoodiesCCI using default price type
-double value = WoodiesCCI(2, 5, 14, 34, 25, 6, 60, 100, 2)[0];
+double value = WoodiesCCI(2, 5, 14, 34, 25, 6, 60, 100, 2)[0];
 Print("The current WoodiesCCI value is " + value.ToString());
 
 // Prints the current turbo value of a 14 / 6 period WoodiesCCI using default price type
-double value2 = WoodiesCCI(2, 5, 14, 34, 25, 6, 60, 100, 2).Turbo[0];
+double value2 = WoodiesCCI(2, 5, 14, 34, 25, 6, 60, 100, 2).Turbo[0];
 Print("The current WoodiesCCI turbo value is " + value2.ToString());
 ```

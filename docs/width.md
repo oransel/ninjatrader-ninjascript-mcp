@@ -35,11 +35,11 @@ A double value representing the width of the chart scale.
 
 
 ```csharp
-protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-  // the width of the entire chart scale
-  double   width       = chartScale.Width;
-  Print("the width of the chart scale is: " + Width);
+  // the width of the entire chart scale
+  double   width       = chartScale.Width;
+  Print("the width of the chart scale is: " + Width);  
 }
 ```
 

@@ -42,10 +42,10 @@ This method does not accept any parameters.
 
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
-{
-   // get the attached chart bars
-   ChartBars myBars = GetAttachedToChartBars();
-
-   Print(myBars.Bars.ToChartString()); // NQ 03-15 (1 Minute)
+{  
+   // get the attached chart bars
+   ChartBars myBars = GetAttachedToChartBars();
+  
+   Print(myBars.Bars.ToChartString()); // NQ 03-15 (1 Minute)
 }
 ```

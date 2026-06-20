@@ -46,11 +46,11 @@ A **double** value that represents the bidding price at the desired bar index.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // If the Highs of the two most recent bars are falling, place a long stop market order
-   // at the Ask price
-   if (Low[0] > Low[1] && Low[1] < Low[2])
-   {
-     EnterShortStopMarket(Bars.GetBid(CurrentBar));
-   }
+   // If the Highs of the two most recent bars are falling, place a long stop market order
+   // at the Ask price
+   if (Low[0] > Low[1] && Low[1] < Low[2])
+   {
+     EnterShortStopMarket(Bars.GetBid(CurrentBar));
+   }
 }
 ```

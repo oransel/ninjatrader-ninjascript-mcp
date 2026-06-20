@@ -45,14 +45,14 @@ This method does not return a value.
 ```csharp
 protected override void OnDataPoint(Bars bars, double open, double high, double low, double close, DateTime time, long volume, bool isBar, double bid, double ask)
 {
-   // build the bars type session iterator from the bars object provided
-   if (SessionIterator == null)
-     SessionIterator = new SessionIterator(bars);
-
-   // calculate the trading day of the time value provided
-   SessionIterator.CalculateTradingDay(time, false);
-
-   // add a new bar using the sessions exchanges date
-   AddBar(bars, open, high, low, close, SessionIterator.ActualTradingDayExchange, volume);
+   // build the bars type session iterator from the bars object provided
+   if (SessionIterator == null)
+     SessionIterator = new SessionIterator(bars);
+ 
+   // calculate the trading day of the time value provided
+   SessionIterator.CalculateTradingDay(time, false);
+ 
+   // add a new bar using the sessions exchanges date
+   AddBar(bars, open, high, low, close, SessionIterator.ActualTradingDayExchange, volume);
 }
 ```

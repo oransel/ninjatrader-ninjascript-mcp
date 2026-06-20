@@ -39,12 +39,12 @@ An **int** value representing the bar index.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // get the users mouse down point and convert to device pixels for DPI accuracy
-   int mousePoint = chartControl.MouseDownPoint.X.ConvertToHorizontalPixels(chartControl.PresentationSource);
-
-   // convert mouse point to bar index
-   int barIdx = ChartBars.GetBarIdxByX(chartControl, mousePoint);
-
-   Print("User clicked on Bar #" + barIdx);
+   // get the users mouse down point and convert to device pixels for DPI accuracy
+   int mousePoint = chartControl.MouseDownPoint.X.ConvertToHorizontalPixels(chartControl.PresentationSource);
+  
+   // convert mouse point to bar index
+   int barIdx = ChartBars.GetBarIdxByX(chartControl, mousePoint);
+  
+   Print("User clicked on Bar #" + barIdx);
 }
 ```

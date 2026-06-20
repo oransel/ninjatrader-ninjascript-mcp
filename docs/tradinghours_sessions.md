@@ -47,9 +47,9 @@ A collection of session definitions of the configured Trading Hours template.
 
 ```csharp
 // Print details for all sessions in the Trading Hours template
-for (int i = 0; i < TradingHours.Sessions.Count; i++)
+for (int i = 0; i < TradingHours.Sessions.Count; i++)
 {
-  Print(String.Format("Session {0}: {1} at {2} to {3} at {4}", i, TradingHours.Sessions[i].BeginDay, TradingHours.Sessions[i].BeginTime,
-    TradingHours.Sessions[i].EndDay, TradingHours.Sessions[i].EndTime));
+  Print(String.Format("Session {0}: {1} at {2} to {3} at {4}", i, TradingHours.Sessions[i].BeginDay, TradingHours.Sessions[i].BeginTime,
+    TradingHours.Sessions[i].EndDay, TradingHours.Sessions[i].EndTime));
 }
 ```

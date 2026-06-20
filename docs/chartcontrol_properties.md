@@ -71,10 +71,10 @@ A ChartControlProperties object containing values for all properties configured 
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Instantiate a ChartControlProperties object to hold a reference to chartControl.Properties
-   ChartControlProperties myProperties = chartControl.Properties;
-
-   // Set the AllowSelectionDragging property to false
-   myProperties.AllowSelectionDragging = false;
+   // Instantiate a ChartControlProperties object to hold a reference to chartControl.Properties
+   ChartControlProperties myProperties = chartControl.Properties;
+ 
+   // Set the AllowSelectionDragging property to false
+   myProperties.AllowSelectionDragging = false;
 }
 ```

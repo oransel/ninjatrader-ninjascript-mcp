@@ -31,9 +31,9 @@ A bool value. When **True**, indicates that the scroll arrow is visible on the c
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Print a message if the scroll arrow is visible on the chart
-   if(chartControl.IsScrollArrowVisible);
-       Print("The chart is currently not set to auto-scroll. Click the scroll arrow to return to auto-scrolling");
+   // Print a message if the scroll arrow is visible on the chart
+   if(chartControl.IsScrollArrowVisible);
+       Print("The chart is currently not set to auto-scroll. Click the scroll arrow to return to auto-scrolling");
 }
 ```
 

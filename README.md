@@ -130,4 +130,4 @@ Note: The documentation content in this repository is sourced from NinjaTrader's
 
 ---
 
-_Last updated: 2026-06-02_
+_Last updated: 2026-06-20_

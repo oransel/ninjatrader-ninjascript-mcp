@@ -38,13 +38,13 @@ NumericTextBox inherits from **System.Windows.Controls.Textbox**, and the follow
 <!-- Create a grid in which to place the NumericTextBox -->
 
 <grid>
-   <!-- Define a NumericTextBox -->
-   <t:numerictextbox grid.column="2" text="5" valuetype="{x:Type system:Int32}" width="50" x:name="daysBackSelector">
-       <!-- Set the margins for the box -->
-       <t:numerictextbox.margin>
-           <thickness left="{StaticResource MarginButtonLeft}" right="{StaticResource MarginBase}" top="{StaticResource PaddingColumn}"></thickness>
-       </t:numerictextbox.margin>
-   </t:numerictextbox>
+   <!-- Define a NumericTextBox -->
+   <t:numerictextbox grid.column="2" text="5" valuetype="{x:Type system:Int32}" width="50" x:name="daysBackSelector">
+       <!-- Set the margins for the box -->
+       <t:numerictextbox.margin>
+           <thickness left="{StaticResource MarginButtonLeft}" right="{StaticResource MarginBase}" top="{StaticResource PaddingColumn}"></thickness>
+       </t:numerictextbox.margin>
+   </t:numerictextbox>
 </grid>
 ```
 
@@ -57,7 +57,7 @@ private NumericTextBox daysBack;
 
 private DependencyObject LoadXAML()
 {
-       // Find days back selector
-       daysBack = LogicalTreeHelper.FindLogicalNode(pageContent, "daysBackSelector") as NumericTextBox;
+       // Find days back selector
+       daysBack = LogicalTreeHelper.FindLogicalNode(pageContent, "daysBackSelector") as NumericTextBox;
 }
 ```

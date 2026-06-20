@@ -40,14 +40,14 @@ An **int** value representing the converted value in device pixels.
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {
-   //get chart anchors data point when mouse is clicked
-   Point myPoint = dataPoint.GetPoint(chartControl, chartPanel, chartScale);
+   //get chart anchors data point when mouse is clicked
+   Point myPoint = dataPoint.GetPoint(chartControl, chartPanel, chartScale);
 
-   Print("before convert: " + myPoint.Y); //before convert: 630.5
+   Print("before convert: " + myPoint.Y); //before convert: 630.5
 
-   //convert the data point to device pixels
-   double yPixel = ConvertToVerticalPixels(chartControl, chartPanel, myPoint.Y);
+   //convert the data point to device pixels
+   double yPixel = ConvertToVerticalPixels(chartControl, chartPanel, myPoint.Y);
 
-   Print("after convert: " + yPixel); //after convert: 1108
+   Print("after convert: " + yPixel); //after convert: 1108
 }
 ```

@@ -72,4 +72,4 @@ When writing or reviewing NinjaScript code:
 4. Check exit methods: `docs/exitlong.md`, `docs/exitshort.md`
 5. Review risk management: `docs/setstoploss.md`, `docs/setprofittarget.md`
 
-_Generated on 2026-06-02_
+_Generated on 2026-06-20_

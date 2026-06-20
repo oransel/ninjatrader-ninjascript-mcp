@@ -31,13 +31,13 @@ An **ObservableCollection** of **ChartBars** objects.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Instantiate a new <chartcontrol`>.BarsArray collection
-   System.Collections.ObjectModel.ObservableCollection<chartbars> myChartBars = chartControl.BarsArray;
-
-   // Print the number of bars in each Bars object within the <chartcontrol`>.BarsArray collection
-   foreach(ChartBars bars in myChartBars)
-   {
-       Print(bars.Bars.Count);
-   }
+   // Instantiate a new <chartcontrol`>.BarsArray collection
+   System.Collections.ObjectModel.ObservableCollection<chartbars> myChartBars = chartControl.BarsArray;
+ 
+   // Print the number of bars in each Bars object within the <chartcontrol`>.BarsArray collection
+   foreach(ChartBars bars in myChartBars)
+   {
+       Print(bars.Bars.Count);
+   }
 }
 ```

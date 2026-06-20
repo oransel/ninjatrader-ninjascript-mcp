@@ -53,13 +53,13 @@ The Volume Weighted Moving Average is a weighted moving average that uses the vo
 // OnBarUpdate method
 protected override void OnBarUpdate()
 {
-   // Evaluates for a VWMA cross over to the long side
-   if (CrossAbove(VWMA(14), VWMA(40), 1))
-       Print("We have a moving average cross over long");
+   // Evaluates for a VWMA cross over to the long side
+   if (CrossAbove(VWMA(14), VWMA(40), 1))
+       Print("We have a moving average cross over long");
 
-   // Prints the current 14 period VWMA of high prices to the output window
-   double value = VWMA(High, 14)[0];
-   Print("The current VWMA value of high prices is " + value.ToString());
+   // Prints the current 14 period VWMA of high prices to the output window
+   double value = VWMA(High, 14)[0];
+   Print("The current VWMA value of high prices is " + value.ToString());
 }
 ```
 

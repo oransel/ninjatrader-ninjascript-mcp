@@ -41,12 +41,12 @@ You must override this method using the following syntax:
 
 ```csharp
 public override void AddPastedOffset(ChartPanel chartPanel, ChartScale chartScale)
-{
-   foreach (ChartAnchor anchor in Anchors)
-   {
-     //bump each anchor 1 minute to the right
-     DateTime tmpTime = anchor.Time;
-     anchor.Time = tmpTime.AddMinutes(1);
-   }
+{      
+   foreach (ChartAnchor anchor in Anchors)
+   {
+     //bump each anchor 1 minute to the right
+     DateTime tmpTime = anchor.Time;
+     anchor.Time = tmpTime.AddMinutes(1);        
+   }        
 }
 ```

@@ -51,20 +51,20 @@ Note: For a complete, working example of this class in use, download framework e
 ```csharp
 public AddOnFrameworkWindow()
 {
-   // TabControl should be created for window content if tab features are wanted
-   TabControl tc = new TabControl();
-
-   // Attached properties defined in TabControlManager class should be set to achieve tab moving, adding/removing tabs
-   TabControlManager.SetIsMovable(tc, true);
-   TabControlManager.SetCanAddTabs(tc, true);
-   TabControlManager.SetCanRemoveTabs(tc, true);
-
-   // if ability to add new tabs is desired, TabControl has to have attached property "Factory" set.
-   TabControlManager.SetFactory(tc, new AddOnFrameworkWindowFactory());
-   Content = tc;
-
-   /* In order to have link buttons functionality, tab control items must be derived from Tools.NTTabPage
-    They can be added using extention method AddNTTabPage(NTTabPage page) */
-   tc.AddNTTabPage(new AddOnFrameworkTab());
+   // TabControl should be created for window content if tab features are wanted
+   TabControl tc = new TabControl();
+ 
+   // Attached properties defined in TabControlManager class should be set to achieve tab moving, adding/removing tabs
+   TabControlManager.SetIsMovable(tc, true);
+   TabControlManager.SetCanAddTabs(tc, true);
+   TabControlManager.SetCanRemoveTabs(tc, true);
+ 
+   // if ability to add new tabs is desired, TabControl has to have attached property "Factory" set.
+   TabControlManager.SetFactory(tc, new AddOnFrameworkWindowFactory());
+   Content = tc;
+ 
+   /* In order to have link buttons functionality, tab control items must be derived from Tools.NTTabPage
+    They can be added using extention method AddNTTabPage(NTTabPage page) */
+   tc.AddNTTabPage(new AddOnFrameworkTab());
 }
 ```

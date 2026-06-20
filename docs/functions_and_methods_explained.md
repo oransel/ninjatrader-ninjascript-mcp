@@ -34,7 +34,7 @@ A method must first be declared before you can use it in your script:
 // This method prints out the data and time
 private void PrintDateTime()
 {
-     Print(DateTime.Now.ToString());
+     Print(DateTime.Now.ToString());
 }
 ```
 
@@ -49,7 +49,7 @@ The above method has no return type, so we use the void access modifier. We prov
 // This method performs a calculation and returns a double value
 private double Multiply(double input)
 {
-     return input * 10;
+     return input * 10;
 }
 ```
 
@@ -64,8 +64,8 @@ The above method returns a value of type double, so we use the keyword double. W
 // This method performs a calculation and returns a double value
 private double Multiply(double input)
 {
-     PrintDateTime();
-     return input * 10;
+     PrintDateTime();
+     return input * 10;
 }
 ```
 
@@ -104,11 +104,11 @@ We can then reference the AverageRange method anywhere else in our script, like 
 // Example method that calls the AverageRange() method twice
 private void ExampleMethod()
 {
-     if (High[0] - Low[0] &gt; AverageRange())
-     {
-         Print("The current bar range is greater than the 3 bar average range of " +
-           AverageRange().ToString());
-     }
+     if (High[0] - Low[0] &gt; AverageRange())
+     {
+         Print("The current bar range is greater than the 3 bar average range of " +
+           AverageRange().ToString());
+     }
 }
 ```
 
@@ -123,7 +123,7 @@ You can declare variables within a method. These variables are local in scope, w
 // Example method using a variable
 private double MyMethod()
 {
-     double myDouble = 100.25
-     return myDouble * 10;
+     double myDouble = 100.25
+     return myDouble * 10;
 }
 ```

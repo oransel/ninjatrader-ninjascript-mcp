@@ -50,16 +50,16 @@ This method returns true if a cross below condition occurred; otherwise, false.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Go long if CCI crossed below -250 within the last bar
-   if (CrossBelow(CCI(14), -250, 1))
-       EnterLong();
+   // Go long if CCI crossed below -250 within the last bar
+   if (CrossBelow(CCI(14), -250, 1))
+       EnterLong();
 
-   // Go short if 10 EMA crosses below 20 EMA within the last bar
-   if (CrossBelow(EMA(10), EMA(20), 1))
-       EnterShort();
+   // Go short if 10 EMA crosses below 20 EMA within the last bar
+   if (CrossBelow(EMA(10), EMA(20), 1))
+       EnterShort();
 
-   // Go short we have a down bar and the 10 EMA crosses below 20 EMA within the last 5 bars
-   if (Close[0] < Open[0] && CrossBelow(EMA(10), EMA(20), 5))
-       EnterShort();
+   // Go short we have a down bar and the 10 EMA crosses below 20 EMA within the last 5 bars
+   if (Close[0] < Open[0] && CrossBelow(EMA(10), EMA(20), 5))
+       EnterShort();
 }
 ```

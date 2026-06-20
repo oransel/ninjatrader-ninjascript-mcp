@@ -37,14 +37,14 @@ This property should ONLY be set from the **OnStateChange()** method during Stat
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name                 = "Example Indicator";
-     // set this to true to call CalculateMinMix() to ensure drawing tool is fully rendered in chart scale
-     IsAutoScale = true;
-   }
-   else if (State == State.Configure)
-   {
-   }
+   if (State == State.SetDefaults)
+   {        
+     Name                 = "Example Indicator";        
+     // set this to true to call CalculateMinMix() to ensure drawing tool is fully rendered in chart scale
+     IsAutoScale = true;  
+   }
+   else if (State == State.Configure)
+   {
+   }
 }
 ```

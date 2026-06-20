@@ -26,7 +26,7 @@ Sets required workspace options.
 ```csharp
 // IWorkspacePersistence member
 
-public WorkspaceOptions WorkspaceOptions { get; set; }
+public WorkspaceOptions WorkspaceOptions { get; set; }
 ```
 
 ![note image](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FNote.57c6078c.svg&w=64&q=75)

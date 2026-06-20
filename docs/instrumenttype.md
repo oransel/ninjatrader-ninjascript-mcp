@@ -42,11 +42,11 @@ Possible values are:
 ```csharp
 if (Instrument.MasterInstrument.InstrumentType == InstrumentType.Future)
 {
- // Do something
+ // Do something
 }
 else
 {
- // Do something else
+ // Do something else
 }
 ```
 

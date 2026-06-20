@@ -55,11 +55,11 @@ Evaluates for n number of consecutive higher closes. Returns a value of 1 when t
 // OnBarUpdate method
 protected override void OnBarUpdate()
 {
-   // Evaluates if we have 3 consecutive higher closes
-   double value = NBarsUp(3, true, true, true)[0];
-
-   if (value == 1)
-       Print("We have three consecutive higher closes");
+   // Evaluates if we have 3 consecutive higher closes
+   double value = NBarsUp(3, true, true, true)[0];
+ 
+   if (value == 1)
+       Print("We have three consecutive higher closes");
 }
 ```
 

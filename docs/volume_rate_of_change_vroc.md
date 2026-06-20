@@ -52,8 +52,8 @@ Volume Rate of Change is identical to [Price Rate Of Change (ROC)](https://deve
 
 ```csharp
 // Prints the current value of VROC
-double value = VROC(13, 3)[0];
-Print("The current VROC value is " + value.ToString());
+double value = VROC(13, 3)[0];
+Print("The current VROC value is " + value.ToString());
 ```
 
 

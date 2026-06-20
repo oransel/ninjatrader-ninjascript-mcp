@@ -52,17 +52,17 @@ This method should ONLY be called once the strategy [State](https://developer.ni
 ```csharp
 protected override void OnBarUpdate()
 {
-   // ATM strategy methods only work during real-time
-   if (State != State.Realtime)
-     return;
-
-   string[] entryOrder = GetAtmStrategyEntryOrderStatus("orderId");
-
-   // checks if the entry order exists
-   // and the order state is not already cancelled/filled/rejected
-   if (entryOrder.Length > 0 && entryOrder[2] == "Working")
-   {
-     AtmStrategyCancelEntryOrder("orderId");
-   }
+   // ATM strategy methods only work during real-time
+   if (State != State.Realtime)
+     return;
+ 
+   string[] entryOrder = GetAtmStrategyEntryOrderStatus("orderId");
+ 
+   // checks if the entry order exists
+   // and the order state is not already cancelled/filled/rejected
+   if (entryOrder.Length > 0 && entryOrder[2] == "Working")
+   {
+     AtmStrategyCancelEntryOrder("orderId");
+   }
 }
 ```

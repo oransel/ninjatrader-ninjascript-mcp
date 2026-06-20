@@ -39,18 +39,18 @@ private Account myAccount;
 
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-       // Initialize myAccount
-   }
+   if (State == State.SetDefaults)
+   {
+       // Initialize myAccount
+   }
 }
 
 private void OnAccountItemUpdate(object sender, AccountItemEventArgs e)
 {
-   // Print the name and order action of each order processed on the account
-   foreach (Order order in myAccount.Orders)
-   {
-       Print(String.Format("Order placed: {0} - {1}", order.Name, order.OrderAction));
-   }
+   // Print the name and order action of each order processed on the account
+   foreach (Order order in myAccount.Orders)
+   {
+       Print(String.Format("Order placed: {0} - {1}", order.Name, order.OrderAction));
+   }
 }
 ```

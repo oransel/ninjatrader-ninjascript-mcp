@@ -43,6 +43,6 @@ Possible values are:
 //Prints a warning, indicating what merge policy is in use if not using global settings**
 if (Bars.Instrument.MasterInstrument.MergePolicy != MergePolicy.UseGlobalSettings)
 {
- Print("Warning: Instrument has merge policy of " + Bars.Instrument.MasterInstrument.MergePolicy);
+ Print("Warning: Instrument has merge policy of " + Bars.Instrument.MasterInstrument.MergePolicy);
 }
 ```

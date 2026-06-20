@@ -81,75 +81,75 @@ See the [AddPlot()](https://developer.ninjatrader.com/docs/desktop/addplot) me
 
 
 ```csharp
-protected override void OnStateChange()
+protected override void OnStateChange()
 {
-  if (State == State.SetDefaults)
-  {
-    IsOverlay = true;
-    // set the Stroke default to red brush
-    MyStroke = new Stroke(Brushes.Red);
-  }
-  else if (State == State.Configure)
-  {
-  }
+  if (State == State.SetDefaults)
+  {
+    IsOverlay = true;
+    // set the Stroke default to red brush
+    MyStroke = new Stroke(Brushes.Red);
+  }
+  else if (State == State.Configure)
+  {
+  }
 }
 
-public override void OnRenderTargetChanged()
+public override void OnRenderTargetChanged()
 {
-  // Explicitly set the Stroke RenderTarget
-  if (RenderTarget != null)
-    MyStroke.RenderTarget = RenderTarget;
+  // Explicitly set the Stroke RenderTarget
+  if (RenderTarget != null)
+    MyStroke.RenderTarget = RenderTarget;
 }
 
-protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-  // create two points from the top left corner
-  SharpDX.Vector2 pointA = new SharpDX.Vector2(0, 0);
-  // to 300 pixels offset X and Y to create a diagonal line
-  SharpDX.Vector2 pointB = new SharpDX.Vector2(300, 300);
+  // create two points from the top left corner
+  SharpDX.Vector2 pointA = new SharpDX.Vector2(0, 0);
+  // to 300 pixels offset X and Y to create a diagonal line
+  SharpDX.Vector2 pointB = new SharpDX.Vector2(300, 300);
 
-  // Draw the line using the Stroke SharpDX brush
-  RenderTarget.DrawLine(pointA, pointB, MyStroke.BrushDX, MyStroke.Width, MyStroke.StrokeStyle);
+  // Draw the line using the Stroke SharpDX brush
+  RenderTarget.DrawLine(pointA, pointB, MyStroke.BrushDX, MyStroke.Width, MyStroke.StrokeStyle);
 
 }
 
 [NinjaScriptProperty]
 [Description("My Stroke")]
-public Stroke MyStroke { get; set; }
+public Stroke MyStroke { get; set; }
 ```
 
 
 ```csharp
-protected override void OnStateChange()
+protected override void OnStateChange()
 {
-  if (State == State.SetDefaults)
-  {
-    IsOverlay = true;
-    // set stroke default to blue brush
-    MyStroke = new Stroke(Brushes.Blue);
-  }
-  else if (State == State.Configure)
-  {
-  }
+  if (State == State.SetDefaults)
+  {
+    IsOverlay = true;
+    // set stroke default to blue brush
+    MyStroke = new Stroke(Brushes.Blue);
+  }
+  else if (State == State.Configure)
+  {
+  }
 }
 
-protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-  // create two points from the top left corner
-  SharpDX.Vector2 pointA = new SharpDX.Vector2(0, 0);
-  // to 300 pixels offset X and Y to create a diagonal line
-  SharpDX.Vector2 pointB = new SharpDX.Vector2(300, 300);
+  // create two points from the top left corner
+  SharpDX.Vector2 pointA = new SharpDX.Vector2(0, 0);
+  // to 300 pixels offset X and Y to create a diagonal line
+  SharpDX.Vector2 pointB = new SharpDX.Vector2(300, 300);
 
-  NinjaTrader.Gui.Stroke MyStroke = new Stroke(Brushes.Blue);
+  NinjaTrader.Gui.Stroke MyStroke = new Stroke(Brushes.Blue);
 
-  // if BrushDX is null, convert the constructed brush to a DX brush
-  SharpDX.Direct2D1.Brush myBrush = MyStroke.BrushDX ?? MyStroke.Brush.ToDxBrush(RenderTarget);
-  RenderTarget.DrawLine(pointA, pointB, myBrush, MyStroke.Width, MyStroke.StrokeStyle);
+  // if BrushDX is null, convert the constructed brush to a DX brush
+  SharpDX.Direct2D1.Brush myBrush = MyStroke.BrushDX ?? MyStroke.Brush.ToDxBrush(RenderTarget);
+  RenderTarget.DrawLine(pointA, pointB, myBrush, MyStroke.Width, MyStroke.StrokeStyle);
 
-  myBrush.Dispose();
+  myBrush.Dispose();
 }
 
 [NinjaScriptProperty]
 [Description("My Stroke")]
-public Stroke MyStroke { get; set; }
+public Stroke MyStroke { get; set; }
 ```

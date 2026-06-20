@@ -43,28 +43,28 @@ This property should NOT be accessed within the [OnStateChange()](https://develo
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Examples Indicator";
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Examples Indicator";
+   }
 
-   else if (State == State.Configure)
-   {
-     //Add AAPL 1 minute with RTH trading hours, set to break EOD
-     AddDataSeries("AAPL", new BarsPeriod() { BarsPeriodType = BarsPeriodType.Minute, Value = 1 }, 50, "US Equities RTH", true);
-   }
+   else if (State == State.Configure)
+   {
+     //Add AAPL 1 minute with RTH trading hours, set to break EOD
+     AddDataSeries("AAPL", new BarsPeriod() { BarsPeriodType = BarsPeriodType.Minute, Value = 1 }, 50, "US Equities RTH", true);
+   }
 
 }
 protected override void OnBarUpdate()
 {
  //Print out the current bars series name and break EOD setting on start up
- //   IsResetOnNewTradingDays[0]  Primary
- //   IsResetOnNewTradingDays[1]  AAPL
+ //   IsResetOnNewTradingDays[0]  Primary
+ //   IsResetOnNewTradingDays[1]  AAPL
 
  if (CurrentBar == 0)
-   Print(BarsArray[BarsInProgress].ToChartString() + " " + IsResetOnNewTradingDays[BarsInProgress]);
+   Print(BarsArray[BarsInProgress].ToChartString() + " " + IsResetOnNewTradingDays[BarsInProgress]);
 
- //Output:
+ //Output:  
  //ES 03-15 (1 Minute) True
  //AAPL (1 Minute) False
 ```

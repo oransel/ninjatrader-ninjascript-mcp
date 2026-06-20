@@ -31,8 +31,8 @@ Represents an interface that exposes information regarding a Triangle [IDrawing
 
 ```csharp
 // Instantiate a Triangle object
-Triangle myTri = Draw.Triangle(this, "tag1", 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue);
-
+Triangle myTri = Draw.Triangle(this, "tag1", 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue);            
+ 
 // Change the object's AreaOpacity
-myTri.AreaOpacity = 100;
+myTri.AreaOpacity = 100;
 ```

@@ -44,9 +44,9 @@ Block volume detects block trades and display how many occurred per bar. This ca
 // A 1 tick data series must be added to OnStateChange() as this indicator runs off of tick data
 else if (State == State.Configure)
 {
-   AddDataSeries(Data.BarsPeriodType.Tick, 1);
+   AddDataSeries(Data.BarsPeriodType.Tick, 1);
 }
-
+ 
 // Prints the current value of an 80 block trade size counted in volume for the Block Volume
 if (BarsInProgress == 0)
 {

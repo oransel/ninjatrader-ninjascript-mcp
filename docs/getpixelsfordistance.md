@@ -38,10 +38,10 @@ A float representing the number of pixels between a value.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // the number of pixels between the point value passed as a distance to the method
-   float pixelForDistance = chartScale.GetPixelsForDistance(0.25);
+   // the number of pixels between the point value passed as a distance to the method
+   float pixelForDistance = chartScale.GetPixelsForDistance(0.25);
 
-   Print("pixelForDistance: " + pixelForDistance); //20 pixels per every 1 tick on the chart scale
+   Print("pixelForDistance: " + pixelForDistance); //20 pixels per every 1 tick on the chart scale
 
 }
 ```

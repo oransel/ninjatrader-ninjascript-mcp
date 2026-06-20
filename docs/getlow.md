@@ -38,13 +38,13 @@ A **double** value that represents the low price at the desired bar index.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   base.OnRender(chartControl, chartScale);
-   // loop through only the rendered bars on the chart
-   for(int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
-   {
-     // get the low price at the selected bar index value
-     double lowPrice = Bars.GetLow(barIndex);
-     Print("Bar #" + barIndex + " low price is " + lowPrice);
-   }
+   base.OnRender(chartControl, chartScale);
+   // loop through only the rendered bars on the chart
+   for(int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
+   {
+     // get the low price at the selected bar index value
+     double lowPrice = Bars.GetLow(barIndex);
+     Print("Bar #" + barIndex + " low price is " + lowPrice);
+   }
 }
 ```

@@ -10,6 +10,12 @@ guides[Introduction](https://developer.ninjatrader.com/docs/desktop/index)
 
 [Distribution](https://developer.ninjatrader.com/docs/desktop/distribution)
 [Commercial Distribution](https://developer.ninjatrader.com/docs/desktop/commercial_distribution)
+[Best Practices for Distribution](https://developer.ninjatrader.com/docs/desktop/best_practices)
+
+[Licensing User Authentication](https://developer.ninjatrader.com/docs/desktop/licensing_user_authentication)
+
+[Distribution Procedure](https://developer.ninjatrader.com/docs/desktop/distribution_procedure)
+
 
 [Considerations for Compiled Assemblies](https://developer.ninjatrader.com/docs/desktop/considerations_for_compiled_assemblies)
 

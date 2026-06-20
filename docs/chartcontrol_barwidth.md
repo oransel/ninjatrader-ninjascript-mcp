@@ -37,7 +37,7 @@ A **double** representing the value of the bar width.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-    double barWidth = chartControl.BarWidth;
+    double barWidth = chartControl.BarWidth;
 
     // Prints the width of bars on the chart
     Print(barWidth);

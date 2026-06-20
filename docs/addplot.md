@@ -110,31 +110,31 @@ This is required for making plots accessible in the strategy builder. For an exa
 protected override void OnStateChange()
 
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Examples Indicator";
-     // Adds a blue line style plot
-     AddPlot(Brushes.Blue, "MyPlot");
-     // Adds a blue historgram style plot
-     AddPlot(new Stroke(Brushes.Blue), PlotStyle.Bar, "MyPlot2");
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Examples Indicator";
+     // Adds a blue line style plot
+     AddPlot(Brushes.Blue, "MyPlot");
+     // Adds a blue historgram style plot
+     AddPlot(new Stroke(Brushes.Blue), PlotStyle.Bar, "MyPlot2");
+   }
 }
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-   MyPlot[0] = Close[0] + High[0] / 2​;
-   MyPlot[1] = Close[0] + High[0] / 2​;
+   MyPlot[0] = Close[0] + High[0] / 2​;
+   MyPlot[1] = Close[0] + High[0] / 2​;
 }
 [Browsable(false)]
 [XmlIgnore]
 public Series<double> MyPlot
 {
-   get { return Values[0]; }
+   get { return Values[0]; }
 }
 [Browsable(false)]
 [XmlIgnore]
 public Series<double> MyPlot2
 {
-   get { return Values[1]; }
+   get { return Values[1]; }
 }
 ```
 
@@ -145,20 +145,20 @@ public Series<double> MyPlot2
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Examples Indicator";
-     // Add three plots and associated Series<double> objects
-     AddPlot(Brushes.Blue, "PlotA");     // Defines the plot for Values[0]
-     AddPlot(Brushes.Red, "PlotB");     // Defines the plot for Values[1]
-     AddPlot(Brushes.Green, "PlotC");   // Defines the plot for Values[2]
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Examples Indicator";
+     // Add three plots and associated Series<double> objects
+     AddPlot(Brushes.Blue, "PlotA");     // Defines the plot for Values[0]
+     AddPlot(Brushes.Red, "PlotB");     // Defines the plot for Values[1]
+     AddPlot(Brushes.Green, "PlotC");   // Defines the plot for Values[2]
+   }
 }
 protected override void OnBarUpdate()
 {
-   Values[0][0] = Median[0];   // Blue "Plot A"
-   Values[1][0] = Low[0];       // Red "Plot B"
-   Values[2][0] = High[0];     // Green "Plot C"
+   Values[0][0] = Median[0];   // Blue "Plot A"
+   Values[1][0] = Low[0];       // Red "Plot B"
+   Values[2][0] = High[0];     // Green "Plot C"
 }
 ```
 
@@ -169,34 +169,34 @@ protected override void OnBarUpdate()
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name                 = "Examples Indicator";
-     // logical property which user can set
-     UseSpecialMode   = false;
-     // Default brush selection pushed to the UI
-     MyBrush = Brushes.Red;
-   }
-   else if (State == State.Configure)
-   {
-     // if user enables logical property
-     if (UseSpecialMode)
-     {
-         // add plot using default selected brush and special plot name
-         AddPlot(MyBrush, "My Special Plot");
-     }
-     else
-     {
-         // otherwise use default selected brush and regular plot name
-         AddPlot(MyBrush, "My Regular Plot");
-     }
-   }
+   if (State == State.SetDefaults)
+   {
+     Name                 = "Examples Indicator";
+     // logical property which user can set
+     UseSpecialMode   = false;
+     // Default brush selection pushed to the UI
+     MyBrush = Brushes.Red;
+   }
+   else if (State == State.Configure)
+   {
+     // if user enables logical property
+     if (UseSpecialMode)
+     {
+         // add plot using default selected brush and special plot name
+         AddPlot(MyBrush, "My Special Plot");
+     }
+     else
+     {
+         // otherwise use default selected brush and regular plot name
+         AddPlot(MyBrush, "My Regular Plot");
+     }
+   }
 }
 protected override void OnBarUpdate()
 {
-   if (UseSpecialMode)
-     Value[0] = Close[0] + High[0] / 2;
-   else Value[0] = Close[0] * TickSize / 2;
+   if (UseSpecialMode)
+     Value[0] = Close[0] + High[0] / 2;
+   else Value[0] = Close[0] * TickSize / 2;
 }
 [XmlIgnore]
 public Brush MyBrush { get; set; }

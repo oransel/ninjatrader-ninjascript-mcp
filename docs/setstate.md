@@ -57,11 +57,11 @@ This method should only be called after the `State` reaches **State.DataLoaded**
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Terminate strategy at 2PM
-   if (ToTime(Time[0]) == 140000)
-   {
-     SetState(State.Terminated);
-     return;
-   }
+   // Terminate strategy at 2PM
+   if (ToTime(Time[0]) == 140000)
+   {
+     SetState(State.Terminated);
+     return;
+   }
 }
 ```

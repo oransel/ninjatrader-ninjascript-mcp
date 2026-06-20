@@ -40,12 +40,12 @@ A new **ChartAnchor** at a specified point in device pixels.
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)**
 {
-   // get the point where the mouse was clicked
-   Point myPoint = dataPoint.GetPoint(chartControl, chartPanel, chartScale);
+   // get the point where the mouse was clicked
+   Point myPoint = dataPoint.GetPoint(chartControl, chartPanel, chartScale);
 
-   // create an anchor at that point
-   ChartAnchor MyAnchor = CreateAnchor(myPoint, chartControl, chartScale);
+   // create an anchor at that point
+   ChartAnchor MyAnchor = CreateAnchor(myPoint, chartControl, chartScale);
 
-   Print(MyAnchor.Time); // 3/16/2015 8:18:48 AM
+   Print(MyAnchor.Time); // 3/16/2015 8:18:48 AM
 }
 ```

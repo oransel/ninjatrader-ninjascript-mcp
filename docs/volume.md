@@ -53,8 +53,8 @@ Volume is simply the number of shares (or contracts) traded during a specified t
 
 ```csharp
 // Prints the current value VOL
-double value = VOL()[0];
-Print("The current VOL value is " + value.ToString());
+double value = VOL()[0];
+Print("The current VOL value is " + value.ToString());
 ```
 
 

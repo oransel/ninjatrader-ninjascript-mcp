@@ -31,16 +31,16 @@ A collection of **Trade** objects. You can access a trade object by providing an
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Accesses the first/last trade in the strategy (oldest trade is at index 0)
-   // and prints out the profit as a percentage to the output window
-   if (SystemPerformance.AllTrades.Count > 1)
-   {
-       Trade lastTrade = SystemPerformance.AllTrades[SystemPerformance.AllTrades.Count - 1];
-       Trade firstTrade = SystemPerformance.AllTrades[0];
+   // Accesses the first/last trade in the strategy (oldest trade is at index 0)
+   // and prints out the profit as a percentage to the output window
+   if (SystemPerformance.AllTrades.Count > 1)
+   {
+       Trade lastTrade = SystemPerformance.AllTrades[SystemPerformance.AllTrades.Count - 1];
+       Trade firstTrade = SystemPerformance.AllTrades[0];
 
-       Print("The last trade profit is " + lastTrade.ProfitPercent);
-       Print("The first trade profit is " + firstTrade.ProfitPercent);
-   }
+       Print("The last trade profit is " + lastTrade.ProfitPercent);
+       Print("The first trade profit is " + firstTrade.ProfitPercent);
+   }
 }
 ```
 
@@ -48,16 +48,16 @@ protected override void OnBarUpdate()
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Once the strategy has executed 20 trades loop through the losing trades
-   // collection and print out the PnL on only long trades
-   if (SystemPerformance.AllTrades.Count == 20)
-   {
-       Print("There are " + SystemPerformance.AllTrades.LosingTrades.Count + " losing trades.");
-       foreach (Trade myTrade in SystemPerformance.AllTrades.LosingTrades)
-       {
-           if (myTrade.Entry.MarketPosition == MarketPosition.Long)
-               Print(myTrade.ProfitCurrency);
-       }
-   }
+   // Once the strategy has executed 20 trades loop through the losing trades
+   // collection and print out the PnL on only long trades
+   if (SystemPerformance.AllTrades.Count == 20)
+   {
+       Print("There are " + SystemPerformance.AllTrades.LosingTrades.Count + " losing trades.");
+       foreach (Trade myTrade in SystemPerformance.AllTrades.LosingTrades)
+       {
+           if (myTrade.Entry.MarketPosition == MarketPosition.Long)
+               Print(myTrade.ProfitCurrency);
+       }
+   }
 }
 ```

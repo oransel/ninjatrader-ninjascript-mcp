@@ -114,32 +114,32 @@ The following example code demonstrates how to monitor for bar update events on 
 
 
 ```csharp
-private Order entryOrder = null;
+private Order entryOrder = null;
 
-protected override void OnStateChange()
+protected override void OnStateChange()
 {
-  if (State == State.Configure)
-  {
-      AddDataSeries("AAPL", BarsPeriodType.Minute, 1);
-  }
+  if (State == State.Configure)
+  {
+      AddDataSeries("AAPL", BarsPeriodType.Minute, 1);
+  }
 }
 
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-    // Check if the MSFT series triggered an bar update event
-    if (BarsInProgress == 0)
-    {
-        // Submit an order for AAPL in the context of MSFT bar update event
-        if (entryOrder == null)
-              EnterLongLimit(1, true, 1, Lows[1][0], "AAPL Order");
-    }
+    // Check if the MSFT series triggered an bar update event
+    if (BarsInProgress == 0)
+    {
+        // Submit an order for AAPL in the context of MSFT bar update event
+        if (entryOrder == null)
+              EnterLongLimit(1, true, 1, Lows[1][0], "AAPL Order");
+    }
 }
 
-protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError)
+protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError)
 {
-    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.
-    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not gauranteed to be complete if it is referenced immediately after submitting
-    if (order.Name == "AAPL Order" && orderState != OrderState.Filled)
-      entryOrder = order;
+    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.
+    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not gauranteed to be complete if it is referenced immediately after submitting
+    if (order.Name == "AAPL Order" && orderState != OrderState.Filled)
+      entryOrder = order;
 }
 ```

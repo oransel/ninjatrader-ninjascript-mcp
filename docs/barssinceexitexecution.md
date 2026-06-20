@@ -62,11 +62,11 @@ Please see [SetStopLoss()](https://developer.ninjatrader.com/docs/desktop/setsto
 ```csharp
 protected override void OnBarUpdate()
 {
-   if (CurrentBar < BarsRequiredToTrade)
-       return;
+   if (CurrentBar < BarsRequiredToTrade)
+       return;
 
-   // Only enter if at least 10 bars has passed since our last exit or if we have never traded yet
-   if ((BarsSinceExitExecution() > 10 || BarsSinceExitExecution() == -1) && CrossAbove(SMA(10), SMA(20), 1))
-       EnterLong();
+   // Only enter if at least 10 bars has passed since our last exit or if we have never traded yet
+   if ((BarsSinceExitExecution() > 10 || BarsSinceExitExecution() == -1) && CrossAbove(SMA(10), SMA(20), 1))
+       EnterLong();
 }
 ```

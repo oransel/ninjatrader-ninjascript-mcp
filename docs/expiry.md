@@ -31,8 +31,8 @@ A **DateTime** structure representing the expiration month of a futures contract
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Print the expiry of the currently configured futures instrument
-   Print(String.Format("You are viewing the {0} contract", Instrument.Expiry));
+   // Print the expiry of the currently configured futures instrument
+   Print(String.Format("You are viewing the {0} contract", Instrument.Expiry));
 }
 ```
 

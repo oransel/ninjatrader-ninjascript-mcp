@@ -37,9 +37,9 @@ A int representing the most recent (last) slot index on the chart.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   int lastSlot = chartControl.LastSlotPainted;
-
-   // Print the index of the last slot on the chart
-   Print(lastSlot);
+   int lastSlot = chartControl.LastSlotPainted;
+ 
+   // Print the index of the last slot on the chart
+   Print(lastSlot);
 }
 ```

@@ -35,12 +35,12 @@ A **int** representing the width of the panel in pixels
 
 
 ```csharp
-protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-  base.OnRender(chartControl, chartScale);
-
-  // Print the width of the panel
-  Print(ChartPanel.W);
+  base.OnRender(chartControl, chartScale);
+   
+  // Print the width of the panel
+  Print(ChartPanel.W);
 }
 ```
 

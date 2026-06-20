@@ -43,15 +43,15 @@ You must override the method in your indicator with the following syntax:
 ```csharp
 protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs connectionStatusUpdate)
 {
-   if(connectionStatusUpdate.Status == ConnectionStatus.Connected)
-   {
-     Print("Connected for orders at " + DateTime.Now);
-   }
+   if(connectionStatusUpdate.Status == ConnectionStatus.Connected)
+   {
+     Print("Connected for orders at " + DateTime.Now);
+   }
 
-   else if(connectionStatusUpdate.Status == ConnectionStatus.ConnectionLost)
-   {
-     Print("Connection for orders lost at: " + DateTime.Now);
-   }
+   else if(connectionStatusUpdate.Status == ConnectionStatus.ConnectionLost)
+   {
+     Print("Connection for orders lost at: " + DateTime.Now);
+   }
 }
 ```
 
@@ -61,21 +61,21 @@ protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs conne
 
 {
 
-   if(connectionStatusUpdate.PriceStatus == ConnectionStatus.Connected)
+   if(connectionStatusUpdate.PriceStatus == ConnectionStatus.Connected)
 
-   {
+   {
 
-     Print("Connected to price feed at " + DateTime.Now);
+     Print("Connected to price feed at " + DateTime.Now);
 
-   }
+   }
 
-   else if(connectionStatusUpdate.PriceStatus == ConnectionStatus.ConnectionLost)
+   else if(connectionStatusUpdate.PriceStatus == ConnectionStatus.ConnectionLost)
 
-   {
+   {
 
-     Print("Connection to price feed lost at: " + DateTime.Now);
+     Print("Connection to price feed lost at: " + DateTime.Now);
 
-   }
+   }
 
 }
 ```

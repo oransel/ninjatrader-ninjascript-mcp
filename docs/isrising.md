@@ -39,8 +39,8 @@ This method returns true if a rising condition is present; otherwise, false.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // If the 20 period SMA is rising (in uptrend) go long
-   if (IsRising(SMA(20)))
-       EnterLong();
+   // If the 20 period SMA is rising (in uptrend) go long
+   if (IsRising(SMA(20)))
+       EnterLong();
 }
 ```

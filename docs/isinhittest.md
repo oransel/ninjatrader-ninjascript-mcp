@@ -37,11 +37,11 @@ This property returns true to indicate that the chart panel in which the script 
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   if(IsInHitTest)
-   {
-       Print("user clicked on object");
+   if(IsInHitTest)
+   {
+       Print("user clicked on object");
 
-       // do something
-   }
+       // do something
+   }
 }
 ```

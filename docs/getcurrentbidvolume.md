@@ -49,9 +49,9 @@ A long value representing the current bid volume.
 ```csharp
 protected override void OnBarUpdate()
 {
-   long currentBidVolume = GetCurrentBidVolume();
-   Print("The Current Bid volume is: " + currentBidVolume);
-   //The Current Bid volume is: 158
+   long currentBidVolume = GetCurrentBidVolume();
+   Print("The Current Bid volume is: " + currentBidVolume);
+   //The Current Bid volume is: 158
 }
 ```
 
@@ -59,15 +59,15 @@ protected override void OnBarUpdate()
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Examples Indicator";
-   }
-   if (State == State.Configure)
-   {
-     //Add MSFT as our additional data series
-     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Examples Indicator";
+   }
+   if (State == State.Configure)
+   {
+     //Add MSFT as our additional data series
+     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
+   }
 }
 ```
 
@@ -75,22 +75,22 @@ protected override void OnStateChange()
 ```csharp
 protected override void OnBarUpdate()
 {
-   if(BarsInProgress == 0)
-   {
-     long currentBidVolume = GetCurrentBidVolume(0);
-     Print("The Current Bid volume is: " + currentBidVolume);
-     //The Current Bid volume is: 346
-   }
+   if(BarsInProgress == 0)
+   {
+     long currentBidVolume = GetCurrentBidVolume(0);
+     Print("The Current Bid volume is: " + currentBidVolume);
+     //The Current Bid volume is: 346
+   }
 
-   if(BarsInProgress == 1)
+   if(BarsInProgress == 1)
 
-   {
+   {
 
-     long msftBidVolume = GetCurrentBidVolume(1);
+     long msftBidVolume = GetCurrentBidVolume(1);
 
-     Print("MSFT's Current Bid volume is: " + msftBidVolume);
+     Print("MSFT's Current Bid volume is: " + msftBidVolume);
 
-     //MSFT's Current Bid volume is: 1548
+     //MSFT's Current Bid volume is: 1548
 
-   }
+   }
 ```

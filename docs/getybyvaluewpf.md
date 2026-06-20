@@ -38,10 +38,10 @@ An double value representing a WPF coordinate on the chart scale.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // gets the wpf coordinate of the price value passed to the method
-   int     valueByYWpf = chartScale.GetYByValueWpf(Bars.GetClose(Bars.Count - 1));
+   // gets the wpf coordinate of the price value passed to the method
+   int     valueByYWpf = chartScale.GetYByValueWpf(Bars.GetClose(Bars.Count - 1));
 
-   Print("valueByYWpf: " + valueByYWpf); // 207
+   Print("valueByYWpf: " + valueByYWpf); // 207
 }
 ```
 

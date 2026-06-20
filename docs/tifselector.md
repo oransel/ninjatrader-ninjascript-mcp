@@ -40,98 +40,98 @@ This example demonstrates how to use the **TIF selector** and properly link its 
 
 
 ```csharp
-private QuantityUpDown                  qudSelector;
+private QuantityUpDown                  qudSelector;
 
-private TifSelector                     tifSelector;
+private TifSelector                     tifSelector;
 
-private AtmStrategy.AtmStrategySelector atmStrategySelector;
+private AtmStrategy.AtmStrategySelector atmStrategySelector;
 
-private DependencyObject LoadXAML()
+private DependencyObject LoadXAML()
 
 {
 
-    // Note: pageContent (not demonstrated in this example) is the page content of the XAML
+    // Note: pageContent (not demonstrated in this example) is the page content of the XAML
 
-    // Find the Quantity Up-Down selector
+    // Find the Quantity Up-Down selector
 
-    qudSelector = LogicalTreeHelper.FindLogicalNode(pageContent, "qudSelector") as QuantityUpDown;
+    qudSelector = LogicalTreeHelper.FindLogicalNode(pageContent, "qudSelector") as QuantityUpDown;
 
-    // Find the TIF selector
+    // Find the TIF selector
 
-    tifSelector = LogicalTreeHelper.FindLogicalNode(pageContent, "tifSelector") as TifSelector;
+    tifSelector = LogicalTreeHelper.FindLogicalNode(pageContent, "tifSelector") as TifSelector;
 
-    // Be sure to bind our account selector to our TIF selector to ensure proper functionality
+    // Be sure to bind our account selector to our TIF selector to ensure proper functionality
 
-    tifSelector.SetBinding(TifSelector.AccountProperty, new Binding { Source = accountSelector,
-         Path = new PropertyPath("SelectedAccount") });
+    tifSelector.SetBinding(TifSelector.AccountProperty, new Binding { Source = accountSelector,
+         Path = new PropertyPath("SelectedAccount") });
 
-    // When our TIF selector's selection changes
+    // When our TIF selector's selection changes
 
-    tifSelector.SelectionChanged += (o, args) =>
+    tifSelector.SelectionChanged += (o, args) =>
 
-    {
+    {
 
-        // Change the selected TIF in the ATM strategy too
+        // Change the selected TIF in the ATM strategy too
 
-        if (atmStrategySelector.SelectedAtmStrategy != null)
+        if (atmStrategySelector.SelectedAtmStrategy != null)
 
-              atmStrategySelector.SelectedAtmStrategy.TimeInForce = tifSelector.SelectedTif;
+              atmStrategySelector.SelectedAtmStrategy.TimeInForce = tifSelector.SelectedTif;
 
-    };
+    };
 
-    // Find ATM Strategy selector and attach event handler
+    // Find ATM Strategy selector and attach event handler
 
-    atmStrategySelector = LogicalTreeHelper.FindLogicalNode(pageContent, "atmStrategySelector") as AtmStrategy.AtmStrategySelector;
+    atmStrategySelector = LogicalTreeHelper.FindLogicalNode(pageContent, "atmStrategySelector") as AtmStrategy.AtmStrategySelector;
 
-    atmStrategySelector.Id = Guid.NewGuid().ToString("N");
+    atmStrategySelector.Id = Guid.NewGuid().ToString("N");
 
-    if (atmStrategySelector != null)
+    if (atmStrategySelector != null)
 
-         atmStrategySelector.CustomPropertiesChanged += OnAtmCustomPropertiesChanged;
+         atmStrategySelector.CustomPropertiesChanged += OnAtmCustomPropertiesChanged;
 
-    // Be sure to bind our account selector to our ATM strategy selector to ensure proper functionality
+    // Be sure to bind our account selector to our ATM strategy selector to ensure proper functionality
 
-    atmStrategySelector.SetBinding(AtmStrategy.AtmStrategySelector.AccountProperty,
+    atmStrategySelector.SetBinding(AtmStrategy.AtmStrategySelector.AccountProperty,
 
-        new Binding { Source = accountSelector, Path = new PropertyPath("SelectedAccount") });
+        new Binding { Source = accountSelector, Path = new PropertyPath("SelectedAccount") });
 
-    // When our ATM selector's selection changes
+    // When our ATM selector's selection changes
 
-    atmStrategySelector.SelectionChanged += (o, args) =>
+    atmStrategySelector.SelectionChanged += (o, args) =>
 
-    {
+    {
 
-        if (atmStrategySelector.SelectedItem == null)
+        if (atmStrategySelector.SelectedItem == null)
 
-              return;
+              return;
 
-        if (args.AddedItems.Count > 0)
+        if (args.AddedItems.Count > 0)
 
-         {
+         {
 
-              // Change the selected TIF in our TIF selector too
+              // Change the selected TIF in our TIF selector too
 
-              AtmStrategy selectedAtmStrategy = args.AddedItems[0] as AtmStrategy;
+              AtmStrategy selectedAtmStrategy = args.AddedItems[0] as AtmStrategy;
 
-              if (selectedAtmStrategy != null)
+              if (selectedAtmStrategy != null)
 
-                   tifSelector.SelectedTif = selectedAtmStrategy.TimeInForce;
+                   tifSelector.SelectedTif = selectedAtmStrategy.TimeInForce;
 
-         }
+         }
 
- };
+ };
 
 }
 
-private void OnAtmCustomPropertiesChanged(object sender, NinjaScript.AtmStrategy.CustomPropertiesChangedEventArgs args)
+private void OnAtmCustomPropertiesChanged(object sender, NinjaScript.AtmStrategy.CustomPropertiesChangedEventArgs args)
 
 {
 
-    // Adjust our TIF and Quantity selectors to the new ATM strategy values
+    // Adjust our TIF and Quantity selectors to the new ATM strategy values
 
-    tifSelector.SelectedTif = args.NewTif;
+    tifSelector.SelectedTif = args.NewTif;
 
-    qudSelector.Value = args.NewQuantity;
+    qudSelector.Value = args.NewQuantity;
 
 }
 
@@ -139,12 +139,12 @@ private void OnAtmCustomPropertiesChanged(object sender, NinjaScript.AtmStrategy
 
 // Called by TabControl when tab is being removed or window is closed
 
-public override void Cleanup()
+public override void Cleanup()
 
 {
 
-  // Clean up our resources
-    base.Cleanup();
+  // Clean up our resources
+    base.Cleanup();
 
 }
 ```
@@ -168,6 +168,6 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 		<Tools:TifSelector x:Name="tifSelector" Grid.Column="1"/>
 		<AtmStrategy:AtmStrategySelector x:Name="atmStrategySelector" LinkedQuantity="{Binding Value,
 
-    ElementName=qudSelector, Mode=OneWay}" Grid.Column="2"/>
+    ElementName=qudSelector, Mode=OneWay}" Grid.Column="2"/>
 	</Grid>
 ```

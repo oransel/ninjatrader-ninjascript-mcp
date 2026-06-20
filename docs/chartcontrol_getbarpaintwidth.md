@@ -38,11 +38,11 @@ A double representing the pixel width of bars on the chart.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Use BarsArray[0] to pass in a ChartBars object representing the primary Bars object on the chart
-   double barPixelWidth = chartControl.GetBarPaintWidth(chartControl.BarsArray[0]);
-
-   // Print the pixel width of bars painted on the chart
-   Print(String.Format("Bars on the chart are {0} pixels wide", barPixelWidth));
+   // Use BarsArray[0] to pass in a ChartBars object representing the primary Bars object on the chart
+   double barPixelWidth = chartControl.GetBarPaintWidth(chartControl.BarsArray[0]);
+ 
+   // Print the pixel width of bars painted on the chart
+   Print(String.Format("Bars on the chart are {0} pixels wide", barPixelWidth));  
 }
 ```
 

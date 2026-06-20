@@ -56,5 +56,5 @@ Main use would be using it for equality comparisons to circumvent running into f
 ```csharp
 // Build the High / Low difference and if 0 sets the indicator main Value series to 0
 if ((High[0] - Low[0]).ApproxCompare(0) == 0)
-   Value[0] = 0;
+   Value[0] = 0;
 ```

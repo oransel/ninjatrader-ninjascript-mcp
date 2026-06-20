@@ -41,20 +41,20 @@ Possible values are:
 
 ```csharp
 protected override void OnStateChange()
-{
-   if (State == State.SetDefaults)
-   {
-     Name = "Sample PrintTo Indicator #1";
-     Description = @"Used to Print updates to Output 1";
-
-     //Set this scripts Print() calls to the first output tab
-     PrintTo = PrintTo.OutputTab1;
-   }
+{      
+   if (State == State.SetDefaults)
+   {
+     Name = "Sample PrintTo Indicator #1";
+     Description = @"Used to Print updates to Output 1";
+ 
+     //Set this scripts Print() calls to the first output tab
+     PrintTo = PrintTo.OutputTab1;
+   }      
 }
-
+ 
 protected override void OnBarUpdate()
-{
-   Print("This script will print messages to Output Tab 1");
+{                  
+   Print("This script will print messages to Output Tab 1");      
 }
 ```
 
@@ -64,20 +64,20 @@ protected override void OnBarUpdate()
 
 ```csharp
 protected override void OnStateChange()
-{
-   if (State == State.SetDefaults)
-   {
-     Name = "Sample PrintTo Indicator #2";
-    Description = "@Used to Print updates to Output 2";
-
-     //Set this scripts Print() calls to the second output tab
-     PrintTo = PrintTo.OutputTab2;
-   }
+{      
+   if (State == State.SetDefaults)
+   {
+     Name = "Sample PrintTo Indicator #2";
+    Description = "@Used to Print updates to Output 2";
+ 
+     //Set this scripts Print() calls to the second output tab
+     PrintTo = PrintTo.OutputTab2;
+   }      
 }
-
+ 
 protected override void OnBarUpdate()
-{
-   Print("This script will print messages to Output Tab 2");
+{                  
+   Print("This script will print messages to Output Tab 2");      
 }
 ```
 
@@ -88,18 +88,18 @@ protected override void OnBarUpdate()
 ```csharp
 protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 {
-   if(marketDataUpdate.MarketDataType == MarketDataType.Ask)
-   {
-     //Print Ask updates to Output 1
-     PrintTo = PrintTo.OutputTab1;
-     Print("Ask: " + marketDataUpdate.Price);
-   }
-
-   else if (marketDataUpdate.MarketDataType == MarketDataType.Bid)
-   {
-     //Print Bid updates to Output 2
-     PrintTo = PrintTo.OutputTab2;
-     Print("Bid: " + marketDataUpdate.Price);
-   }
+   if(marketDataUpdate.MarketDataType == MarketDataType.Ask)
+   {
+     //Print Ask updates to Output 1
+     PrintTo = PrintTo.OutputTab1;
+     Print("Ask: " + marketDataUpdate.Price);
+   }
+  
+   else if (marketDataUpdate.MarketDataType == MarketDataType.Bid)
+   {
+     //Print Bid updates to Output 2
+     PrintTo = PrintTo.OutputTab2;
+     Print("Bid: " + marketDataUpdate.Price);
+   }
 }
 ```

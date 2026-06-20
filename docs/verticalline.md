@@ -28,8 +28,8 @@ Represents an interface that exposes information regarding a Vertical Line [IDr
 
 ```csharp
 // Instantiate a VerticalLine object
-VerticalLine myLine = Draw.VerticalLine(this, "tag1", 10, Brushes.Black);
-
+VerticalLine myLine = Draw.VerticalLine(this, "tag1", 10, Brushes.Black);
+ 
 // Change the object's Stroke
-myLine.Stroke = new Stroke(Brushes.BlanchedAlmond, DashStyleHelper.Dot, 5);
+myLine.Stroke = new Stroke(Brushes.BlanchedAlmond, DashStyleHelper.Dot, 5);
 ```

@@ -31,8 +31,8 @@ A boolean value. When **True**, indicates that one or more objects on the chart 
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Print the value of IsYAxisDisplayedOverlay
-   Print("Is Overlay used? " + chartControl.IsYAxisDisplayedOverlay);
+   // Print the value of IsYAxisDisplayedOverlay
+   Print("Is Overlay used? " + chartControl.IsYAxisDisplayedOverlay);
 }
 ```
 

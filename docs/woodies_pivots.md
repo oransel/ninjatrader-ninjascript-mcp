@@ -93,12 +93,12 @@ WoodiesPivots(HLCCalculationModeWoodie priorDayHLC, int width).R2[int barsAg
 
 ```csharp
 // Prints the current pivot point value
-double ppValue = WoodiesPivots(HLCCalculationModeWoodie.CalcFromIntradayData, 20).PP[0];
-Print("The current Woodies Pivots' pivot value is " + ppValue);
-
+double ppValue = WoodiesPivots(HLCCalculationModeWoodie.CalcFromIntradayData, 20).PP[0];
+Print("The current Woodies Pivots' pivot value is " + ppValue);
+ 
 // Prints the current S2 pivot value
-double s2Value = WoodiesPivots(HLCCalculationModeWoodie.CalcFromIntradayData, 20).S2[0];
-Print("The current Woodies Pivots' S2 pivot value is " + s2Value);
+double s2Value = WoodiesPivots(HLCCalculationModeWoodie.CalcFromIntradayData, 20).S2[0];
+Print("The current Woodies Pivots' S2 pivot value is " + s2Value);
 ```
 
 ![note image](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FNote.57c6078c.svg&w=64&q=75)
@@ -111,10 +111,10 @@ Tip: When using HLCCalculationMode.**DailyBars** it can be expected that a valu
 
 ```csharp
 // Evaluates that this is a valid Woodies Pivots value
-if (WoodiesPivots(HLCCalculationModeWoodie.DailyBars, 20).PP.IsValidDataPoint(0))
+if (WoodiesPivots(HLCCalculationModeWoodie.DailyBars, 20).PP.IsValidDataPoint(0))
 {
-    // Prints the current pivot point value
-    double value = WoodiesPivots(HLCCalculationModeWoodie.DailyBars, 20).PP[0];
-    Print("The current Woodies Pivots' pivot value is " + value.ToString());
+    // Prints the current pivot point value
+    double value = WoodiesPivots(HLCCalculationModeWoodie.DailyBars, 20).PP[0];
+    Print("The current Woodies Pivots' pivot value is " + value.ToString());
 }
 ```

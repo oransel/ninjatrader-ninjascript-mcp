@@ -31,15 +31,15 @@ An array of color series objects.
 ```csharp
 protected override void OnStateChange()
 {
-   if(State == State.SetDefaults)
-   {
-     Name = "Example Indicator";
-       // Add two plots
-       AddPlot(Brushes.Blue, "Upper");
-       AddPlot(Brushes.Orange, "Lower");
-     }
+   if(State == State.SetDefaults)
+   {
+     Name = "Example Indicator";  
+       // Add two plots
+       AddPlot(Brushes.Blue, "Upper");
+       AddPlot(Brushes.Orange, "Lower");
+     }
 }
-
+ 
 protected override void OnBarUpdate()
 {
      // Sets values to our two plots
@@ -53,7 +53,7 @@ protected override void OnBarUpdate()
          PlotBrushes[0][0] = Brushes.Red;
      else
          PlotBrushes[0][0] = Brushes.Yellow;
-
+ 
      // Color the Lower plot based on plot value conditions
      if (IsRising(Lower))
          PlotBrushes[1][0] = Brushes.Blue;

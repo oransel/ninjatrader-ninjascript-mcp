@@ -44,12 +44,12 @@ An int representing a chart-canvas x-coordinate.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   DateTime timeToCheck = new DateTime(2017, 8, 6, 11, 0, 0);
+   DateTime timeToCheck = new DateTime(2017, 8, 6, 11, 0, 0);
 
-   // Find the chart-canvas x-coordinate of the bar at the specified time
-    int xCoordinate = chartControl.GetXByTime(timeToCheck);
+   // Find the chart-canvas x-coordinate of the bar at the specified time
+    int xCoordinate = chartControl.GetXByTime(timeToCheck);
 
-   // Print the x-coordinate value
-   Print(xCoordinate);
+   // Print the x-coordinate value
+   Print(xCoordinate);
 }
 ```

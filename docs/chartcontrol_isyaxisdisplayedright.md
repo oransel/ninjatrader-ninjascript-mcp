@@ -31,8 +31,8 @@ A boolean value. When **True**, indicates that the y-axis displays to the right 
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Print the value of IsYAxisDisplayedRight
-   Print("Y-Axis visible to the right of the chart canvas? " + chartControl.IsYAxisDisplayedRight);
+   // Print the value of IsYAxisDisplayedRight
+   Print("Y-Axis visible to the right of the chart canvas? " + chartControl.IsYAxisDisplayedRight);
 }
 ```
 

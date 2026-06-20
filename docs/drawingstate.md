@@ -38,17 +38,17 @@ An enum representing the current state of the drawing tool. Possible values are:
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, Point point)
 {
-   switch(DrawingState)
-   {
-     case DrawingState.Normal:
-         DrawingState = DrawingState.Editing; // set state to allow editing
-         break;
-     case DrawingState.Editing:
-         // do your edits here
-         break;
-     case DrawingState.Moving:
-         return; // don't allow move when editing
-   }
+   switch(DrawingState)
+   {
+     case DrawingState.Normal:
+         DrawingState = DrawingState.Editing; // set state to allow editing
+         break;
+     case DrawingState.Editing:
+         // do your edits here
+         break;
+     case DrawingState.Moving:
+         return; // don't allow move when editing
+   }
 
 }
 ```

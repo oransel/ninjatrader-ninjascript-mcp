@@ -32,7 +32,7 @@ A **PresentationSource** object representing the base window in which the chart 
 int devicePixelX;
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Obtain the device-pixel coordinate corresponding to an application-pixel X value of 500
-   devicePixelX = ChartingExtensions.ConvertToHorizontalPixels(500, ChartControl.PresentationSource);
+   // Obtain the device-pixel coordinate corresponding to an application-pixel X value of 500
+   devicePixelX = ChartingExtensions.ConvertToHorizontalPixels(500, ChartControl.PresentationSource);
 }
 ```

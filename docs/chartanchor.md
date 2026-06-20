@@ -63,26 +63,26 @@ public ChartAnchor MyAnchor { get; set; } // declares the "MyAnchor" ChartAnchor
 public override IEnumerable<chartanchor> Anchors { get { return new[] { MyAnchor }; } } //adds the "MyAnchor" ChartAnchor object to a collection of anchors used to interact with your anchors
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Description = @"Drawing tool example";
-     Name = "SampleDrawingTool";
+   if (State == State.SetDefaults)
+   {
+     Description = @"Drawing tool example";
+     Name = "SampleDrawingTool";
 
-     MyAnchor = new ChartAnchor(); //creates a new instance of the ChartAnchor object
-     MyAnchor.IsEditing = true;
-     MyAnchor.DrawingTool = this;
-     MyAnchor.IsBrowsable = false;
-   }
+     MyAnchor = new ChartAnchor(); //creates a new instance of the ChartAnchor object
+     MyAnchor.IsEditing = true;
+     MyAnchor.DrawingTool = this;
+     MyAnchor.IsBrowsable = false;
+   }
 }
 
 public override void OnMouseUp(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {
-   if (DrawingState == DrawingState.Editing)
-   {
-     if (MyAnchor.IsEditing)
-     {
-         //if anchor is editing, update anchor point
-         dataPoint.CopyDataValues(MyAnchor);
-     }
-   }
+   if (DrawingState == DrawingState.Editing)
+   {
+     if (MyAnchor.IsEditing)
+     {
+         //if anchor is editing, update anchor point
+         dataPoint.CopyDataValues(MyAnchor);
+     }
+   }
 ```

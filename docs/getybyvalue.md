@@ -38,10 +38,10 @@ An **int** value representing a y pixel coordinate on the chart scale.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // gets the pixel coordinate of the price value passed to the method
-   int     yByValue = chartScale.GetYByValue(Bars.GetClose(Bars.Count - 1));
+   // gets the pixel coordinate of the price value passed to the method
+   int     yByValue = chartScale.GetYByValue(Bars.GetClose(Bars.Count - 1));
 
-   Print("yByValue: " + yByValue); // 207
+   Print("yByValue: " + yByValue); // 207
 }
 ```
 

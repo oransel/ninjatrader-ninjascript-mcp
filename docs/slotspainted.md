@@ -31,10 +31,10 @@ An int representing the number of index slots in which bars are painted.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   int painted = chartControl.SlotsPainted;
-
-   // Print the number of bars painted on the visible chart canvas
-   Print(painted);
+   int painted = chartControl.SlotsPainted;
+ 
+   // Print the number of bars painted on the visible chart canvas
+   Print(painted);
 }
 ```
 

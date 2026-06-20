@@ -44,10 +44,10 @@ A **DateTime** object corresponding to a slot index at a specified x-coordinate.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Find the timestamp of the bar at x-coordinate 100
-   DateTime slotTime = chartControl.GetTimeByX(100);
-
-   // Print the date of slotTime
-   Print(slotTime);
+   // Find the timestamp of the bar at x-coordinate 100
+   DateTime slotTime = chartControl.GetTimeByX(100);
+ 
+   // Print the date of slotTime
+   Print(slotTime);
 }
 ```

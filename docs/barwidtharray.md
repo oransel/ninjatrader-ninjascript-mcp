@@ -31,16 +31,16 @@ An array of double variables containing the values of the BarWidth properties of
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // Assign BarWidthArray to a new array
-   double[] barWidths = chartControl.BarWidthArray;
-
-   double referenceWidth = barWidths[0];
-
-   // Trigger an alert if bar widths on the chart differ
-   foreach (double width in barWidths)
-   {
-       if (width != referenceWidth)
-           Alert("mismatchWidths", Priority.Low, "Bar widths on the chart do not match!", " ", 20, Brushes.White, Brushes.Black);
-   }
+   // Assign BarWidthArray to a new array
+   double[] barWidths = chartControl.BarWidthArray;
+ 
+   double referenceWidth = barWidths[0];
+ 
+   // Trigger an alert if bar widths on the chart differ
+   foreach (double width in barWidths)
+   {
+       if (width != referenceWidth)
+           Alert("mismatchWidths", Priority.Low, "Bar widths on the chart do not match!", " ", 20, Brushes.White, Brushes.Black);
+   }
 }
 ```

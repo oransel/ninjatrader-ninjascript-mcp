@@ -31,9 +31,9 @@ A **double** representing the minimum Y value in the panel's vertical scale
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)**
 {
-   base.OnRender(chartControl, chartScale);
+   base.OnRender(chartControl, chartScale);
 
-   // Print the minimum and maximum Y values for objects in the panel
-   Print(String.Format("Min value: {0}, Max value: {1}", **ChartPanel.MinValue**, **ChartPanel.MaxValue**));
+   // Print the minimum and maximum Y values for objects in the panel
+   Print(String.Format("Min value: {0}, Max value: {1}", **ChartPanel.MinValue**, **ChartPanel.MaxValue**));
 }
 ```

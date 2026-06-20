@@ -53,8 +53,8 @@ The Volume Oscillator uses the difference between two [moving averages](https:/
 
 ```csharp
 // Prints the current value of a Volume Oscillator
-double value = VolumeOscillator(12, 26)[0];
-Print("The current Volume Oscillator value is " + value.ToString());
+double value = VolumeOscillator(12, 26)[0];
+Print("The current Volume Oscillator value is " + value.ToString());
 ```
 
 

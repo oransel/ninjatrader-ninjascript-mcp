@@ -31,8 +31,8 @@ A string representing the full name of the instrument.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Print the full name (including contract month) of the configured instrument
-   Print(String.Format("{0} is being used as the input series", Instrument.FullName));
+   // Print the full name (including contract month) of the configured instrument
+   Print(String.Format("{0} is being used as the input series", Instrument.FullName));
 }
 ```
 

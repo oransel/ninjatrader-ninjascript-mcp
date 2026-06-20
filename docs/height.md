@@ -40,9 +40,9 @@ A **double** value representing the height of the chart scale.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // the height of the entire chart scale
-   double   height       = chartScale.Height;
-   Print("the height of the chart scale is: " + height);
+   // the height of the entire chart scale
+   double   height       = chartScale.Height;
+   Print("the height of the chart scale is: " + height);  
 }
 ```
 

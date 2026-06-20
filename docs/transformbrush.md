@@ -44,8 +44,8 @@ This method does not return a value.
 
 
 ```csharp
-protected override void OnRender(ChartControl chartControl, ChartScale chartScale, ChartBars chartBars)
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale, ChartBars chartBars)
 {
-		TransformBrush(brush, rect);
+		TransformBrush(brush, rect);
 }
 ```

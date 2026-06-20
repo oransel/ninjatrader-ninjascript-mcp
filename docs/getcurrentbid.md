@@ -52,13 +52,13 @@ A **double** value representing the current bid price.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Ensure we do not call GetCurrentBid() on historical data
-   if (State == State.Historical)
-     return;
+   // Ensure we do not call GetCurrentBid() on historical data
+   if (State == State.Historical)
+     return;
 
-   double currentBid = GetCurrentBid();
-   Print("The Current Bid price is: " + currentBid);
-   // The Current Bid price is: 1924.75
+   double currentBid = GetCurrentBid();
+   Print("The Current Bid price is: " + currentBid);
+   // The Current Bid price is: 1924.75
 }
 ```
 
@@ -66,35 +66,35 @@ protected override void OnBarUpdate()
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Example's Indicator";
-   }
-   if (State == State.Configure)
-   {
-     //Add MSFT as our additional data series
-     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Example's Indicator";
+   }
+   if (State == State.Configure)
+   {
+     //Add MSFT as our additional data series
+     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
+   }
 }
 
 protected override void OnBarUpdate()
 {
-   // Ensure we do not call GetCurrentBid() on historical data
-   if (State == State.Historical)
-     return;
+   // Ensure we do not call GetCurrentBid() on historical data
+   if (State == State.Historical)
+     return;
 
-   if (BarsInProgress == 0)
-   {
-     double primaryBid = GetCurrentBid(0);
-     Print("The Primary Bid price is: " + primaryBid);
-     // The Primary Bid price is: 1924.75
-   }
+   if (BarsInProgress == 0)
+   {
+     double primaryBid = GetCurrentBid(0);
+     Print("The Primary Bid price is: " + primaryBid);
+     // The Primary Bid price is: 1924.75
+   }
 
-   if (BarsInProgress == 1)
-   {
-     double msftBid = GetCurrentBid(1);
-     Print("MSFT's Current Bid price is: " + msftBid);
-     // MSFT's Current Bid is: 43.63
-   }
+   if (BarsInProgress == 1)
+   {
+     double msftBid = GetCurrentBid(1);
+     Print("MSFT's Current Bid price is: " + msftBid);
+     // MSFT's Current Bid is: 43.63
+   }
 }
 ```

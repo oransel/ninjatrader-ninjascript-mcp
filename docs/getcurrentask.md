@@ -52,49 +52,49 @@ A **double** value representing the current ask price.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Ensure we do not call GetCurrentAsk() on historical data
-   if (State == State.Historical)
-     return;
+   // Ensure we do not call GetCurrentAsk() on historical data
+   if (State == State.Historical)
+     return;
 
-   double currentAsk = GetCurrentAsk();
+   double currentAsk = GetCurrentAsk();
 
-   Print("The Current Ask price is: " + currentAsk);
+   Print("The Current Ask price is: " + currentAsk);
 
-   // The Current Ask price is: 1924.75
+   // The Current Ask price is: 1924.75
 ```
 
 
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.SetDefaults)
-   {
-     Name = "Example's Indicator";
-   }
-   if (State == State.Configure)
-   {
-     //Add MSFT as our additional data series
-     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
-   }
+   if (State == State.SetDefaults)
+   {
+     Name = "Example's Indicator";
+   }
+   if (State == State.Configure)
+   {
+     //Add MSFT as our additional data series
+     AddDataSeries("MSFT", BarsPeriodType.Minute, 1);
+   }
 }
 
 protected override void OnBarUpdate()
 {
-   // Ensure we do not call GetCurrentBid() on historical data
-   if (State == State.Historical)
-     return;
+   // Ensure we do not call GetCurrentBid() on historical data
+   if (State == State.Historical)
+     return;
 
-   if (BarsInProgress == 0)
-   {
-     double primaryAsk = GetCurrentAsk(0);
-     Print("The Primary Ask price is: " + primaryAsk);
-     // The Primary Ask price is: 1924.75
-   }
+   if (BarsInProgress == 0)
+   {
+     double primaryAsk = GetCurrentAsk(0);
+     Print("The Primary Ask price is: " + primaryAsk);
+     // The Primary Ask price is: 1924.75
+   }
 
-   if (BarsInProgress == 1)
-   {
-     double msftAsk = GetCurrentAsk(1);
-     Print("MSFT's Current Ask price is: " + msftAsk);
-     // MSFT's Current Ask is: 43.63
-   }
+   if (BarsInProgress == 1)
+   {
+     double msftAsk = GetCurrentAsk(1);
+     Print("MSFT's Current Ask price is: " + msftAsk);
+     // MSFT's Current Ask is: 43.63
+   }
 ```

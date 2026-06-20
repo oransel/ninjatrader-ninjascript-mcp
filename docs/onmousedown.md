@@ -50,22 +50,22 @@ You must override the method in your Drawing Tool with the following syntax.
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {
-   switch (DrawingState)
-   {
-     case DrawingState.Building:
-         dataPoint.CopyDataValues(Anchor);
-         Anchor.IsEditing   = false;
-         DrawingState     = DrawingState.Normal;
-         IsSelected         = false;
-         break;
-     case DrawingState.Normal:
-         // make sure they clicked near us. use GetCursor incase something has more than one point
-         Point point = dataPoint.GetPoint(chartControl, chartPanel, chartScale);
-         if (GetCursor(chartControl, chartPanel, chartScale, point) != null)
-           DrawingState = DrawingState.Moving;
-         else
-           IsSelected = false;
-         break;
-   }
+   switch (DrawingState)
+   {
+     case DrawingState.Building:
+         dataPoint.CopyDataValues(Anchor);
+         Anchor.IsEditing   = false;
+         DrawingState     = DrawingState.Normal;
+         IsSelected         = false;
+         break;
+     case DrawingState.Normal:
+         // make sure they clicked near us. use GetCursor incase something has more than one point
+         Point point = dataPoint.GetPoint(chartControl, chartPanel, chartScale);
+         if (GetCursor(chartControl, chartPanel, chartScale, point) != null)
+           DrawingState = DrawingState.Moving;
+         else
+           IsSelected = false;
+         break;
+   }
 }
 ```

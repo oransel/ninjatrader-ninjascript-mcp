@@ -66,6 +66,6 @@ In order to force **OnRender()** to be called under a specific condition, call t
 ```csharp
 protected override void OnRender(DrawingContext dc, System.Windows.Size renderSize)
 {
-   // Rendering logic for our Market Analyzer column
+   // Rendering logic for our Market Analyzer column
 }
 ```

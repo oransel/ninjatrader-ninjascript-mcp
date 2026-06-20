@@ -44,12 +44,12 @@ A DateTime structure that represents the daily bars ending time stamp at the des
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   base.OnRender(chartControl, chartScale);
-   // loop through only the rendered bars on the chart
-   for (int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
-   {
-     // get the time stamp at the selected bar index value
-     DateTime timeValue = Bars.GetSessionEndTime(barIndex);
-     Print("Bar #" + barIndex + " time stamp is " + timeValue);
-   }
+   base.OnRender(chartControl, chartScale);
+   // loop through only the rendered bars on the chart
+   for (int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
+   {
+     // get the time stamp at the selected bar index value
+     DateTime timeValue = Bars.GetSessionEndTime(barIndex);
+     Print("Bar #" + barIndex + " time stamp is " + timeValue);
+   }
 ```

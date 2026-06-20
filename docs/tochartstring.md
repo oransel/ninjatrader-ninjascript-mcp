@@ -43,8 +43,8 @@ This method does not accept any parameters.
 ```csharp
 protected override void OnBarUpdate()
 {
-   // print the chart string on start up
-   if(CurrentBar == 0)
-     Print(Bars.ToChartString()); // ES 09-15 (60 Minute)
+   // print the chart string on start up
+   if(CurrentBar == 0)
+     Print(Bars.ToChartString()); // ES 09-15 (60 Minute)      
 }
 ```

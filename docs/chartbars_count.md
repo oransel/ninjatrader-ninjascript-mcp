@@ -9,12 +9,94 @@ guides[Introduction](https://developer.ninjatrader.com/docs/desktop/index)
 [NinjaScript Best Practices](https://developer.ninjatrader.com/docs/desktop/ninjascript_best_practices)
 
 [Distribution](https://developer.ninjatrader.com/docs/desktop/distribution)
+[Commercial Distribution](https://developer.ninjatrader.com/docs/desktop/commercial_distribution)
+
+[Considerations for Compiled Assemblies](https://developer.ninjatrader.com/docs/desktop/considerations_for_compiled_assemblies)
+
+[Import](https://developer.ninjatrader.com/docs/desktop/import)
+
+[Export](https://developer.ninjatrader.com/docs/desktop/export)
+
+[Remove NinjaScript Assembly](https://developer.ninjatrader.com/docs/desktop/remove_ninjascript_assembly)
+
+[Export Problems](https://developer.ninjatrader.com/docs/desktop/export_problems)
+
+[Protection DLL Security](https://developer.ninjatrader.com/docs/desktop/protection_dll_security)
+
 
 [NinjaScript Editor Overview](https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_overview)
+[Compile Error Codes](https://developer.ninjatrader.com/docs/desktop/compile_error_codes)
+
+[NinjaScript Editor Components](https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_components)
+
+[NinjaScript Explorer](https://developer.ninjatrader.com/docs/desktop/ninjascript_explorer)
+
+[NinjaScript Wizard](https://developer.ninjatrader.com/docs/desktop/ninjascript_wizard)
+
+[Code Snippets](https://developer.ninjatrader.com/docs/desktop/code_snippets)
+
+[Compile Errors](https://developer.ninjatrader.com/docs/desktop/compile_errors)
+
+[Intelliprompt](https://developer.ninjatrader.com/docs/desktop/intelliprompt)
+
+[Output Window](https://developer.ninjatrader.com/docs/desktop/output_window)
+
+[Visual Studio Debugging](https://developer.ninjatrader.com/docs/desktop/visual_studio_debugging)
+
+[Editor Keyboard Shortcuts](https://developer.ninjatrader.com/docs/desktop/editor_keyboard_shortcuts)
+
 
 [Educational Resources](https://developer.ninjatrader.com/docs/desktop/educational_resources)
+[AddOn Development Overview](https://developer.ninjatrader.com/docs/desktop/addon_development_overview)
+
+[C# Method (Functions) Reference](https://developer.ninjatrader.com/docs/desktop/c_method_functions_reference)
+
+[Developing for Tick Replay](https://developer.ninjatrader.com/docs/desktop/developing_for_tick_replay)
+
+[Developing Indicators](https://developer.ninjatrader.com/docs/desktop/developing_indicators)
+
+[Developing Strategies](https://developer.ninjatrader.com/docs/desktop/developing_strategies)
+
+[Historical Order Backfill Logic](https://developer.ninjatrader.com/docs/desktop/historical_order_backfill_logic)
+
+[Multi-Threading Consideration for NinjaScript](https://developer.ninjatrader.com/docs/desktop/multi_threading_consideration_for_ninjascript)
+
+[Multi-Time Frame & Instruments](https://developer.ninjatrader.com/docs/desktop/multi_time_frame_instruments)
+
+[NinjaScript Lifecycle](https://developer.ninjatrader.com/docs/desktop/understanding_the_lifecycle_of)
+
+[Using 3rd Party Indicators](https://developer.ninjatrader.com/docs/desktop/using_3rd_party_indicators)
+
+[Using ATM Strategies](https://developer.ninjatrader.com/docs/desktop/using_atm_strategies)
+
+[Using BitmapImage objects with Buttons](https://developer.ninjatrader.com/docs/desktop/using_bitmapimage_objects_with_buttons)
+
+[Using Historical Bid/Ask Series](https://developer.ninjatrader.com/docs/desktop/using_historical_bid_ask_serie)
+
+[Using Images and Geometry with Custom Icons](https://developer.ninjatrader.com/docs/desktop/using_images_and_geometry_with_custom_icons)
+
+[Using SharpDX for Custom Chart Rendering](https://developer.ninjatrader.com/docs/desktop/using_sharpdx_for_custom_chart_rendering)
+
+[Working with Brushes](https://developer.ninjatrader.com/docs/desktop/working_with_brushes)
+
+[Working with Chart Object Coordinates](https://developer.ninjatrader.com/docs/desktop/working_with_chart_object_coordinates)
+
+[Working with Pixel Coordinates](https://developer.ninjatrader.com/docs/desktop/working_with_pixel_coordinates)
+
+[Working with Price Series](https://developer.ninjatrader.com/docs/desktop/working_with_price_series)
+
+[Reference Samples](https://developer.ninjatrader.com/docs/desktop/reference_samples)
+
+[Tips](https://developer.ninjatrader.com/docs/desktop/tips)
+
 
 [User-Based Vendor Licensing](https://developer.ninjatrader.com/docs/desktop/user_based_licensing)
+[Quick-Start Guide](https://developer.ninjatrader.com/docs/desktop/user_based_licensing_quick_start_guide)
+
+[Migration Guide](https://developer.ninjatrader.com/docs/desktop/user_based_licensing_migration_guide)
+
+[FAQ](https://developer.ninjatrader.com/docs/desktop/user_based_licensing_faq)
+
 
 references[Common](https://developer.ninjatrader.com/docs/desktop/common)
 [AddDataSeries()](https://developer.ninjatrader.com/docs/desktop/adddataseries)
@@ -1323,10 +1405,10 @@ An **int** value representing the total number of bars.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   if(ChartBars != null)
-   {
-     Print("ChartBars contain " + ChartBars.Count + " bars");
-     //Output:  ChartBars contain 73 bars
-   }
+   if(ChartBars != null)
+   {
+     Print("ChartBars contain " + ChartBars.Count + " bars");
+     //Output:  ChartBars contain 73 bars
+   }
 }
 ```

@@ -42,11 +42,11 @@ This method does not return a value.
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.Historical)
-   {
-       // Make sure our object plots behind the chart bars
-       SetZOrder(-1);
-   }
+   if (State == State.Historical)
+   {
+       // Make sure our object plots behind the chart bars
+       SetZOrder(-1);
+   }
 }
 ```
 
@@ -54,6 +54,6 @@ protected override void OnStateChange()
 ```csharp
 protected override void OnRender(ChartControl cc, ChartScale cs)
 {
-   Print(ChartPanel.ChartObjects.Max(co => co.ZOrder));
+   Print(ChartPanel.ChartObjects.Max(co => co.ZOrder));
 }
 ```

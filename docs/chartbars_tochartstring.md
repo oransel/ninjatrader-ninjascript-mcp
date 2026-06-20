@@ -43,7 +43,7 @@ This method does not accept any parameters.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   if (ChartBars != null)
-     Print(ChartBars.ToChartString()); // My Favorite Instrument (1 Minute)
+   if (ChartBars != null)
+     Print(ChartBars.ToChartString()); // My Favorite Instrument (1 Minute)
 }
 ```

@@ -60,64 +60,64 @@ Tip: Common strategy functions like `Print()` are not available to a type conver
 // This namespace holds Strategies in this folder and is required. Do not change it.
 namespace NinjaTrader.NinjaScript.Strategies
 {
-   // When applying the type converter, you must fully qualify the name
-   [TypeConverter("NinjaTrader.NinjaScript.Strategies.MyCustomConveter")]
-   public class MyCustomStrategy : Strategy
-   {
-     protected override void OnStateChange()
-     {
-         if (State == State.SetDefaults)
-         {
-           Name                             = "MyCustomStrategy";
-         }
-     }
+   // When applying the type converter, you must fully qualify the name
+   [TypeConverter("NinjaTrader.NinjaScript.Strategies.MyCustomConveter")]
+   public class MyCustomStrategy : Strategy
+   {
+     protected override void OnStateChange()
+     {
+         if (State == State.SetDefaults)
+         {
+           Name                             = "MyCustomStrategy";
+         }
+     }
 
-     protected override void OnBarUpdate()
-     {
-         //Add your custom strategy logic here.
-     }
-   }
+     protected override void OnBarUpdate()
+     {
+         //Add your custom strategy logic here.
+     }
+   }
 
-   // custom converter class for strategies
-   public class MyCustomConveter : StrategyBaseConverter
-   {
-     // A general TypeConveter method used for converting types
-     public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object component, Attribute[] attrs)
-     {
-         // sometimes you may need the strategy instance which actually exists on the grid
-         MyCustomStrategy strategy = component as MyCustomStrategy;
+   // custom converter class for strategies
+   public class MyCustomConveter : StrategyBaseConverter
+   {
+     // A general TypeConveter method used for converting types
+     public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object component, Attribute[] attrs)
+     {
+         // sometimes you may need the strategy instance which actually exists on the grid
+         MyCustomStrategy strategy = component as MyCustomStrategy;
 
-         // base.GetProperties ensures we have all the properties (and associated property grid editors)
-         // NinjaTrader internal logic handles for a given strategy
-         PropertyDescriptorCollection propertyDescriptorCollection = base.GetPropertiesSupported(context)
-                 ? base.GetProperties(context, component, attrs) : TypeDescriptor.GetProperties(component, attrs);
+         // base.GetProperties ensures we have all the properties (and associated property grid editors)
+         // NinjaTrader internal logic handles for a given strategy
+         PropertyDescriptorCollection propertyDescriptorCollection = base.GetPropertiesSupported(context)
+                 ? base.GetProperties(context, component, attrs) : TypeDescriptor.GetProperties(component, attrs);
 
-         if (strategy == null || propertyDescriptorCollection == null)
-           return propertyDescriptorCollection;
+         if (strategy == null || propertyDescriptorCollection == null)
+           return propertyDescriptorCollection;
 
-         // example of why you may need the instance that exists on the grid....
-         if (strategy.EntryHandling == EntryHandling.UniqueEntries)
-         {
-           // do something in the event a property contains some value...
-         }
+         // example of why you may need the instance that exists on the grid....
+         if (strategy.EntryHandling == EntryHandling.UniqueEntries)
+         {
+           // do something in the event a property contains some value...
+         }
 
-         // Loop all of the properties of the strategy
-         foreach (PropertyDescriptor property in propertyDescriptorCollection)
-         {
-           // do something with a specific property
+         // Loop all of the properties of the strategy
+         foreach (PropertyDescriptor property in propertyDescriptorCollection)
+         {
+           // do something with a specific property
 
-           // cannot call **Print()** here
-           // but you can call the static Output window "Process()"
-           NinjaTrader.Code.Output.Process(property.Name, PrintTo.OutputTab1);
-         }
+           // cannot call **Print()** here
+           // but you can call the static Output window "Process()"
+           NinjaTrader.Code.Output.Process(property.Name, PrintTo.OutputTab1);
+         }
 
-         // must return the collection after making changes
-         return propertyDescriptorCollection;
-     }
+         // must return the collection after making changes
+         return propertyDescriptorCollection;
+     }
 
-     // Important:  This must return true otherwise the type converter will not be called
-     public override bool GetPropertiesSupported(ITypeDescriptorContext context)
-     { return true; }
-   }
+     // Important:  This must return true otherwise the type converter will not be called
+     public override bool GetPropertiesSupported(ITypeDescriptorContext context)
+     { return true; }
+   }
 }
 ```

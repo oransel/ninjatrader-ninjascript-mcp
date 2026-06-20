@@ -37,14 +37,14 @@ An int representing the first bar index painted on the chart.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   if (ChartBars != null)
-   {
-     // loop through all of the viewable range of the chart
-     for (int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
-     {
-         // print the High value for each index within the viewable range
-         Print(High.GetValueAt(barIndex));
-     }
-   }
+   if (ChartBars != null)
+   {
+     // loop through all of the viewable range of the chart
+     for (int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
+     {
+         // print the High value for each index within the viewable range
+         Print(High.GetValueAt(barIndex));
+     }
+   }
 }
 ```

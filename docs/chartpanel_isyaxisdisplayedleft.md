@@ -31,11 +31,11 @@ A bool indicating the y-axis is visible to the left
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   base.OnRender(chartControl, chartScale);
+   base.OnRender(chartControl, chartScale);
 
-   // Print a message if the y-axis is visible on the left
-   if (ChartPanel.IsYAxisDisplayedLeft)
-       Print("The y-axis is visible on the left");
+   // Print a message if the y-axis is visible on the left
+   if (ChartPanel.IsYAxisDisplayedLeft)
+       Print("The y-axis is visible on the left");
 }
 ```
 

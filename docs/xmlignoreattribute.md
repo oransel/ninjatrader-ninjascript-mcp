@@ -38,12 +38,12 @@ This attribute does not require any parameters; default value is true and usag
 
 
 ```csharp
-#region Properties
-
-[XmlIgnore] // ensures that the property will NOT be saved/recovered as part of a chart template or workspace
-public Brush MyBrush
-{ get; set; }
-
+#region Properties
+ 
+[XmlIgnore] // ensures that the property will NOT be saved/recovered as part of a chart template or workspace
+public Brush MyBrush  
+{ get; set; }
+ 
 #endregion
 ```
 

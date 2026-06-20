@@ -36,18 +36,18 @@ An array of **PerformanceMetrics** objects.
 NinjaTrader.NinjaScript.PerformanceMetrics.SampleCumProfit myProfit;
 protected override void OnStateChange()
 {
-   if (State == State.Configure)
-   {
-     // Instantiate myProfit to a new instance of SampleCumProfit
-     myProfit = new NinjaTrader.NinjaScript.PerformanceMetrics.SampleCumProfit();
-
-     // Use AddPerformanceMetric to add myProfit to the strategy
-     AddPerformanceMetric(myProfit);
-   }
+   if (State == State.Configure)
+   {
+     // Instantiate myProfit to a new instance of SampleCumProfit
+     myProfit = new NinjaTrader.NinjaScript.PerformanceMetrics.SampleCumProfit();
+      
+     // Use AddPerformanceMetric to add myProfit to the strategy
+     AddPerformanceMetric(myProfit);
+   }
 }
 protected override void OnBarUpdate()
 {
-   // Print a string representing the Type of the performance metric at Index 0 of the PerformanceMetrics collection
-   Print(PerformanceMetrics[0]);
+   // Print a string representing the Type of the performance metric at Index 0 of the PerformanceMetrics collection
+   Print(PerformanceMetrics[0]);
 }
 ```

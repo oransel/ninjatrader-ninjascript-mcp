@@ -9,11 +9,51 @@ guides[Introduction](https://developer.ninjatrader.com/docs/desktop/index)
 [NinjaScript Best Practices](https://developer.ninjatrader.com/docs/desktop/ninjascript_best_practices)
 
 [Distribution](https://developer.ninjatrader.com/docs/desktop/distribution)
+[Commercial Distribution](https://developer.ninjatrader.com/docs/desktop/commercial_distribution)
+
+[Considerations for Compiled Assemblies](https://developer.ninjatrader.com/docs/desktop/considerations_for_compiled_assemblies)
+
+[Import](https://developer.ninjatrader.com/docs/desktop/import)
+
+[Export](https://developer.ninjatrader.com/docs/desktop/export)
+
+[Remove NinjaScript Assembly](https://developer.ninjatrader.com/docs/desktop/remove_ninjascript_assembly)
+
+[Export Problems](https://developer.ninjatrader.com/docs/desktop/export_problems)
+
+[Protection DLL Security](https://developer.ninjatrader.com/docs/desktop/protection_dll_security)
+
 
 [NinjaScript Editor Overview](https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_overview)
+[Compile Error Codes](https://developer.ninjatrader.com/docs/desktop/compile_error_codes)
+
+[NinjaScript Editor Components](https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_components)
+
+[NinjaScript Explorer](https://developer.ninjatrader.com/docs/desktop/ninjascript_explorer)
+
+[NinjaScript Wizard](https://developer.ninjatrader.com/docs/desktop/ninjascript_wizard)
+
+[Code Snippets](https://developer.ninjatrader.com/docs/desktop/code_snippets)
+
+[Compile Errors](https://developer.ninjatrader.com/docs/desktop/compile_errors)
+
+[Intelliprompt](https://developer.ninjatrader.com/docs/desktop/intelliprompt)
+
+[Output Window](https://developer.ninjatrader.com/docs/desktop/output_window)
+
+[Visual Studio Debugging](https://developer.ninjatrader.com/docs/desktop/visual_studio_debugging)
+
+[Editor Keyboard Shortcuts](https://developer.ninjatrader.com/docs/desktop/editor_keyboard_shortcuts)
+
 
 [Educational Resources](https://developer.ninjatrader.com/docs/desktop/educational_resources)
 [AddOn Development Overview](https://developer.ninjatrader.com/docs/desktop/addon_development_overview)
+[Creating Your Own AddOn Window](https://developer.ninjatrader.com/docs/desktop/creating_your_own_addon_window)
+
+[Developing Add Ons](https://developer.ninjatrader.com/docs/desktop/developing_add_ons)
+
+[Other Uses for an AddOn](https://developer.ninjatrader.com/docs/desktop/other_uses_for_an_addon)
+
 
 [C# Method (Functions) Reference](https://developer.ninjatrader.com/docs/desktop/c_method_functions_reference)
 

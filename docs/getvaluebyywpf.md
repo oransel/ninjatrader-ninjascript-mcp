@@ -38,13 +38,13 @@ A **double** value representing a series value on the chart scale. This is norma
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   // store the y location the user clicked
-   double   wpfY = chartControl.MouseDownPoint.Y;
+   // store the y location the user clicked
+   double   wpfY = chartControl.MouseDownPoint.Y;
 
-   // gets price value of the WPF coordinate passed to the method
-   double   valueByYWpf = chartScale.GetValueByYWpf(wpfY);
+   // gets price value of the WPF coordinate passed to the method
+   double   valueByYWpf = chartScale.GetValueByYWpf(wpfY);
 
-   Print("valueByYWpf: " + valueByYWpf); //2105.49995215
+   Print("valueByYWpf: " + valueByYWpf); //2105.49995215
 }
 ```
 

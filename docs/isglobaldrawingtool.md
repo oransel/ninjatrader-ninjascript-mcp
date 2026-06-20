@@ -31,8 +31,8 @@ A bool value which returns true if the drawing tool is currently attached as a g
 ```csharp
 public override void OnMouseMove(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {
-   // do not interact if attached to global chart
-   if (IsGlobalDrawingTool)
-     return;
+   // do not interact if attached to global chart
+   if (IsGlobalDrawingTool)
+     return;
 }
 ```

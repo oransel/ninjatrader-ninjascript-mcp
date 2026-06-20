@@ -9,6 +9,20 @@ guides[Introduction](https://developer.ninjatrader.com/docs/desktop/index)
 [NinjaScript Best Practices](https://developer.ninjatrader.com/docs/desktop/ninjascript_best_practices)
 
 [Distribution](https://developer.ninjatrader.com/docs/desktop/distribution)
+[Commercial Distribution](https://developer.ninjatrader.com/docs/desktop/commercial_distribution)
+
+[Considerations for Compiled Assemblies](https://developer.ninjatrader.com/docs/desktop/considerations_for_compiled_assemblies)
+
+[Import](https://developer.ninjatrader.com/docs/desktop/import)
+
+[Export](https://developer.ninjatrader.com/docs/desktop/export)
+
+[Remove NinjaScript Assembly](https://developer.ninjatrader.com/docs/desktop/remove_ninjascript_assembly)
+
+[Export Problems](https://developer.ninjatrader.com/docs/desktop/export_problems)
+
+[Protection DLL Security](https://developer.ninjatrader.com/docs/desktop/protection_dll_security)
+
 
 [NinjaScript Editor Overview](https://developer.ninjatrader.com/docs/desktop/ninjascript_editor_overview)
 [Compile Error Codes](https://developer.ninjatrader.com/docs/desktop/compile_error_codes)

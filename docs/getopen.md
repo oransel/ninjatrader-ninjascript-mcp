@@ -38,13 +38,13 @@ A **double** value that represents the open price at the desired bar index.
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
-   base.OnRender(chartControl, chartScale);
-   // loop through only the rendered bars on the chart
-   for(int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
-   {
-     // get the open price at the selected bar index value
-     double openPrice = Bars.GetOpen(barIndex);
-     Print("Bar #" + barIndex + " open price is " + openPrice);
-   }
+   base.OnRender(chartControl, chartScale);
+   // loop through only the rendered bars on the chart
+   for(int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
+   {
+     // get the open price at the selected bar index value
+     double openPrice = Bars.GetOpen(barIndex);
+     Print("Bar #" + barIndex + " open price is " + openPrice);
+   }
 }
 ```

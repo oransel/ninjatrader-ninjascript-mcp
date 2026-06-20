@@ -37,19 +37,19 @@ Binds an object or property to a specific TypeConverter implementation.  This
 ```csharp
 // Only applied to this property: can just implement a general TypeConveter
 [TypeConverter(typeof(MyCustomBoolConveter))]
-public bool CustomBool
+public bool CustomBool
 
 // Applied to the entire indicator: must implement an IndicatorBaseTypeConveter
 [TypeConverter("NinjaTrader.NinjaScript.Indicators.MyConverter")]
-public class MyCustomIndicator : Indicator
+public class MyCustomIndicator : Indicator
 {
-
+ 
 }
-
+ 
 // Applied to the entire strategy: must implement a StrategyBaseTypeConveter
 [TypeConverter("NinjaTrader.NinjaScript.Strategies.MyCustomConveter")]
-public class MyCustomStrategy : Strategy
+public class MyCustomStrategy : Strategy
 {
-
+ 
 }
 ```

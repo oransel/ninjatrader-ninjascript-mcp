@@ -51,8 +51,8 @@ The Volume Moving Average indicator is an indicator on indicator implementation.
 
 ```csharp
 // Evaluates if the current volume is greater than the 20 period EMA of volume
-if (Volume[0] > VOLMA(20)[0])
-  Print("Volume has risen above its 20 period average");
+if (Volume[0] > VOLMA(20)[0])
+  Print("Volume has risen above its 20 period average");
 ```
 
 

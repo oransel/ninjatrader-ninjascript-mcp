@@ -46,16 +46,16 @@ This method is not required to be overridden. You may override the method in you
 ```csharp
 public override async Task OnAuthorizeAccount()
 {
-   //MyShareServicesToken() is a place holder for an actual API's token method
-   string result = await MyShareServicesToken("myToken");
+   //MyShareServicesToken() is a place holder for an actual API's token method
+   string result = await MyShareServicesToken("myToken");
 
-   // result is also a place holder
-   if(result == "APIErrorCode123")
-   {
-     Print("Unable to authorize token");
-     return;
-   }
+   // result is also a place holder
+   if(result == "APIErrorCode123")
+   {
+     Print("Unable to authorize token");
+     return;
+   }
 
-   // please see the your API's OUATH documentation for proper handshake usage
-   else Print("Success!");
+   // please see the your API's OUATH documentation for proper handshake usage
+   else Print("Success!");
 ```

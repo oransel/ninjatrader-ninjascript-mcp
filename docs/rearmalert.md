@@ -45,8 +45,8 @@ This method does not return a value.
 ```csharp
 protected override void OnBarUpdate()
 {
-   //rearms "myAlert" on each new trading session
-   if(Bars.IsFirstBarOfSession)
-     RearmAlert("myAlert");
+   //rearms "myAlert" on each new trading session
+   if(Bars.IsFirstBarOfSession)
+     RearmAlert("myAlert");
 }
 ```

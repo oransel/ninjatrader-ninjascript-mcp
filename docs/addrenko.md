@@ -72,19 +72,19 @@ You can optionally add the exchange name as a suffix to the symbol name. This is
 ```csharp
 protected override void OnStateChange()
 {
-     if (State == State.Configure)
-     {
-         // Add a 1 minute Renko Bars object for the ES 03-18 contract - BarsInProgress index = 1
-         AddRenko("ES 03-18", 2, MarketDataType.Last);
-     }
+     if (State == State.Configure)
+     {
+         // Add a 1 minute Renko Bars object for the ES 03-18 contract - BarsInProgress index = 1
+         AddRenko("ES 03-18", 2, MarketDataType.Last);
+     }
 }
-
+ 
 protected override void OnBarUpdate()
 {
-     // Ignore the primary Bars object and only process the Renko Bars object
-     if (BarsInProgress == 1)
-     {
-         // Do something;
-     }
+     // Ignore the primary Bars object and only process the Renko Bars object
+     if (BarsInProgress == 1)
+     {
+         // Do something;
+     }
 }
 ```

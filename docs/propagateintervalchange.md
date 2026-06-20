@@ -27,9 +27,9 @@ In an **NTWindow**, **PropagateIntervalChange()** sends an interval to other win
 // This custom method will be fired when an interval selector in a custom NTTabPage changes intervals
 private void OnIntervalChanged(object sender, BarsPeriodEventArgs args)
 {
-   if (args.BarsPeriod == null)
-       return;
+   if (args.BarsPeriod == null)
+       return;
 
-   PropagateIntervalChange(args.BarsPeriod);
+   PropagateIntervalChange(args.BarsPeriod);
 }
 ```

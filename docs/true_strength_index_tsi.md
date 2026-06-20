@@ -52,12 +52,12 @@ The True Strength Index (TSI) is a momentum-based indicator, developed by Willia
 
 ```csharp
 // Prints the current value of a 20 period TSI using default price type
-double value = TSI(20, 10)[0];
-Print("The current TSI value is " + value.ToString());
-
+double value = TSI(20, 10)[0];
+Print("The current TSI value is " + value.ToString());
+ 
 // Prints the current value of a 20 period TSI using high price type
-double value = TSI(High, 20, 10)[0];
-Print("The current TSI value is " + value.ToString());
+double value = TSI(High, 20, 10)[0];
+Print("The current TSI value is " + value.ToString());
 ```
 
 

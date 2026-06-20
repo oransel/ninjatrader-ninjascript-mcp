@@ -54,12 +54,12 @@ Performance profile of a **collection** of **Trade** objects.
 
 
 ```csharp
-protected override void OnBarUpdate()
+protected override void OnBarUpdate()
 {
-    // Only trade if you have less than 5 consecutive losers in a row
-    if (SystemPerformance.RealTimeTrades.TradesPerformance.MaxConsecutiveLoser < 5)
-    {
-        // Trade logic here
-    }
+    // Only trade if you have less than 5 consecutive losers in a row
+    if (SystemPerformance.RealTimeTrades.TradesPerformance.MaxConsecutiveLoser < 5)
+    {
+        // Trade logic here
+    }
 }
 ```

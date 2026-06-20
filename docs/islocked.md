@@ -37,7 +37,7 @@ For Drawing tools which are drawn by an indicator or strategy, this property wil
 ```csharp
 public override void OnMouseMove(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, Point point)
 {
-   if (IsLocked) //if the object is locked, do not attempt to move
-     return;
+   if (IsLocked) //if the object is locked, do not attempt to move
+     return;
 }
 ```

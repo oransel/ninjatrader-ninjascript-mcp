@@ -28,8 +28,8 @@ Represents an interface that exposes information regarding a Triangle Down [IDr
 
 ```csharp
 // Instantiate a TriangleDown object
-TriangleDown myTri = Draw.TriangleDown(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);
-
+TriangleDown myTri = Draw.TriangleDown(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);            
+ 
 // Change the object's AreaBrush
-myTri.AreaBrush = Brushes.Beige;
+myTri.AreaBrush = Brushes.Beige;
 ```

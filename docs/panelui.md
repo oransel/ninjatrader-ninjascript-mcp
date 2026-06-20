@@ -37,7 +37,7 @@ An **int** value representing the panel the object is configured. This property 
 ```csharp
 protected override void OnBarUpdate()
 {
-   // Print the zero-based panel index on which the script is configured
-   Print("My object is on is on panel # " + **PanelUI**);
+   // Print the zero-based panel index on which the script is configured
+   Print("My object is on is on panel # " + **PanelUI**);
 }
 ```

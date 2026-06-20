@@ -45,14 +45,14 @@ This method does not return a value.
 ```csharp
 protected override void OnStateChange()
 {
-   if (State == State.Configure)
-   {
-       Properties.Remove(Properties.Find("Stroke", true));
-       Properties.Remove(Properties.Find("Stroke2", true));
+   if (State == State.Configure)
+   {
+       Properties.Remove(Properties.Find("Stroke", true));
+       Properties.Remove(Properties.Find("Stroke2", true));
 
-       SetPropertyName("UpBrush", "AdvanceBar");
-       SetPropertyName("DownBrush", "DeclineBar");
-   }
+       SetPropertyName("UpBrush", "AdvanceBar");
+       SetPropertyName("DownBrush", "DeclineBar");
+   }
 }
 ```
 

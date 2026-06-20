@@ -54,12 +54,12 @@ Developed by Larry Williams, Williams %R is a momentum indicator that works much
 
 ```csharp
 // Prints the current value of a 20 period WilliamsR using default price type
-double value = WilliamsR(20)[0];
-Print("The current WilliamsR value is " + value.ToString());
-
+double value = WilliamsR(20)[0];
+Print("The current WilliamsR value is " + value.ToString());
+ 
 // Prints the current value of a 20 period WilliamsR using high price type
-double value = WilliamsR(High, 20)[0];
-Print("The current WilliamsR value is " + value.ToString());
+double value = WilliamsR(High, 20)[0];
+Print("The current WilliamsR value is " + value.ToString());
 ```
 
 
